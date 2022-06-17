@@ -25,7 +25,9 @@ GET [base]/AllergyIntolerance
 ```
 ### LaboratoryTestResult
 ```
-GET [base]/Observation/$lastn?category=http://snomed.info/sct|275711006&_include=Observation:related-target&_include=Observation:specimen
+GET [base]/Observation/$lastn?category=http://snomed.info/sct|275711006
+    &_include=Observation:related-target
+    &_include=Observation:specimen
 ```
 ### Procedure
 ```
