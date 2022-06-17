@@ -24,10 +24,7 @@
 `GET [base]/Procedure`
 
 ### CarePlan
-`GET [base]/CarePlan?_include=CarePlan:activity-goal:Goal`
-`&_include=CarePlan:activity-outcomereference:Observation`
-`&_include=CarePlan:activity-medicaldevice:DeviceUseStatement`
-`&_include:recurse=DeviceUseStatement:device:Device`
+`GET [base]/CarePlan?_include=CarePlan:activity-goal:Goal&_include=CarePlan:activity-outcomereference:Observation&_include=CarePlan:activity-medicaldevice:DeviceUseStatement&_include:recurse=DeviceUseStatement:device:Device`
 
 ### CareTeam
 `GET [base]/CareTeam?_include=CareTeam:participant`
