@@ -1,0 +1,478 @@
+{
+    "resourceType": "Bundle",
+    "id": "b190a2a9-23d6-4ecf-82d2-f59d8ad2defa",
+    "meta": {
+        "lastUpdated": "2022-06-17T14:54:23.457+02:00"
+    },
+    "type": "searchset",
+    "total": 2,
+    "link": [
+        {
+            "relation": "self",
+            "url": "https://fhir.dev.hinq.nl/fhir/Patient?_id=62aadd34-6470-41a0-8ab2-d19c410bbfcd&_include=Patient%3Ageneral-practitioner"
+        }
+    ],
+    "entry": [
+        {
+            "fullUrl": "https://fhir.dev.hinq.nl/fhir/Patient/62aadd34-6470-41a0-8ab2-d19c410bbfcd",
+            "resource": {
+                "resourceType": "Patient",
+                "id": "62aadd34-6470-41a0-8ab2-d19c410bbfcd",
+                "meta": {
+                    "profile": [
+                        "http://fhir.nl/fhir/StructureDefinition/nl-core-patient"
+                    ]
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">F. Fiona <b>XXX_MUTTER </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>Patient/62aadd34-6470-41a0-8ab2-d19c410bbfcd</td></tr><tr><td>Address</td><td><span>Knolweg 1001 </span><br/><span>Stitswerd </span><span>NL </span></td></tr><tr><td>Date of birth</td><td><span>08 February 1964</span></td></tr></tbody></table></div>"
+                },
+                "identifier": [
+                    {
+                        "system": "https://patientapi-a.ecare.nu/fhir/r3",
+                        "value": "Patient/62aadd34-6470-41a0-8ab2-d19c410bbfcd"
+                    }
+                ],
+                "name": [
+                    {
+                        "extension": [
+                            {
+                                "url": "http://hl7.org/fhir/StructureDefinition/humanname-assembly-order",
+                                "valueCode": "NL1"
+                            }
+                        ],
+                        "text": "Fiona XXX_Mutter",
+                        "family": "XXX_Mutter",
+                        "_family": {
+                            "extension": [
+                                {
+                                    "url": "http://hl7.org/fhir/StructureDefinition/humanname-own-name",
+                                    "valueString": "XXX_Mutter"
+                                }
+                            ]
+                        },
+                        "given": [
+                            "F.",
+                            "Fiona"
+                        ],
+                        "_given": [
+                            {
+                                "extension": [
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier",
+                                        "valueCode": "IN"
+                                    }
+                                ]
+                            },
+                            {
+                                "extension": [
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier",
+                                        "valueCode": "BR"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "telecom": [
+                    {
+                        "system": "email",
+                        "value": "fmutter@hotmail.com",
+                        "use": "home"
+                    },
+                    {
+                        "extension": [
+                            {
+                                "url": "http://nictiz.nl/fhir/StructureDefinition/zib-ContactInformation-TelecomType",
+                                "valueCodeableConcept": {
+                                    "coding": [
+                                        {
+                                            "system": "http://hl7.org/fhir/v3/AddressUse",
+                                            "code": "MC",
+                                            "display": "Mobile Phone"
+                                        }
+                                    ],
+                                    "text": "Mobiel telefoonnummer"
+                                }
+                            }
+                        ],
+                        "system": "phone",
+                        "value": "+31634567891",
+                        "use": "mobile"
+                    }
+                ],
+                "gender": "female",
+                "_gender": {
+                    "extension": [
+                        {
+                            "url": "http://nictiz.nl/fhir/StructureDefinition/code-specification",
+                            "valueCodeableConcept": {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+                                        "code": "F",
+                                        "display": "Female"
+                                    }
+                                ],
+                                "text": "Vrouw"
+                            }
+                        }
+                    ]
+                },
+                "birthDate": "1964-02-08",
+                "deceasedBoolean": false,
+                "address": [
+                    {
+                        "extension": [
+                            {
+                                "url": "http://nictiz.nl/fhir/StructureDefinition/zib-AddressInformation-AddressType",
+                                "valueCodeableConcept": {
+                                    "coding": [
+                                        {
+                                            "system": "http://hl7.org/fhir/v3/AddressUse",
+                                            "code": "HP",
+                                            "display": "Primary Home"
+                                        }
+                                    ],
+                                    "text": "Officieel adres"
+                                }
+                            }
+                        ],
+                        "use": "home",
+                        "type": "physical",
+                        "line": [
+                            "Knolweg 1001"
+                        ],
+                        "_line": [
+                            {
+                                "extension": [
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName",
+                                        "valueString": "Knolweg"
+                                    },
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber",
+                                        "valueString": "1001"
+                                    }
+                                ]
+                            }
+                        ],
+                        "city": "Stitswerd",
+                        "postalCode": "9999XX",
+                        "country": "NL",
+                        "_country": {
+                            "extension": [
+                                {
+                                    "url": "http://nictiz.nl/fhir/StructureDefinition/code-specification",
+                                    "valueCodeableConcept": {
+                                        "coding": [
+                                            {
+                                                "system": "urn:oid:2.16.840.1.113883.2.4.4.16.34",
+                                                "code": "6030",
+                                                "display": "Nederland"
+                                            }
+                                        ],
+                                        "text": "Nederland"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "contact": [
+                    {
+                        "relationship": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "urn:oid:2.16.840.1.113883.2.4.3.11.22.472",
+                                        "code": "1",
+                                        "display": "Eerste relatie/contactpersoon"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": {
+                            "extension": [
+                                {
+                                    "url": "http://hl7.org/fhir/StructureDefinition/humanname-assembly-order",
+                                    "valueCode": "NL1"
+                                }
+                            ],
+                            "text": "R. Prins",
+                            "family": "Prins",
+                            "_family": {
+                                "extension": [
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/humanname-own-name",
+                                        "valueString": "Prins"
+                                    }
+                                ]
+                            },
+                            "given": [
+                                "R."
+                            ],
+                            "_given": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier",
+                                            "valueCode": "IN"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "telecom": [
+                            {
+                                "system": "email",
+                                "value": "bprins@123net.nl",
+                                "use": "home"
+                            },
+                            {
+                                "extension": [
+                                    {
+                                        "url": "http://nictiz.nl/fhir/StructureDefinition/zib-ContactInformation-TelecomType",
+                                        "valueCodeableConcept": {
+                                            "coding": [
+                                                {
+                                                    "system": "http://hl7.org/fhir/v3/AddressUse",
+                                                    "code": "MC",
+                                                    "display": "Mobile Phone"
+                                                }
+                                            ],
+                                            "text": "Mobiel telefoonnummer"
+                                        }
+                                    }
+                                ],
+                                "system": "phone",
+                                "value": "06-34567891",
+                                "use": "mobile"
+                            }
+                        ],
+                        "address": {
+                            "extension": [
+                                {
+                                    "url": "http://nictiz.nl/fhir/StructureDefinition/zib-AddressInformation-AddressType",
+                                    "valueCodeableConcept": {
+                                        "coding": [
+                                            {
+                                                "system": "http://hl7.org/fhir/v3/AddressUse",
+                                                "code": "HP",
+                                                "display": "Primary Home"
+                                            }
+                                        ],
+                                        "text": "Officieel adres"
+                                    }
+                                }
+                            ],
+                            "use": "home",
+                            "type": "physical",
+                            "country": "NL",
+                            "_country": {
+                                "extension": [
+                                    {
+                                        "url": "http://nictiz.nl/fhir/StructureDefinition/code-specification",
+                                        "valueCodeableConcept": {
+                                            "coding": [
+                                                {
+                                                    "system": "urn:oid:2.16.840.1.113883.2.4.4.16.34",
+                                                    "code": "6030",
+                                                    "display": "Nederland"
+                                                }
+                                            ],
+                                            "text": "Nederland"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "relationship": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/RoleCode",
+                                        "code": "SONC",
+                                        "display": "Son"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": {
+                            "extension": [
+                                {
+                                    "url": "http://hl7.org/fhir/StructureDefinition/humanname-assembly-order",
+                                    "valueCode": "NL1"
+                                }
+                            ],
+                            "text": "R. Prins",
+                            "family": "Prins",
+                            "_family": {
+                                "extension": [
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/humanname-own-name",
+                                        "valueString": "Prins"
+                                    }
+                                ]
+                            },
+                            "given": [
+                                "R."
+                            ],
+                            "_given": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier",
+                                            "valueCode": "IN"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "telecom": [
+                            {
+                                "system": "email",
+                                "value": "bprins@123net.nl",
+                                "use": "home"
+                            },
+                            {
+                                "extension": [
+                                    {
+                                        "url": "http://nictiz.nl/fhir/StructureDefinition/zib-ContactInformation-TelecomType",
+                                        "valueCodeableConcept": {
+                                            "coding": [
+                                                {
+                                                    "system": "http://hl7.org/fhir/v3/AddressUse",
+                                                    "code": "MC",
+                                                    "display": "Mobile Phone"
+                                                }
+                                            ],
+                                            "text": "Mobiel telefoonnummer"
+                                        }
+                                    }
+                                ],
+                                "system": "phone",
+                                "value": "06-34567891",
+                                "use": "mobile"
+                            }
+                        ],
+                        "address": {
+                            "extension": [
+                                {
+                                    "url": "http://nictiz.nl/fhir/StructureDefinition/zib-AddressInformation-AddressType",
+                                    "valueCodeableConcept": {
+                                        "coding": [
+                                            {
+                                                "system": "http://hl7.org/fhir/v3/AddressUse",
+                                                "code": "HP",
+                                                "display": "Primary Home"
+                                            }
+                                        ],
+                                        "text": "Officieel adres"
+                                    }
+                                }
+                            ],
+                            "use": "home",
+                            "type": "physical",
+                            "country": "NL",
+                            "_country": {
+                                "extension": [
+                                    {
+                                        "url": "http://nictiz.nl/fhir/StructureDefinition/code-specification",
+                                        "valueCodeableConcept": {
+                                            "coding": [
+                                                {
+                                                    "system": "urn:oid:2.16.840.1.113883.2.4.4.16.34",
+                                                    "code": "6030",
+                                                    "display": "Nederland"
+                                                }
+                                            ],
+                                            "text": "Nederland"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ],
+                "generalPractitioner": [
+                    {
+                        "extension": [
+                            {
+                                "url": "http://nictiz.nl/fhir/StructureDefinition/practitionerrole-reference",
+                                "valueReference": {
+                                    "reference": "PractitionerRole/54f6b759-fdfa-4b15-a74b-b51b161ff259",
+                                    "display": "Huisarts"
+                                }
+                            }
+                        ],
+                        "reference": "Practitioner/01009999",
+                        "identifier": {
+                            "system": "http://fhir.nl/fhir/NamingSystem/agb-z",
+                            "value": "01009999"
+                        },
+                        "display": "L. Lanen"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://fhir.dev.hinq.nl/fhir/Practitioner/01009999",
+            "resource": {
+                "resourceType": "Practitioner",
+                "id": "01009999",
+                "meta": {
+                    "profile": [
+                        "http://fhir.nl/fhir/StructureDefinition/nl-core-practitioner"
+                    ]
+                },
+                "identifier": [
+                    {
+                        "system": "http://fhir.nl/fhir/NamingSystem/agb-z",
+                        "value": "01009999"
+                    },
+                    {
+                        "system": "https://patientapi-a.ecare.nu/fhir/r3",
+                        "value": "Practitioner/01009999"
+                    }
+                ],
+                "name": [
+                    {
+                        "extension": [
+                            {
+                                "url": "http://hl7.org/fhir/StructureDefinition/humanname-assembly-order",
+                                "valueCode": "NL1"
+                            }
+                        ],
+                        "text": "L. Lanen",
+                        "family": "Lanen",
+                        "_family": {
+                            "extension": [
+                                {
+                                    "url": "http://hl7.org/fhir/StructureDefinition/humanname-own-name",
+                                    "valueString": "Lanen"
+                                }
+                            ]
+                        },
+                        "given": [
+                            "L."
+                        ],
+                        "_given": [
+                            {
+                                "extension": [
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier",
+                                        "valueCode": "IN"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

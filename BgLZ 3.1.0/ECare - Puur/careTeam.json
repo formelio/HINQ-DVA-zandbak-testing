@@ -1,0 +1,226 @@
+{
+    "resourceType": "Bundle",
+    "id": "5ba85c86-4c0d-4e01-99c3-7482c84687a8",
+    "meta": {
+        "lastUpdated": "2022-06-17T15:31:45.330+02:00"
+    },
+    "type": "searchset",
+    "total": 3,
+    "link": [
+        {
+            "relation": "self",
+            "url": "https://fhir.dev.hinq.nl/fhir/CareTeam?_include=CareTeam%3Aparticipant&patient=Patient%2F62aadd34-6470-41a0-8ab2-d19c410bbfcd"
+        }
+    ],
+    "entry": [
+        {
+            "fullUrl": "https://fhir.dev.hinq.nl/fhir/CareTeam/b149b86c-19bf-4182-8499-a304ffd31224",
+            "resource": {
+                "resourceType": "CareTeam",
+                "id": "b149b86c-19bf-4182-8499-a304ffd31224",
+                "meta": {
+                    "profile": [
+                        "http://fhir.nl/fhir/StructureDefinition/nl-core-careteam"
+                    ]
+                },
+                "identifier": [
+                    {
+                        "system": "https://patientapi-a.ecare.nu/fhir/r3",
+                        "value": "CareTeam/b149b86c-19bf-4182-8499-a304ffd31224"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/62aadd34-6470-41a0-8ab2-d19c410bbfcd",
+                    "display": "Fiona XXX_Mutter"
+                },
+                "participant": [
+                    {
+                        "role": {
+                            "coding": [
+                                {
+                                    "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                    "code": "RESP",
+                                    "display": "Responsible Party"
+                                }
+                            ],
+                            "text": "Hoofdbehandelaar"
+                        },
+                        "member": {
+                            "reference": "Practitioner/3f76d626-82b3-4f86-817c-51dacc97cf3d",
+                            "display": "Niels Helmond"
+                        },
+                        "onBehalfOf": {
+                            "reference": "Organization/35621957-cb82-4ecc-bce5-836c707d163c",
+                            "display": "AA-zkh"
+                        }
+                    },
+                    {
+                        "member": {
+                            "reference": "Organization/35621957-cb82-4ecc-bce5-836c707d163c",
+                            "display": "AA-zkh"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://fhir.dev.hinq.nl/fhir/Organization/35621957-cb82-4ecc-bce5-836c707d163c",
+            "resource": {
+                "resourceType": "Organization",
+                "id": "35621957-cb82-4ecc-bce5-836c707d163c",
+                "meta": {
+                    "profile": [
+                        "http://fhir.nl/fhir/StructureDefinition/nl-core-organization"
+                    ]
+                },
+                "identifier": [
+                    {
+                        "system": "http://fhir.nl/fhir/NamingSystem/agb-z",
+                        "value": "12345678"
+                    },
+                    {
+                        "system": "https://patientapi-a.ecare.nu/fhir/r3",
+                        "value": "Organization/35621957-cb82-4ecc-bce5-836c707d163c"
+                    }
+                ],
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:2.16.840.1.113883.2.4.15.1060",
+                                "code": "T2"
+                            }
+                        ],
+                        "text": "Thuiszorg"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "http://nictiz.nl/fhir/NamingSystem/organization-type",
+                                "code": "T2",
+                                "display": "Thuiszorg"
+                            }
+                        ]
+                    }
+                ],
+                "name": "AA-zkh",
+                "address": [
+                    {
+                        "extension": [
+                            {
+                                "url": "http://nictiz.nl/fhir/StructureDefinition/zib-AddressInformation-AddressType",
+                                "valueCodeableConcept": {
+                                    "coding": [
+                                        {
+                                            "system": "http://hl7.org/fhir/v3/AddressUse",
+                                            "code": "WP",
+                                            "display": "Work Place"
+                                        }
+                                    ],
+                                    "text": "Werkadres"
+                                }
+                            }
+                        ],
+                        "line": [
+                            "De Weststraat 3"
+                        ],
+                        "_line": [
+                            {
+                                "extension": [
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName",
+                                        "valueString": "De Weststraat"
+                                    },
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber",
+                                        "valueString": "3"
+                                    }
+                                ]
+                            }
+                        ],
+                        "city": "Stitswerd",
+                        "postalCode": "9999PK",
+                        "country": "NL",
+                        "_country": {
+                            "extension": [
+                                {
+                                    "url": "http://nictiz.nl/fhir/StructureDefinition/code-specification",
+                                    "valueCodeableConcept": {
+                                        "coding": [
+                                            {
+                                                "system": "urn:oid:2.16.840.1.113883.2.4.4.16.34",
+                                                "code": "6030",
+                                                "display": "Nederland"
+                                            }
+                                        ],
+                                        "text": "Nederland"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://fhir.dev.hinq.nl/fhir/Practitioner/3f76d626-82b3-4f86-817c-51dacc97cf3d",
+            "resource": {
+                "resourceType": "Practitioner",
+                "id": "3f76d626-82b3-4f86-817c-51dacc97cf3d",
+                "meta": {
+                    "profile": [
+                        "http://fhir.nl/fhir/StructureDefinition/nl-core-practitioner"
+                    ]
+                },
+                "identifier": [
+                    {
+                        "system": "https://patientapi-a.ecare.nu/fhir/r3",
+                        "value": "Practitioner/3f76d626-82b3-4f86-817c-51dacc97cf3d"
+                    }
+                ],
+                "name": [
+                    {
+                        "extension": [
+                            {
+                                "url": "http://hl7.org/fhir/StructureDefinition/humanname-assembly-order",
+                                "valueCode": "NL1"
+                            }
+                        ],
+                        "text": "Niels Helmond",
+                        "family": "Helmond",
+                        "_family": {
+                            "extension": [
+                                {
+                                    "url": "http://hl7.org/fhir/StructureDefinition/humanname-own-name",
+                                    "valueString": "Helmond"
+                                }
+                            ]
+                        },
+                        "given": [
+                            "N.",
+                            "Niels"
+                        ],
+                        "_given": [
+                            {
+                                "extension": [
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier",
+                                        "valueCode": "IN"
+                                    }
+                                ]
+                            },
+                            {
+                                "extension": [
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier",
+                                        "valueCode": "BR"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}
