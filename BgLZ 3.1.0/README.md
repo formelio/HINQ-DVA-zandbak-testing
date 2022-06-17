@@ -3,7 +3,9 @@
 ## Supported requests
 
 ### Patient
-`GET [base]/Patient?_include=Patient:general-practitioner`
+```cURL
+GET [base]/Patient?_include=Patient:general-practitioner
+```
 
 ### TreatmentDirective
 `GET [base]/Consent?category=http://snomed.info/sct|11291000146105`
