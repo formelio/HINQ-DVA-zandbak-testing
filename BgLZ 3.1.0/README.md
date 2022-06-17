@@ -3,7 +3,7 @@
 ## Supported requests
 
 ### Patient
-```cURL
+```bash
 GET [base]/Patient?_include=Patient:general-practitioner
 ```
 
