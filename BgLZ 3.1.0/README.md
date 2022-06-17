@@ -21,7 +21,7 @@
 `GET [base]/Observation/$lastn?category=http://snomed.info/sct|275711006&_include=Observation:related-target&_include=Observation:specimen`
 
 ### Procedure
-`GET [base]/Procedure
+`GET [base]/Procedure`
 
 ### CarePlan
 `GET [base]/CarePlan?_include=CarePlan:activity-goal:Goal`
