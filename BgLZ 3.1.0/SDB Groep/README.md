@@ -5,47 +5,47 @@
 ### Patient
 > 200 OK (supported)
 
-> [Response body](../SDB%20Groep/Patient.json)
+> [Response body](Patient.json)
 
 ### TreatmentDirective
 > 200 OK (unsupported)
 
-> [Response body](../SDB%20Groep/TreatmentDirective.json)
+> [Response body](TreatmentDirective.json)
 
 ### AdvanceDirective
 > 200 OK (supported)
 
-> [Response body](../SDB%20Groep/AdvanceDirective.json)
+> [Response body](AdvanceDirective.json)
 
 ### Problem
 > 404 Not Found (unsupported)
 
-> [Response body](../SDB%20Groep/Problem.json)
+> [Response body](Problem.json)
 
 ### AllergyIntolerance
 > 200 OK (supported)
 
-> [Response body](../SDB%20Groep/AllergyIntolerance.json)
+> [Response body](AllergyIntolerance.json)
 
 ### LaboratoryTestResult
 > 404 Not Found (unsupported)
 
-> [Response body](../SDB%20Groep/LaboratoryTestResult.json)
+> [Response body](LaboratoryTestResult.json)
 
 ### Procedure
 > 404 Not Found (unsupported)
 
-> [Response body](../SDB%20Groep/Procedure.json)
+> [Response body](Procedure.json)
 
 ### CarePlan
 > 200 OK (supported)
 
-> [Response body](../SDB%20Groep/CarePlan.json)
+> [Response body](CarePlan.json)
 
 ### CareTeam
 > 200 OK (supported)
 
-> [Response body](../SDB%20Groep/CareTeam.json)
+> [Response body](CareTeam.json)
 
 
 

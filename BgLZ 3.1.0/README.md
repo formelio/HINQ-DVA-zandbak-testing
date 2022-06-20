@@ -1,5 +1,11 @@
 # BgLZ 3.1.0
 
+# Available dataservices (gegevensdiensten):
+
+## [ECare - Puur](ECare%20-%20Puur/)
+## [SDB Groep](SDB%20Groep/)
+
+
 ## Supported requests
 
 ### Patient

@@ -5,47 +5,47 @@
 ### Patient
 > 200 OK (supported)
 
-> [Response body](../ECare%20-%20Puur/Patient.json)
+> [Response body](Patient.json)
 
 ### TreatmentDirective
 > 404 Not Found (unsupported)
 
-> [Response body](../ECare%20-%20Puur/TreatmentDirective.json)
+> [Response body](TreatmentDirective.json)
 
 ### AdvanceDirective
 > 404 Not Found (unsupported)
 
-> [Response body](../ECare%20-%20Puur/AdvanceDirective.json)
+> [Response body](AdvanceDirective.json)
 
 ### Problem
 > 404 Not Found (unsupported)
 
-> [Response body](../ECare%20-%20Puur/Problem.json)
+> [Response body](Problem.json)
 
 ### AllergyIntolerance
 > 404 Not Found (unsupported)
 
-> [Response body](../ECare%20-%20Puur/AllergyIntolerance.json)
+> [Response body](AllergyIntolerance.json)
 
 ### LaboratoryTestResult
 > 404 Not Found (unsupported)
 
-> [Response body](../ECare%20-%20Puur/LaboratoryTestResult.json)
+> [Response body](LaboratoryTestResult.json)
 
 ### Procedure
 > 404 Not Found (unsupported)
 
-> [Response body](../ECare%20-%20Puur/Procedure.json)
+> [Response body](Procedure.json)
 
 ### CarePlan
 > 200 OK (supported)
 
-> [Response body](../ECare%20-%20Puur/CarePlan.json)
+> [Response body](CarePlan.json)
 
 ### CareTeam
 > 200 OK (supported)
 
-> [Response body](../ECare%20-%20Puur/CareTeam.json)
+> [Response body](CareTeam.json)
 
 
 
