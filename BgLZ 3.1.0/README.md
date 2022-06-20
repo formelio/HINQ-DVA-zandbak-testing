@@ -1,6 +1,6 @@
 # BgLZ 3.1.0
 
-# Available dataservices (gegevensdiensten):
+# Available source systems:
 
 ## [ECare - Puur](ECare%20-%20Puur/)
 ## [SDB Groep](SDB%20Groep/)
