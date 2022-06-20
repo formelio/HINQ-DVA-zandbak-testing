@@ -1,5 +1,5 @@
 # example-fhir-output
-You can find the expected responses for various GD + Source system combinations
+You can find the expected FHIR responses for various gegevensdiensten + source system combinations
 
 # Available dataservices:
 
