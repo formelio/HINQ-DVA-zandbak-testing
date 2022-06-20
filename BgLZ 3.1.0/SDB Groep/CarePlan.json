@@ -1,0 +1,39 @@
+{
+    "resourceType": "Bundle",
+    "id": "aa8e485d-900b-4446-8796-ff2f14f981a9",
+    "meta": {
+        "lastUpdated": "2022-06-20T11:45:02.711+02:00"
+    },
+    "type": "searchset",
+    "total": 1,
+    "link": [
+        {
+            "relation": "self",
+            "url": "https://fhir.dev.hinq.nl/fhir/CarePlan?_include=CarePlan%3Aactivity-goal%3AGoal&_include=CarePlan%3Aactivity-outcomereference%3AObservation&_include=CarePlan%3Aactivity-medicaldevice%3ADeviceUseStatement&_include%3Arecurse=DeviceUseStatement%3Adevice%3ADevice&patient=Patient%2F701cef7c-2b0e-4f42-b5b7-c53af0003155"
+        }
+    ],
+    "entry": [
+        {
+            "fullUrl": "https://fhir.dev.hinq.nl/fhir/CarePlan/701cef7c-2b0e-4f42-b5b7-c53af0003155",
+            "resource": {
+                "resourceType": "CarePlan",
+                "id": "701cef7c-2b0e-4f42-b5b7-c53af0003155",
+                "meta": {
+                    "profile": [
+                        "http://fhir.nl/fhir/StructureDefinition/nl-core-careplan"
+                    ]
+                },
+                "text": {
+                    "status": "additional",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div><div>Waar gaan we mee aan de slag?</div><div>Fysieke activiteit</div><div>Signalen:</div><div>zittende levensstijl, weinig beweging, inadequate / inconsistente bewegingsgewoonte, soort / hoeveelheid beweging niet passend bij leeftijd / fysieke conditie</div><div>Evaluatiedatum: 01-04-2022</div></div><table><tr><td><div><div>Wat is ons doel?</div><div>Signaal: Verbeteren (3&gt;4)</div><div>Kennis: Verbeteren (3&gt;4)</div><div>Gedrag: Verbeteren (3&gt;4)</div><div><div>Wat doen we hiervoor?</div><div>Hulpmiddelen</div><div>Specificatie:</div><div>lopen met hulp</div><div>Begindatum: 07-01-2022</div></div></div></td></tr></table><div><div>Waar gaan we mee aan de slag?</div><div>Huid</div><div>Signalen:</div><div>wond / decubitus, huidirritatie / huiduitslag, bloeduitstorting / blauwe plekken</div><div>Evaluatiedatum: 01-04-2022</div></div><table><tr><td><div><div>Wat is ons doel?</div><div>Signaal: Verbeteren (3&gt;4)</div><div>Kennis: Verbeteren (3&gt;4)</div><div>Gedrag: Verbeteren (3&gt;4)</div><div><div>Wat doen we hiervoor?</div><div>Huidzorg</div><div>Specificatie:</div><div>huid blijft intact</div><div>Begindatum: 07-01-2022</div></div></div></td></tr></table><div><div>Waar gaan we mee aan de slag?</div><div>Interpersoonlijke relaties</div><div>Signalen:</div><div>ondersteuning voor verzorger</div><div>Evaluatiedatum: 01-04-2022</div></div><table><tr><td><div><div>Wat is ons doel?</div><div>Signaal: Verbeteren (3&gt;4)</div><div>Kennis: Verbeteren (3&gt;4)</div><div>Gedrag: Verbeteren (3&gt;4)</div><div><div>Wat doen we hiervoor?</div><div>Zorg door zorghulp</div><div>Specificatie:</div><div>Zorgtaken voor echtgenoot worden gecontinueerd</div><div>Begindatum: 07-01-2022</div></div></div></td></tr></table><div><div>Waar gaan we mee aan de slag?</div><div>Persoonlijke zorg</div><div>Signalen:</div><div>moeite met douchen / baden, wil niet / kan niet / vergeet persoonlijke zorg-activiteiten af te ronden</div><div>Evaluatiedatum: 01-04-2022</div></div><table><tr><td><div><div>Wat is ons doel?</div><div>Signaal: Verbeteren (3&gt;4)</div><div>Kennis: Verbeteren (3&gt;4)</div><div>Gedrag: Verbeteren (3&gt;4)</div><div><div>Wat doen we hiervoor?</div><div>Gedragsverandering</div><div>Specificatie:</div><div>wassen onafhankelijk</div><div>Begindatum: 07-01-2022</div></div></div></td></tr></table><div><div>Waar gaan we mee aan de slag?</div><div>Persoonlijke zorg</div><div>Signalen:</div><div>moeite met aankleden, onderlichaam, moeite met aankleden, bovenlichaam</div><div>Evaluatiedatum: 01-04-2022</div></div><table><tr><td><div><div>Wat is ons doel?</div><div>Signaal: Verbeteren (3&gt;4)</div><div>Kennis: Verbeteren (3&gt;4)</div><div>Gedrag: Verbeteren (3&gt;4)</div><div><div>Wat doen we hiervoor?</div><div>Gedragsverandering</div><div>Specificatie:</div><div>kleden onafhankelijk</div><div>Begindatum: 07-01-2022</div></div></div></td></tr></table></div>"
+                },
+                "status": "active",
+                "intent": "plan",
+                "subject": {
+                    "reference": "Patient/701cef7c-2b0e-4f42-b5b7-c53af0003155",
+                    "display": "F. XXX_Mutter (Hinq)"
+                }
+            }
+        }
+    ]
+}

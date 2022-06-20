@@ -1,0 +1,192 @@
+{
+    "resourceType": "Bundle",
+    "id": "5bd9e987-2780-4a4d-8f94-6a5c7004f8c3",
+    "meta": {
+        "lastUpdated": "2022-06-20T11:43:11.729+02:00"
+    },
+    "type": "searchset",
+    "total": 2,
+    "link": [
+        {
+            "relation": "self",
+            "url": "https://fhir.dev.hinq.nl/fhir/AllergyIntolerance?patient=Patient%2F701cef7c-2b0e-4f42-b5b7-c53af0003155"
+        }
+    ],
+    "entry": [
+        {
+            "fullUrl": "https://fhir.dev.hinq.nl/fhir/AllergyIntolerance/c22222f5-62b1-47a2-9832-9eb23a7be9ae",
+            "resource": {
+                "resourceType": "AllergyIntolerance",
+                "id": "c22222f5-62b1-47a2-9832-9eb23a7be9ae",
+                "meta": {
+                    "profile": [
+                        "http://nictiz.nl/fhir/StructureDefinition/zib-AllergyIntolerance"
+                    ]
+                },
+                "clinicalStatus": "active",
+                "_clinicalStatus": {
+                    "extension": [
+                        {
+                            "url": "http://nictiz.nl/fhir/StructureDefinition/code-specification",
+                            "valueCodeableConcept": {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ActStatus",
+                                        "code": "active",
+                                        "display": "Actief"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "verificationStatus": "confirmed",
+                "criticality": "high",
+                "_criticality": {
+                    "extension": [
+                        {
+                            "url": "http://nictiz.nl/fhir/StructureDefinition/code-specification",
+                            "valueCodeableConcept": {
+                                "coding": [
+                                    {
+                                        "system": "http://snomed.info/sct",
+                                        "code": "6736007",
+                                        "display": "Matig"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "255848005",
+                            "display": "Nikkelsulfaat"
+                        }
+                    ]
+                },
+                "patient": {
+                    "reference": "Patient/701cef7c-2b0e-4f42-b5b7-c53af0003155",
+                    "display": "F. XXX_Mutter (Hinq)"
+                },
+                "note": [
+                    {
+                        "text": "Opgemaakt bij het dragen van nikkel bevattende sieraden"
+                    }
+                ],
+                "reaction": [
+                    {
+                        "manifestation": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://snomed.info/sct",
+                                        "code": "40275004",
+                                        "display": "Contactdermatitis"
+                                    }
+                                ]
+                            }
+                        ],
+                        "description": "Last van jeuk, roodheid en irritatie op de contactplek van nikkel bevattende sieraden."
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://fhir.dev.hinq.nl/fhir/AllergyIntolerance/9c145076-14ce-4f21-b652-3c87ae90355f",
+            "resource": {
+                "resourceType": "AllergyIntolerance",
+                "id": "9c145076-14ce-4f21-b652-3c87ae90355f",
+                "meta": {
+                    "profile": [
+                        "http://nictiz.nl/fhir/StructureDefinition/zib-AllergyIntolerance"
+                    ]
+                },
+                "clinicalStatus": "active",
+                "_clinicalStatus": {
+                    "extension": [
+                        {
+                            "url": "http://nictiz.nl/fhir/StructureDefinition/code-specification",
+                            "valueCodeableConcept": {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ActStatus",
+                                        "code": "active",
+                                        "display": "Actief"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "verificationStatus": "confirmed",
+                "criticality": "high",
+                "_criticality": {
+                    "extension": [
+                        {
+                            "url": "http://nictiz.nl/fhir/StructureDefinition/code-specification",
+                            "valueCodeableConcept": {
+                                "coding": [
+                                    {
+                                        "system": "http://snomed.info/sct",
+                                        "code": "399166001",
+                                        "display": "Fataal"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "762952008",
+                            "display": "Pinda"
+                        }
+                    ]
+                },
+                "patient": {
+                    "reference": "Patient/701cef7c-2b0e-4f42-b5b7-c53af0003155",
+                    "display": "F. XXX_Mutter (Hinq)"
+                },
+                "note": [
+                    {
+                        "text": "Na het eten van pinda's als student ontstond er een klinisch beeld van anafylaxie waarop de HA epipen heeft moeten toedienen"
+                    }
+                ],
+                "reaction": [
+                    {
+                        "manifestation": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://snomed.info/sct",
+                                        "code": "39579001",
+                                        "display": "Anafylaxie"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "manifestation": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://snomed.info/sct",
+                                        "code": "41291007",
+                                        "display": "Angio-oedeem"
+                                    }
+                                ]
+                            }
+                        ],
+                        "description": "Angio-oedeem van de tong, lippen en peri-orbitale regio met acute benauwdheid na het eten van pinda's."
+                    }
+                ]
+            }
+        }
+    ]
+}

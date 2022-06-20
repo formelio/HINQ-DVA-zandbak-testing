@@ -1,0 +1,268 @@
+{
+    "resourceType": "Bundle",
+    "id": "eafb53fb-bbdd-4c16-80ea-2438d4c94a56",
+    "meta": {
+        "lastUpdated": "2022-06-20T11:40:59.155+02:00"
+    },
+    "type": "searchset",
+    "total": 2,
+    "link": [
+        {
+            "relation": "self",
+            "url": "https://fhir.dev.hinq.nl/fhir/Patient?_id=701cef7c-2b0e-4f42-b5b7-c53af0003155&_include=Patient%3Ageneral-practitioner"
+        }
+    ],
+    "entry": [
+        {
+            "fullUrl": "https://fhir.dev.hinq.nl/fhir/Patient/701cef7c-2b0e-4f42-b5b7-c53af0003155",
+            "resource": {
+                "resourceType": "Patient",
+                "id": "701cef7c-2b0e-4f42-b5b7-c53af0003155",
+                "meta": {
+                    "profile": [
+                        "http://fhir.nl/fhir/StructureDefinition/nl-core-patient"
+                    ]
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Fiona F. <b>XXX_MUTTER (HINQ) </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>19569</td></tr><tr><td>Address</td><td><span>Knolweg 1001 </span><br/><span>Stitswerd </span><span>Nederland </span></td></tr><tr><td>Date of birth</td><td><span>08 February 1964</span></td></tr></tbody></table></div>"
+                },
+                "identifier": [
+                    {
+                        "system": "https://dzz.acc-sdbecd.nl/NamingSystem/patientID",
+                        "value": "19569"
+                    }
+                ],
+                "name": [
+                    {
+                        "extension": [
+                            {
+                                "url": "http://hl7.org/fhir/StructureDefinition/humanname-assembly-order",
+                                "valueCode": "NL1"
+                            }
+                        ],
+                        "text": "F. XXX_Mutter (Hinq)",
+                        "family": "XXX_Mutter (Hinq)",
+                        "_family": {
+                            "extension": [
+                                {
+                                    "url": "http://hl7.org/fhir/StructureDefinition/humanname-own-name",
+                                    "valueString": "XXX_Mutter (Hinq)"
+                                }
+                            ]
+                        },
+                        "given": [
+                            "Fiona",
+                            "F."
+                        ],
+                        "_given": [
+                            {
+                                "extension": [
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier",
+                                        "valueCode": "CL"
+                                    }
+                                ]
+                            },
+                            {
+                                "extension": [
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier",
+                                        "valueCode": "IN"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "telecom": [
+                    {
+                        "system": "email",
+                        "value": "fmutter@hotmail.com"
+                    }
+                ],
+                "gender": "female",
+                "_gender": {
+                    "extension": [
+                        {
+                            "url": "http://nictiz.nl/fhir/StructureDefinition/code-specification",
+                            "valueCodeableConcept": {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+                                        "code": "F",
+                                        "display": "Vrouw"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "birthDate": "1964-02-08",
+                "address": [
+                    {
+                        "extension": [
+                            {
+                                "url": "http://nictiz.nl/fhir/StructureDefinition/zib-AddressInformation-AddressType",
+                                "valueCodeableConcept": {
+                                    "coding": [
+                                        {
+                                            "system": "http://hl7.org/fhir/v3/AddressUse",
+                                            "code": "PHYS",
+                                            "display": "Woon-/verblijfadres"
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "type": "physical",
+                        "line": [
+                            "Knolweg 1001"
+                        ],
+                        "_line": [
+                            {
+                                "extension": [
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName",
+                                        "valueString": "Knolweg"
+                                    },
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber",
+                                        "valueString": "1001"
+                                    }
+                                ]
+                            }
+                        ],
+                        "city": "Stitswerd",
+                        "postalCode": "9999 XX",
+                        "country": "Nederland",
+                        "_country": {
+                            "extension": [
+                                {
+                                    "url": "http://nictiz.nl/fhir/StructureDefinition/code-specification",
+                                    "valueCodeableConcept": {
+                                        "coding": [
+                                            {
+                                                "system": "urn:oid:1.0.3166.1.2.2",
+                                                "code": "NL",
+                                                "display": "Nederland"
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        "period": {
+                            "start": "2021-12-20T00:00:00+01:00"
+                        }
+                    }
+                ],
+                "contact": [
+                    {
+                        "relationship": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/RoleCode",
+                                        "code": "SONC",
+                                        "display": "Zoon"
+                                    }
+                                ]
+                            },
+                            {
+                                "coding": [
+                                    {
+                                        "system": "urn:oid:2.16.840.1.113883.2.4.3.11.22.472",
+                                        "code": "1",
+                                        "display": "Eerste relatie/contactpersoon"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": {
+                            "text": "R. PRins",
+                            "family": "PRins",
+                            "_family": {
+                                "extension": [
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/humanname-own-name",
+                                        "valueString": "PRins"
+                                    }
+                                ]
+                            },
+                            "given": [
+                                "R."
+                            ],
+                            "_given": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier",
+                                            "valueCode": "IN"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "telecom": [
+                            {
+                                "system": "phone",
+                                "value": "06134567891"
+                            },
+                            {
+                                "system": "email",
+                                "value": "bprins@123net.nl",
+                                "use": "home"
+                            }
+                        ]
+                    }
+                ],
+                "generalPractitioner": [
+                    {
+                        "reference": "Practitioner/2f4c9156-24fe-43ae-856a-4a62de19997d",
+                        "display": "L. Lanen"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://fhir.dev.hinq.nl/fhir/Practitioner/2f4c9156-24fe-43ae-856a-4a62de19997d",
+            "resource": {
+                "resourceType": "Practitioner",
+                "id": "2f4c9156-24fe-43ae-856a-4a62de19997d",
+                "meta": {
+                    "profile": [
+                        "http://fhir.nl/fhir/StructureDefinition/nl-core-practitioner"
+                    ]
+                },
+                "name": [
+                    {
+                        "text": "L. Lanen",
+                        "family": "Lanen",
+                        "_family": {
+                            "extension": [
+                                {
+                                    "url": "http://hl7.org/fhir/StructureDefinition/humanname-own-name",
+                                    "valueString": "Lanen"
+                                }
+                            ]
+                        },
+                        "given": [
+                            "L."
+                        ],
+                        "_given": [
+                            {
+                                "extension": [
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier",
+                                        "valueCode": "IN"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

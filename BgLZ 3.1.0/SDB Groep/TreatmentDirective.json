@@ -1,0 +1,15 @@
+{
+    "resourceType": "Bundle",
+    "id": "67323717-dd4c-4526-8eb0-96ca745c35fc",
+    "meta": {
+        "lastUpdated": "2022-06-20T11:41:45.138+02:00"
+    },
+    "type": "searchset",
+    "total": 0,
+    "link": [
+        {
+            "relation": "self",
+            "url": "https://fhir.dev.hinq.nl/fhir/Consent?category=http%3A%2F%2Fsnomed.info%2Fsct%7C11291000146105&patient=Patient%2F701cef7c-2b0e-4f42-b5b7-c53af0003155"
+        }
+    ]
+}

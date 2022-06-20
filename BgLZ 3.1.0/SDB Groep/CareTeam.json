@@ -1,0 +1,476 @@
+{
+    "resourceType": "Bundle",
+    "id": "bb2992ab-44b1-4cc2-a773-463b3062dbab",
+    "meta": {
+        "lastUpdated": "2022-06-20T11:45:28.027+02:00"
+    },
+    "type": "searchset",
+    "total": 8,
+    "link": [
+        {
+            "relation": "self",
+            "url": "https://fhir.dev.hinq.nl/fhir/CareTeam?_include=CareTeam%3Aparticipant&patient=Patient%2F701cef7c-2b0e-4f42-b5b7-c53af0003155"
+        }
+    ],
+    "entry": [
+        {
+            "fullUrl": "https://fhir.dev.hinq.nl/fhir/CareTeam/701cef7c-2b0e-4f42-b5b7-c53af0003155",
+            "resource": {
+                "resourceType": "CareTeam",
+                "id": "701cef7c-2b0e-4f42-b5b7-c53af0003155",
+                "meta": {
+                    "profile": [
+                        "http://fhir.nl/fhir/StructureDefinition/nl-core-careteam"
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/701cef7c-2b0e-4f42-b5b7-c53af0003155",
+                    "display": "XXX_Mutter (Hinq)"
+                },
+                "participant": [
+                    {
+                        "member": {
+                            "extension": [
+                                {
+                                    "url": "http://nictiz.nl/fhir/StructureDefinition/practitionerrole-reference",
+                                    "valueReference": {
+                                        "reference": "PractitionerRole/2f4c9156-24fe-43ae-856a-4a62de19997d",
+                                        "display": "Huisartsen, Apotheekhoudend, medicatiebeoordeling"
+                                    }
+                                }
+                            ],
+                            "reference": "Practitioner/2f4c9156-24fe-43ae-856a-4a62de19997d",
+                            "display": "L. Lanen"
+                        }
+                    },
+                    {
+                        "member": {
+                            "reference": "Organization/92d57e6f-d943-4140-9469-df804efa05ef",
+                            "display": "AA-zkh"
+                        }
+                    },
+                    {
+                        "member": {
+                            "reference": "RelatedPerson/fdf03869-d125-4980-bc36-ac3d021f52cd",
+                            "display": "R. PRins"
+                        }
+                    },
+                    {
+                        "role": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.5.90",
+                                    "code": "ATND",
+                                    "display": "Behandelaar"
+                                }
+                            ]
+                        },
+                        "member": {
+                            "extension": [
+                                {
+                                    "url": "http://nictiz.nl/fhir/StructureDefinition/practitionerrole-reference",
+                                    "valueReference": {
+                                        "reference": "PractitionerRole/2c7563c6-5a38-4cb2-8e5e-485995e00cba",
+                                        "display": "Verpleegkundigen, niet nader gespecificeerd"
+                                    }
+                                }
+                            ],
+                            "reference": "Practitioner/2c7563c6-5a38-4cb2-8e5e-485995e00cba",
+                            "display": "P.J. Vreeswijk"
+                        }
+                    },
+                    {
+                        "member": {
+                            "extension": [
+                                {
+                                    "url": "http://nictiz.nl/fhir/StructureDefinition/practitionerrole-reference",
+                                    "valueReference": {
+                                        "reference": "PractitionerRole/fed13fe2-e348-4df3-8aea-aec2f64ec9de",
+                                        "display": "Fysiotherapeuten, niet nader gespecificeerd"
+                                    }
+                                }
+                            ],
+                            "reference": "Practitioner/fed13fe2-e348-4df3-8aea-aec2f64ec9de",
+                            "display": "T. Janssen"
+                        }
+                    },
+                    {
+                        "member": {
+                            "extension": [
+                                {
+                                    "url": "http://nictiz.nl/fhir/StructureDefinition/practitionerrole-reference",
+                                    "valueReference": {
+                                        "reference": "PractitionerRole/65a1fc20-7663-44e1-b3b6-b3cd8a62ff5c",
+                                        "display": "Logopedisten, niet nader gespecificeerd"
+                                    }
+                                }
+                            ],
+                            "reference": "Practitioner/65a1fc20-7663-44e1-b3b6-b3cd8a62ff5c",
+                            "display": "H. Bruinsma"
+                        }
+                    },
+                    {
+                        "member": {
+                            "extension": [
+                                {
+                                    "url": "http://nictiz.nl/fhir/StructureDefinition/practitionerrole-reference",
+                                    "valueReference": {
+                                        "reference": "PractitionerRole/67c93cd0-24c7-4a9e-8886-8ffc86166de7",
+                                        "display": "Medisch specialisten, neurologie"
+                                    }
+                                }
+                            ],
+                            "reference": "Practitioner/67c93cd0-24c7-4a9e-8886-8ffc86166de7",
+                            "display": "N. Helmond"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://fhir.dev.hinq.nl/fhir/Practitioner/2f4c9156-24fe-43ae-856a-4a62de19997d",
+            "resource": {
+                "resourceType": "Practitioner",
+                "id": "2f4c9156-24fe-43ae-856a-4a62de19997d",
+                "meta": {
+                    "profile": [
+                        "http://fhir.nl/fhir/StructureDefinition/nl-core-practitioner"
+                    ]
+                },
+                "name": [
+                    {
+                        "text": "L. Lanen",
+                        "family": "Lanen",
+                        "_family": {
+                            "extension": [
+                                {
+                                    "url": "http://hl7.org/fhir/StructureDefinition/humanname-own-name",
+                                    "valueString": "Lanen"
+                                }
+                            ]
+                        },
+                        "given": [
+                            "L."
+                        ],
+                        "_given": [
+                            {
+                                "extension": [
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier",
+                                        "valueCode": "IN"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://fhir.dev.hinq.nl/fhir/Organization/92d57e6f-d943-4140-9469-df804efa05ef",
+            "resource": {
+                "resourceType": "Organization",
+                "id": "92d57e6f-d943-4140-9469-df804efa05ef",
+                "meta": {
+                    "profile": [
+                        "http://fhir.nl/fhir/StructureDefinition/nl-core-organization"
+                    ]
+                },
+                "name": "AA-zkh",
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "+31182435768",
+                        "use": "work"
+                    },
+                    {
+                        "system": "email",
+                        "value": "neurologie@AAZ.nl"
+                    }
+                ],
+                "address": [
+                    {
+                        "type": "physical",
+                        "line": [
+                            "De Weststraat 3"
+                        ],
+                        "_line": [
+                            {
+                                "extension": [
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName",
+                                        "valueString": "De Weststraat"
+                                    },
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber",
+                                        "valueString": "3"
+                                    }
+                                ]
+                            }
+                        ],
+                        "city": "Stitswerd",
+                        "postalCode": "9999PK",
+                        "country": "Nederland"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://fhir.dev.hinq.nl/fhir/RelatedPerson/fdf03869-d125-4980-bc36-ac3d021f52cd",
+            "resource": {
+                "resourceType": "RelatedPerson",
+                "id": "fdf03869-d125-4980-bc36-ac3d021f52cd",
+                "meta": {
+                    "profile": [
+                        "http://fhir.nl/fhir/StructureDefinition/nl-core-relatedperson"
+                    ]
+                },
+                "extension": [
+                    {
+                        "url": "http://fhir.nl/fhir/StructureDefinition/nl-core-relatedperson-role",
+                        "valueCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.2.4.3.11.22.472",
+                                    "code": "1",
+                                    "display": "Eerste relatie/contactpersoon"
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "patient": {
+                    "reference": "Patient/701cef7c-2b0e-4f42-b5b7-c53af0003155",
+                    "display": "XXX_Mutter (Hinq)"
+                },
+                "relationship": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/v3/RoleCode",
+                            "code": "SONC",
+                            "display": "Zoon"
+                        }
+                    ]
+                },
+                "name": [
+                    {
+                        "text": "R. PRins",
+                        "family": "PRins",
+                        "_family": {
+                            "extension": [
+                                {
+                                    "url": "http://hl7.org/fhir/StructureDefinition/humanname-own-name",
+                                    "valueString": "PRins"
+                                }
+                            ]
+                        },
+                        "given": [
+                            "R."
+                        ],
+                        "_given": [
+                            {
+                                "extension": [
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier",
+                                        "valueCode": "IN"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "06134567891"
+                    },
+                    {
+                        "system": "email",
+                        "value": "bprins@123net.nl",
+                        "use": "home"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://fhir.dev.hinq.nl/fhir/Practitioner/2c7563c6-5a38-4cb2-8e5e-485995e00cba",
+            "resource": {
+                "resourceType": "Practitioner",
+                "id": "2c7563c6-5a38-4cb2-8e5e-485995e00cba",
+                "meta": {
+                    "profile": [
+                        "http://fhir.nl/fhir/StructureDefinition/nl-core-practitioner"
+                    ]
+                },
+                "name": [
+                    {
+                        "extension": [
+                            {
+                                "url": "http://hl7.org/fhir/StructureDefinition/humanname-assembly-order",
+                                "valueCode": "NL1"
+                            }
+                        ],
+                        "text": "P.J. Vreeswijk",
+                        "family": "Vreeswijk",
+                        "_family": {
+                            "extension": [
+                                {
+                                    "url": "http://hl7.org/fhir/StructureDefinition/humanname-own-name",
+                                    "valueString": "Vreeswijk"
+                                }
+                            ]
+                        },
+                        "given": [
+                            "P.J."
+                        ],
+                        "_given": [
+                            {
+                                "extension": [
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier",
+                                        "valueCode": "IN"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://fhir.dev.hinq.nl/fhir/Practitioner/fed13fe2-e348-4df3-8aea-aec2f64ec9de",
+            "resource": {
+                "resourceType": "Practitioner",
+                "id": "fed13fe2-e348-4df3-8aea-aec2f64ec9de",
+                "meta": {
+                    "profile": [
+                        "http://fhir.nl/fhir/StructureDefinition/nl-core-practitioner"
+                    ]
+                },
+                "name": [
+                    {
+                        "extension": [
+                            {
+                                "url": "http://hl7.org/fhir/StructureDefinition/humanname-assembly-order",
+                                "valueCode": "NL1"
+                            }
+                        ],
+                        "text": "T. Janssen",
+                        "family": "Janssen",
+                        "_family": {
+                            "extension": [
+                                {
+                                    "url": "http://hl7.org/fhir/StructureDefinition/humanname-own-name",
+                                    "valueString": "Janssen"
+                                }
+                            ]
+                        },
+                        "given": [
+                            "T."
+                        ],
+                        "_given": [
+                            {
+                                "extension": [
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier",
+                                        "valueCode": "IN"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://fhir.dev.hinq.nl/fhir/Practitioner/65a1fc20-7663-44e1-b3b6-b3cd8a62ff5c",
+            "resource": {
+                "resourceType": "Practitioner",
+                "id": "65a1fc20-7663-44e1-b3b6-b3cd8a62ff5c",
+                "meta": {
+                    "profile": [
+                        "http://fhir.nl/fhir/StructureDefinition/nl-core-practitioner"
+                    ]
+                },
+                "name": [
+                    {
+                        "extension": [
+                            {
+                                "url": "http://hl7.org/fhir/StructureDefinition/humanname-assembly-order",
+                                "valueCode": "NL1"
+                            }
+                        ],
+                        "text": "H. Bruinsma",
+                        "family": "Bruinsma",
+                        "_family": {
+                            "extension": [
+                                {
+                                    "url": "http://hl7.org/fhir/StructureDefinition/humanname-own-name",
+                                    "valueString": "Bruinsma"
+                                }
+                            ]
+                        },
+                        "given": [
+                            "H."
+                        ],
+                        "_given": [
+                            {
+                                "extension": [
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier",
+                                        "valueCode": "IN"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://fhir.dev.hinq.nl/fhir/Practitioner/67c93cd0-24c7-4a9e-8886-8ffc86166de7",
+            "resource": {
+                "resourceType": "Practitioner",
+                "id": "67c93cd0-24c7-4a9e-8886-8ffc86166de7",
+                "meta": {
+                    "profile": [
+                        "http://fhir.nl/fhir/StructureDefinition/nl-core-practitioner"
+                    ]
+                },
+                "name": [
+                    {
+                        "extension": [
+                            {
+                                "url": "http://hl7.org/fhir/StructureDefinition/humanname-assembly-order",
+                                "valueCode": "NL1"
+                            }
+                        ],
+                        "text": "N. Helmond",
+                        "family": "Helmond",
+                        "_family": {
+                            "extension": [
+                                {
+                                    "url": "http://hl7.org/fhir/StructureDefinition/humanname-own-name",
+                                    "valueString": "Helmond"
+                                }
+                            ]
+                        },
+                        "given": [
+                            "N."
+                        ],
+                        "_given": [
+                            {
+                                "extension": [
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier",
+                                        "valueCode": "IN"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

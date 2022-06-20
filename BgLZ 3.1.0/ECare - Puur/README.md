@@ -5,47 +5,47 @@
 ### Patient
 > 200 OK (supported)
 
-> [Response body](../ECare%20-%20Puur/patient.json)
+> [Response body](../ECare%20-%20Puur/Patient.json)
 
 ### TreatmentDirective
 > 404 Not Found (unsupported)
 
-> [Response body](../ECare%20-%20Puur/treatmentDirective.json)
+> [Response body](../ECare%20-%20Puur/TreatmentDirective.json)
 
 ### AdvanceDirective
 > 404 Not Found (unsupported)
 
-> [Response body](../ECare%20-%20Puur/advanceDirective.json)
+> [Response body](../ECare%20-%20Puur/AdvanceDirective.json)
 
 ### Problem
 > 404 Not Found (unsupported)
 
-> [Response body](../ECare%20-%20Puur/problem.json)
+> [Response body](../ECare%20-%20Puur/Problem.json)
 
 ### AllergyIntolerance
 > 404 Not Found (unsupported)
 
-> [Response body](../ECare%20-%20Puur/allergyIntolerance.json)
+> [Response body](../ECare%20-%20Puur/AllergyIntolerance.json)
 
 ### LaboratoryTestResult
 > 404 Not Found (unsupported)
 
-> [Response body](../ECare%20-%20Puur/laboratoryTestResult.json)
+> [Response body](../ECare%20-%20Puur/LaboratoryTestResult.json)
 
 ### Procedure
 > 404 Not Found (unsupported)
 
-> [Response body](../ECare%20-%20Puur/procedure.json)
+> [Response body](../ECare%20-%20Puur/Procedure.json)
 
 ### CarePlan
 > 200 OK (supported)
 
-> [Response body](../ECare%20-%20Puur/carePlan.json)
+> [Response body](../ECare%20-%20Puur/CarePlan.json)
 
 ### CareTeam
 > 200 OK (supported)
 
-> [Response body](../ECare%20-%20Puur/car(/eTeam.json)
+> [Response body](../ECare%20-%20Puur/CareTeam.json)
 
 
 
