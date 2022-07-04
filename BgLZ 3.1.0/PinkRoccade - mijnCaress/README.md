@@ -1,5 +1,5 @@
-# ECare - Puur
-### Zandbak medmij-id: `hinq.ecare@medmij`
+# PinkRoccade - mijnCaress
+### Zandbak medmij-id: `hinq.pinkroccade@medmij`
 
 # Available patients:
 
@@ -11,16 +11,16 @@
 > 200 OK (supported)
 
 ### TreatmentDirective
-> 404 Not Found (unsupported)
+> 200 OK (supported)
 
 ### AdvanceDirective
-> 404 Not Found (unsupported)
+> 200 OK (supported)
 
 ### Problem
-> 404 Not Found (unsupported)
+> 200 OK (supported)
 
 ### AllergyIntolerance
-> 404 Not Found (unsupported)
+> 200 OK (supported)
 
 ### LaboratoryTestResult
 > 404 Not Found (unsupported)
@@ -29,12 +29,7 @@
 > 404 Not Found (unsupported)
 
 ### CarePlan
-> 200 OK (supported)
+> 200 OK (supported unstructured)
 
 ### CareTeam
 > 200 OK (supported)
-
-
-
-
-

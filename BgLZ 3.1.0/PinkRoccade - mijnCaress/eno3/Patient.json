@@ -1,0 +1,304 @@
+{
+    "resourceType": "Bundle",
+    "id": "db9defde-305e-4359-9de0-75c956dd4f80",
+    "meta": {
+        "lastUpdated": "2022-07-04T12:58:48.313+02:00"
+    },
+    "type": "searchset",
+    "total": 2,
+    "link": [
+        {
+            "relation": "self",
+            "url": "https://fhir.dev.hinq.nl/fhir/Patient?_include=Patient%3Ageneral-practitioner"
+        }
+    ],
+    "entry": [
+        {
+            "fullUrl": "https://fhir.dev.hinq.nl/fhir/Patient/201802011495",
+            "resource": {
+                "resourceType": "Patient",
+                "id": "201802011495",
+                "meta": {
+                    "profile": [
+                        "http://fhir.nl/fhir/StructureDefinition/nl-core-patient"
+                    ]
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Fiona F. <b>DVZA_MUTTER </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Address</td><td><span>Piet Heinkade 1001 </span><br/><span>Stitswerd </span><span>Nederland </span></td></tr><tr><td>Date of birth</td><td><span>08 February 1964</span></td></tr></tbody></table></div>"
+                },
+                "active": false,
+                "name": [
+                    {
+                        "extension": [
+                            {
+                                "url": "http://hl7.org/fhir/StructureDefinition/humanname-assembly-order",
+                                "valueCode": "NL1"
+                            }
+                        ],
+                        "use": "official",
+                        "family": "DVZA_Mutter",
+                        "_family": {
+                            "extension": [
+                                {
+                                    "url": "http://hl7.org/fhir/StructureDefinition/humanname-own-name",
+                                    "valueString": "DVZA_Mutter"
+                                }
+                            ]
+                        },
+                        "given": [
+                            "Fiona",
+                            "F."
+                        ],
+                        "_given": [
+                            {
+                                "extension": [
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier",
+                                        "valueCode": "BR"
+                                    }
+                                ]
+                            },
+                            {
+                                "extension": [
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier",
+                                        "valueCode": "IN"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "telecom": [
+                    {
+                        "extension": [
+                            {
+                                "url": "http://nictiz.nl/fhir/StructureDefinition/zib-ContactInformation-TelecomType",
+                                "valueCodeableConcept": {
+                                    "coding": [
+                                        {
+                                            "system": "http://hl7.org/fhir/v3/AddressUse",
+                                            "code": "MC",
+                                            "display": "mobile contact)"
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "system": "phone",
+                        "value": "+31634567891",
+                        "use": "mobile"
+                    },
+                    {
+                        "system": "email",
+                        "value": "fmutter@hotmail.com",
+                        "use": "home"
+                    }
+                ],
+                "gender": "other",
+                "_gender": {
+                    "extension": [
+                        {
+                            "url": "http://nictiz.nl/fhir/StructureDefinition/code-specification",
+                            "valueCodeableConcept": {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+                                        "code": "UN",
+                                        "display": "Ongedifferentieerd"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "birthDate": "1964-02-08",
+                "address": [
+                    {
+                        "extension": [
+                            {
+                                "url": "http://fhir.nl/fhir/StructureDefinition/nl-core-address-official",
+                                "valueBoolean": true
+                            },
+                            {
+                                "url": "http://nictiz.nl/fhir/StructureDefinition/zib-AddressInformation-AddressType",
+                                "valueCodeableConcept": {
+                                    "coding": [
+                                        {
+                                            "system": "http://hl7.org/fhir/v3/AddressUse",
+                                            "code": "PHYS",
+                                            "display": "Visit Address"
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "use": "home",
+                        "type": "physical",
+                        "line": [
+                            "Piet Heinkade 1001"
+                        ],
+                        "_line": [
+                            {
+                                "extension": [
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName",
+                                        "valueString": "Piet Heinkade"
+                                    },
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber",
+                                        "valueString": "1001"
+                                    }
+                                ]
+                            }
+                        ],
+                        "city": "Stitswerd",
+                        "postalCode": "9999XA",
+                        "country": "Nederland",
+                        "_country": {
+                            "extension": [
+                                {
+                                    "url": "http://nictiz.nl/fhir/StructureDefinition/code-specification",
+                                    "valueCodeableConcept": {
+                                        "coding": [
+                                            {
+                                                "system": "urn:iso:std:iso:3166",
+                                                "code": "NL",
+                                                "display": "Nederland"
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "contact": [
+                    {
+                        "relationship": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/RoleCode",
+                                        "code": "SONC",
+                                        "display": "son"
+                                    }
+                                ]
+                            },
+                            {
+                                "coding": [
+                                    {
+                                        "system": "urn:oid:2.16.840.1.113883.2.4.3.11.22.472",
+                                        "code": "1",
+                                        "display": "Eerste relatie/contactpersoon"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": {
+                            "extension": [
+                                {
+                                    "url": "http://hl7.org/fhir/StructureDefinition/humanname-assembly-order",
+                                    "valueCode": "NL1"
+                                }
+                            ],
+                            "text": "Prins, R.",
+                            "family": "Prins",
+                            "_family": {
+                                "extension": [
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/humanname-own-name",
+                                        "valueString": "Prins"
+                                    }
+                                ]
+                            },
+                            "given": [
+                                "R.",
+                                "Robert"
+                            ],
+                            "_given": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier",
+                                            "valueCode": "IN"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier",
+                                            "valueCode": "BR"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "generalPractitioner": [
+                    {
+                        "extension": [
+                            {
+                                "url": "http://nictiz.nl/fhir/StructureDefinition/practitionerrole-reference",
+                                "valueReference": {
+                                    "reference": "PractitionerRole/REF-12345678",
+                                    "display": "Huisartsen, niet nader gespecificeerd"
+                                }
+                            }
+                        ],
+                        "reference": "Practitioner/REF-12345678",
+                        "display": "Lanen, L."
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://fhir.dev.hinq.nl/fhir/Practitioner/REF-12345678",
+            "resource": {
+                "resourceType": "Practitioner",
+                "id": "REF-12345678",
+                "meta": {
+                    "profile": [
+                        "http://fhir.nl/fhir/StructureDefinition/nl-core-practitioner"
+                    ]
+                },
+                "name": [
+                    {
+                        "extension": [
+                            {
+                                "url": "http://hl7.org/fhir/StructureDefinition/humanname-assembly-order",
+                                "valueCode": "NL1"
+                            }
+                        ],
+                        "text": "Lanen, L.",
+                        "family": "Lanen",
+                        "_family": {
+                            "extension": [
+                                {
+                                    "url": "http://hl7.org/fhir/StructureDefinition/humanname-own-name",
+                                    "valueString": "Lanen"
+                                }
+                            ]
+                        },
+                        "given": [
+                            "L."
+                        ],
+                        "_given": [
+                            {
+                                "extension": [
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier",
+                                        "valueCode": "IN"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

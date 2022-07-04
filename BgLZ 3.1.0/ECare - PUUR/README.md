@@ -1,5 +1,5 @@
-# SDB Groep
-### Zandbak medmij-id: `hinq.sdb@medmij`
+# ECare - PUUR
+### Zandbak medmij-id: `hinq.ecare@medmij`
 
 # Available patients:
 
@@ -11,16 +11,16 @@
 > 200 OK (supported)
 
 ### TreatmentDirective
-> 200 OK (unsupported)
+> 404 Not Found (unsupported)
 
 ### AdvanceDirective
-> 200 OK (supported)
+> 404 Not Found (unsupported)
 
 ### Problem
 > 404 Not Found (unsupported)
 
 ### AllergyIntolerance
-> 200 OK (supported)
+> 404 Not Found (unsupported)
 
 ### LaboratoryTestResult
 > 404 Not Found (unsupported)
@@ -33,3 +33,8 @@
 
 ### CareTeam
 > 200 OK (supported)
+
+
+
+
+
