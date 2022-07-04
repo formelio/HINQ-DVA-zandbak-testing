@@ -1,9 +1,9 @@
 # ECare - Puur
-## Zandbak medmij-id: `hinq.ecare@medmij`
+### Zandbak medmij-id: `hinq.ecare@medmij`
 
 # Available patients:
 
-## [eno3](eno3/)
+### [eno3](eno3/)
 
 # Expected response codes
 

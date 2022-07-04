@@ -1,8 +1,8 @@
 # ECare - Puur
-## Zandbak medmij-id: `hinq.ecare@medmij`
+### Zandbak medmij-id: `hinq.ecare@medmij`
 
 # Patient eno3
-## BSN: 900167312
+### BSN: 900167312
 
 # Expected responses
 

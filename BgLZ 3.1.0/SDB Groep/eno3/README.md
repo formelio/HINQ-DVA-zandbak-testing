@@ -1,8 +1,8 @@
 # SDB Groep
-## Zandbak medmij-id: `hinq.sdb@medmij`
+### Zandbak medmij-id: `hinq.sdb@medmij`
 
 # Patient eno3
-## BSN: 900167312
+### BSN: 900167312
 
 # Expected responses
 

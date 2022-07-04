@@ -1,9 +1,9 @@
 # SDB Groep
-## Zandbak medmij-id: `hinq.sdb@medmij`
+### Zandbak medmij-id: `hinq.sdb@medmij`
 
 # Available patients:
 
-## [eno3](eno3/)
+### [eno3](eno3/)
 
 # Expected response codes
 
