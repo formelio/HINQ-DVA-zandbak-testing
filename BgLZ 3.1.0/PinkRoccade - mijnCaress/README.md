@@ -11,7 +11,7 @@
 > 200 OK (supported)
 
 ### TreatmentDirective
-> 200 OK (unsupported)
+> 200 OK (supported)
 
 ### AdvanceDirective
 > 200 OK (supported)
