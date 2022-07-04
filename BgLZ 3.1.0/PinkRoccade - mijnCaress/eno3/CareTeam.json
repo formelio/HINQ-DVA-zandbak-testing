@@ -1,0 +1,543 @@
+{
+    "resourceType": "Bundle",
+    "id": "1f878c68-2c08-489c-a6f4-09690a668ad9",
+    "meta": {
+        "lastUpdated": "2022-07-04T15:30:54.494+02:00"
+    },
+    "type": "searchset",
+    "total": 7,
+    "link": [
+        {
+            "relation": "self",
+            "url": "https://fhir.dev.hinq.nl/fhir/CareTeam?_include=CareTeam%3Aparticipant"
+        }
+    ],
+    "entry": [
+        {
+            "fullUrl": "https://fhir.dev.hinq.nl/fhir/CareTeam/18d815f9-42b0-4daf-89d9-748e899e4ec3",
+            "resource": {
+                "resourceType": "CareTeam",
+                "id": "18d815f9-42b0-4daf-89d9-748e899e4ec3",
+                "meta": {
+                    "profile": [
+                        "http://fhir.nl/fhir/StructureDefinition/nl-core-careteam"
+                    ]
+                },
+                "identifier": [
+                    {
+                        "system": "http://mijncaress.nl",
+                        "value": "18d815f9-42b0-4daf-89d9-748e899e4ec3"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/201802011495",
+                    "display": "DVZA_Mutter, F."
+                },
+                "participant": [
+                    {
+                        "member": {
+                            "extension": [
+                                {
+                                    "url": "http://nictiz.nl/fhir/StructureDefinition/practitionerrole-reference",
+                                    "valueReference": {
+                                        "reference": "PractitionerRole/RESP-77",
+                                        "display": "Fysiotherapeut"
+                                    }
+                                }
+                            ],
+                            "reference": "Practitioner/RESP-77",
+                            "display": "Janssen, T."
+                        },
+                        "onBehalfOf": {
+                            "reference": "Organization/41417777",
+                            "display": "Ketentest RELEASE PRHC mijnCaress"
+                        }
+                    },
+                    {
+                        "role": {
+                            "coding": [
+                                {
+                                    "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                    "code": "RESP",
+                                    "display": "Hoofdbehandelaar"
+                                }
+                            ]
+                        },
+                        "member": {
+                            "extension": [
+                                {
+                                    "url": "http://nictiz.nl/fhir/StructureDefinition/practitionerrole-reference",
+                                    "valueReference": {
+                                        "reference": "PractitionerRole/RESP-55",
+                                        "display": "Neuroloog"
+                                    }
+                                }
+                            ],
+                            "reference": "Practitioner/RESP-55",
+                            "display": "Helmond, N."
+                        },
+                        "onBehalfOf": {
+                            "reference": "Organization/41417777",
+                            "display": "Ketentest RELEASE PRHC mijnCaress"
+                        }
+                    },
+                    {
+                        "member": {
+                            "extension": [
+                                {
+                                    "url": "http://nictiz.nl/fhir/StructureDefinition/practitionerrole-reference",
+                                    "valueReference": {
+                                        "reference": "PractitionerRole/RESP-33",
+                                        "display": "Logopedisten, niet nader gespecificeerd"
+                                    }
+                                }
+                            ],
+                            "reference": "Practitioner/RESP-33",
+                            "display": "Bruinsma, H."
+                        },
+                        "onBehalfOf": {
+                            "reference": "Organization/41417777",
+                            "display": "Ketentest RELEASE PRHC mijnCaress"
+                        }
+                    },
+                    {
+                        "member": {
+                            "extension": [
+                                {
+                                    "url": "http://nictiz.nl/fhir/StructureDefinition/practitionerrole-reference",
+                                    "valueReference": {
+                                        "reference": "PractitionerRole/RESP-66",
+                                        "display": "Verpleegkundige A"
+                                    }
+                                }
+                            ],
+                            "reference": "Practitioner/RESP-66",
+                            "display": "Vreeswijk, P.J."
+                        },
+                        "onBehalfOf": {
+                            "reference": "Organization/41417777",
+                            "display": "Ketentest RELEASE PRHC mijnCaress"
+                        }
+                    },
+                    {
+                        "role": {
+                            "coding": [
+                                {
+                                    "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                    "code": "REF",
+                                    "display": "Verwijzer"
+                                }
+                            ]
+                        },
+                        "member": {
+                            "extension": [
+                                {
+                                    "url": "http://nictiz.nl/fhir/StructureDefinition/practitionerrole-reference",
+                                    "valueReference": {
+                                        "reference": "PractitionerRole/REF-12345678",
+                                        "display": "Huisartsen, niet nader gespecificieerd"
+                                    }
+                                }
+                            ],
+                            "reference": "Practitioner/REF-12345678",
+                            "display": "Lanen, L."
+                        }
+                    },
+                    {
+                        "member": {
+                            "reference": "Organization/41417777",
+                            "display": "Ketentest RELEASE PRHC mijnCaress"
+                        }
+                    }
+                ],
+                "managingOrganization": [
+                    {
+                        "reference": "Organization/41417777",
+                        "display": "Ketentest RELEASE PRHC mijnCaress"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://fhir.dev.hinq.nl/fhir/Practitioner/RESP-77",
+            "resource": {
+                "resourceType": "Practitioner",
+                "id": "RESP-77",
+                "meta": {
+                    "profile": [
+                        "http://fhir.nl/fhir/StructureDefinition/nl-core-practitioner"
+                    ]
+                },
+                "name": [
+                    {
+                        "extension": [
+                            {
+                                "url": "http://hl7.org/fhir/StructureDefinition/humanname-assembly-order",
+                                "valueCode": "NL1"
+                            }
+                        ],
+                        "text": "Janssen, T.",
+                        "family": "Janssen",
+                        "_family": {
+                            "extension": [
+                                {
+                                    "url": "http://hl7.org/fhir/StructureDefinition/humanname-own-name",
+                                    "valueString": "Janssen"
+                                }
+                            ]
+                        },
+                        "given": [
+                            "T.",
+                            "Thomas"
+                        ],
+                        "_given": [
+                            {
+                                "extension": [
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier",
+                                        "valueCode": "IN"
+                                    }
+                                ]
+                            },
+                            {
+                                "extension": [
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier",
+                                        "valueCode": "BR"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://fhir.dev.hinq.nl/fhir/Practitioner/RESP-55",
+            "resource": {
+                "resourceType": "Practitioner",
+                "id": "RESP-55",
+                "meta": {
+                    "profile": [
+                        "http://fhir.nl/fhir/StructureDefinition/nl-core-practitioner"
+                    ]
+                },
+                "name": [
+                    {
+                        "extension": [
+                            {
+                                "url": "http://hl7.org/fhir/StructureDefinition/humanname-assembly-order",
+                                "valueCode": "NL1"
+                            }
+                        ],
+                        "text": "Helmond, N.",
+                        "family": "Helmond",
+                        "_family": {
+                            "extension": [
+                                {
+                                    "url": "http://hl7.org/fhir/StructureDefinition/humanname-own-name",
+                                    "valueString": "Helmond"
+                                }
+                            ]
+                        },
+                        "given": [
+                            "N.",
+                            "Niels"
+                        ],
+                        "_given": [
+                            {
+                                "extension": [
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier",
+                                        "valueCode": "IN"
+                                    }
+                                ]
+                            },
+                            {
+                                "extension": [
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier",
+                                        "valueCode": "BR"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://fhir.dev.hinq.nl/fhir/Practitioner/RESP-33",
+            "resource": {
+                "resourceType": "Practitioner",
+                "id": "RESP-33",
+                "meta": {
+                    "profile": [
+                        "http://fhir.nl/fhir/StructureDefinition/nl-core-practitioner"
+                    ]
+                },
+                "name": [
+                    {
+                        "extension": [
+                            {
+                                "url": "http://hl7.org/fhir/StructureDefinition/humanname-assembly-order",
+                                "valueCode": "NL1"
+                            }
+                        ],
+                        "text": "Bruinsma, H.",
+                        "family": "Bruinsma",
+                        "_family": {
+                            "extension": [
+                                {
+                                    "url": "http://hl7.org/fhir/StructureDefinition/humanname-own-name",
+                                    "valueString": "Bruinsma"
+                                }
+                            ]
+                        },
+                        "given": [
+                            "H.",
+                            "Hilda"
+                        ],
+                        "_given": [
+                            {
+                                "extension": [
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier",
+                                        "valueCode": "IN"
+                                    }
+                                ]
+                            },
+                            {
+                                "extension": [
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier",
+                                        "valueCode": "BR"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://fhir.dev.hinq.nl/fhir/Practitioner/RESP-66",
+            "resource": {
+                "resourceType": "Practitioner",
+                "id": "RESP-66",
+                "meta": {
+                    "profile": [
+                        "http://fhir.nl/fhir/StructureDefinition/nl-core-practitioner"
+                    ]
+                },
+                "name": [
+                    {
+                        "extension": [
+                            {
+                                "url": "http://hl7.org/fhir/StructureDefinition/humanname-assembly-order",
+                                "valueCode": "NL1"
+                            }
+                        ],
+                        "text": "Vreeswijk, P.J.",
+                        "family": "Vreeswijk",
+                        "_family": {
+                            "extension": [
+                                {
+                                    "url": "http://hl7.org/fhir/StructureDefinition/humanname-own-name",
+                                    "valueString": "Vreeswijk"
+                                }
+                            ]
+                        },
+                        "given": [
+                            "P.J.",
+                            "Petra Johanna"
+                        ],
+                        "_given": [
+                            {
+                                "extension": [
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier",
+                                        "valueCode": "IN"
+                                    }
+                                ]
+                            },
+                            {
+                                "extension": [
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier",
+                                        "valueCode": "BR"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://fhir.dev.hinq.nl/fhir/Practitioner/REF-12345678",
+            "resource": {
+                "resourceType": "Practitioner",
+                "id": "REF-12345678",
+                "meta": {
+                    "profile": [
+                        "http://fhir.nl/fhir/StructureDefinition/nl-core-practitioner"
+                    ]
+                },
+                "name": [
+                    {
+                        "extension": [
+                            {
+                                "url": "http://hl7.org/fhir/StructureDefinition/humanname-assembly-order",
+                                "valueCode": "NL1"
+                            }
+                        ],
+                        "text": "Lanen, L.",
+                        "family": "Lanen",
+                        "_family": {
+                            "extension": [
+                                {
+                                    "url": "http://hl7.org/fhir/StructureDefinition/humanname-own-name",
+                                    "valueString": "Lanen"
+                                }
+                            ]
+                        },
+                        "given": [
+                            "L."
+                        ],
+                        "_given": [
+                            {
+                                "extension": [
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier",
+                                        "valueCode": "IN"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://fhir.dev.hinq.nl/fhir/Organization/41417777",
+            "resource": {
+                "resourceType": "Organization",
+                "id": "41417777",
+                "meta": {
+                    "profile": [
+                        "http://fhir.nl/fhir/StructureDefinition/nl-core-organization"
+                    ]
+                },
+                "identifier": [
+                    {
+                        "system": "http://fhir.nl/fhir/NamingSystem/agb-z",
+                        "value": "41417777"
+                    }
+                ],
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://nictiz.nl/fhir/NamingSystem/organization-type",
+                                "code": "X3",
+                                "display": "Verplegings- of verzorgingsinstelling"
+                            }
+                        ]
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:2.16.840.1.113883.2.4.6.7",
+                                "code": "4100",
+                                "display": "Beheerstichtingen verpleeghuizen, verzorgingshuizen en thuiszorg"
+                            }
+                        ]
+                    }
+                ],
+                "name": "Ketentest RELEASE PRHC mijnCaress",
+                "telecom": [
+                    {
+                        "extension": [
+                            {
+                                "url": "http://nictiz.nl/fhir/StructureDefinition/zib-ContactInformation-TelecomType",
+                                "valueCodeableConcept": {
+                                    "coding": [
+                                        {
+                                            "system": "urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.22.1",
+                                            "code": "LL",
+                                            "display": "Vast telefoonnummer"
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "system": "phone",
+                        "value": "055-5999200",
+                        "use": "work"
+                    }
+                ],
+                "address": [
+                    {
+                        "extension": [
+                            {
+                                "url": "http://fhir.nl/fhir/StructureDefinition/nl-core-address-official",
+                                "valueBoolean": true
+                            },
+                            {
+                                "url": "http://nictiz.nl/fhir/StructureDefinition/zib-AddressInformation-AddressType",
+                                "valueCodeableConcept": {
+                                    "coding": [
+                                        {
+                                            "system": "http://hl7.org/fhir/v3/AddressUse",
+                                            "code": "WP",
+                                            "display": "work place"
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "use": "work",
+                        "type": "physical",
+                        "line": [
+                            "Wapenrustlaan 11"
+                        ],
+                        "_line": [
+                            {
+                                "extension": [
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName",
+                                        "valueString": "Wapenrustlaan"
+                                    },
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber",
+                                        "valueString": "11"
+                                    }
+                                ]
+                            }
+                        ],
+                        "city": "APELDOORN",
+                        "postalCode": "7321DL",
+                        "country": "Nederland",
+                        "_country": {
+                            "extension": [
+                                {
+                                    "url": "http://nictiz.nl/fhir/StructureDefinition/code-specification",
+                                    "valueCodeableConcept": {
+                                        "coding": [
+                                            {
+                                                "system": "urn:iso:std:iso:3166",
+                                                "code": "NL",
+                                                "display": "Nederland"
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
