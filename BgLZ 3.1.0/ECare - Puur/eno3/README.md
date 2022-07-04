@@ -6,6 +6,20 @@
 
 # Expected responses
 
+<table> 
+    <tr>
+        <th>ZIB name</th>
+        <th>Expected response</th>
+    </tr>
+    <tr>
+    <td>Patient</td>
+    <td>[Response body](Patient.json)</td>
+    </tr>
+    </table>
+
+    
+
+
 ### Patient
 > [Response body](Patient.json)
 
