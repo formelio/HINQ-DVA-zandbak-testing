@@ -1,11 +1,11 @@
-# SDB Groep
-### Zandbak medmij-id: `hinq.sdb@medmij`
+# PinkRoccade - mijnCaress
+### Zandbak medmij-id: `hinq.pinkroccade@medmij`
 
 # Patient eno3
-### BSN: 900167312
-### DigiD testing level: Substantieel
-### User: eno_test_ext_3
-### Password: enoPr0v3s!
+### BSN: `900167312`
+### DigiD testing level: `Substantieel`
+### User: `eno_test_ext_3`
+### Password: `enoPr0v3s!`
 
 # Expected responses
 
