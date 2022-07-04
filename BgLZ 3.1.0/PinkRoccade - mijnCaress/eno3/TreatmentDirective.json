@@ -1,0 +1,108 @@
+{
+    "resourceType": "Bundle",
+    "id": "603bdebc-da9b-474c-bf2a-95e6686a08aa",
+    "meta": {
+        "lastUpdated": "2022-07-04T13:06:04.833+02:00"
+    },
+    "type": "searchset",
+    "total": 1,
+    "link": [
+        {
+            "relation": "self",
+            "url": "https://fhir.dev.hinq.nl/fhir/Consent?category=http%3A%2F%2Fsnomed.info%2Fsct%7C11291000146105"
+        }
+    ],
+    "entry": [
+        {
+            "fullUrl": "https://fhir.dev.hinq.nl/fhir/Consent/11291000146105-2",
+            "resource": {
+                "resourceType": "Consent",
+                "id": "11291000146105-2",
+                "meta": {
+                    "versionId": "1",
+                    "profile": [
+                        "http://nictiz.nl/fhir/StructureDefinition/zib-TreatmentDirective"
+                    ]
+                },
+                "extension": [
+                    {
+                        "url": "http://nictiz.nl/fhir/StructureDefinition/zib-TreatmentDirective-Verification",
+                        "extension": [
+                            {
+                                "url": "Verified",
+                                "valueBoolean": true
+                            },
+                            {
+                                "url": "VerifiedWith",
+                                "valueCodeableConcept": {
+                                    "coding": [
+                                        {
+                                            "system": "http://snomed.info/sct",
+                                            "code": "116154003",
+                                            "display": "Patiënt"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "url": "VerificationDate",
+                                "valueDateTime": "2022-01-01"
+                            }
+                        ]
+                    },
+                    {
+                        "url": "http://nictiz.nl/fhir/StructureDefinition/zib-TreatmentDirective-Treatment",
+                        "valueCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "89666000",
+                                    "display": "Cardiopulmonaire resuscitatie"
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "modifierExtension": [
+                    {
+                        "url": "http://nictiz.nl/fhir/StructureDefinition/zib-TreatmentDirective-TreatmentPermitted",
+                        "valueCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4",
+                                    "code": "NEE",
+                                    "display": "Behandeling niet toegestaan en/of wenselijk"
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "status": "active",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://snomed.info/sct",
+                                "code": "11291000146105",
+                                "display": "Treatment instructions (record artifact)"
+                            }
+                        ]
+                    }
+                ],
+                "patient": {
+                    "reference": "Patient/201802011495",
+                    "display": "Dhr. / Mevr. DVZA_Mutter, F."
+                },
+                "sourceReference": {
+                    "reference": "Consent/11341000146107-4027f0f1-4996-4662-b302-03d97415d86b",
+                    "display": "Niet reanimeren verklaring"
+                },
+                "policy": [
+                    {
+                        "uri": "http://wetten.overheid.nl/"
+                    }
+                ]
+            }
+        }
+    ]
+}

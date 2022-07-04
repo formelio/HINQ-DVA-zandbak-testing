@@ -1,4 +1,4 @@
-# ECare - Puur
+# ECare - PUUR
 ### Zandbak medmij-id: `hinq.ecare@medmij`
 
 # Available patients:
@@ -29,7 +29,7 @@
 > 404 Not Found (unsupported)
 
 ### CarePlan
-> 200 OK (supported)
+> 200 OK (supported unstructured)
 
 ### CareTeam
 > 200 OK (supported)

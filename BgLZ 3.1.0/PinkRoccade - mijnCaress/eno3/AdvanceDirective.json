@@ -1,0 +1,76 @@
+{
+    "resourceType": "Bundle",
+    "id": "4f38de4b-8673-4ebe-9583-ec069f67bbb0",
+    "meta": {
+        "lastUpdated": "2022-07-04T13:06:26.752+02:00"
+    },
+    "type": "searchset",
+    "total": 1,
+    "link": [
+        {
+            "relation": "self",
+            "url": "https://fhir.dev.hinq.nl/fhir/Consent?category=http%3A%2F%2Fsnomed.info%2Fsct%7C11341000146107"
+        }
+    ],
+    "entry": [
+        {
+            "fullUrl": "https://fhir.dev.hinq.nl/fhir/Consent/11341000146107-4027f0f1-4996-4662-b302-03d97415d86b",
+            "resource": {
+                "resourceType": "Consent",
+                "id": "11341000146107-4027f0f1-4996-4662-b302-03d97415d86b",
+                "meta": {
+                    "versionId": "0",
+                    "profile": [
+                        "http://nictiz.nl/fhir/StructureDefinition/zib-AdvanceDirective"
+                    ]
+                },
+                "status": "active",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://loinc.org",
+                                "code": "59284-0",
+                                "display": "Patient Consent"
+                            }
+                        ]
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.14.1",
+                                "code": "NR",
+                                "display": "Niet reanimeren verklaring"
+                            }
+                        ]
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "http://snomed.info/sct",
+                                "code": "11341000146107",
+                                "display": "levenstestament en wilsverklaring in dossier"
+                            }
+                        ]
+                    }
+                ],
+                "patient": {
+                    "reference": "Patient/201802011495",
+                    "display": "Dhr. / Mevr. DVZA_Mutter, F."
+                },
+                "dateTime": "2022-01-01T00:00:00+01:00",
+                "consentingParty": [
+                    {
+                        "reference": "RelatedPerson/750",
+                        "display": "Prins, R."
+                    }
+                ],
+                "policy": [
+                    {
+                        "uri": "http://wetten.overheid.nl/"
+                    }
+                ]
+            }
+        }
+    ]
+}

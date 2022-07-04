@@ -1,0 +1,492 @@
+{
+    "resourceType": "Bundle",
+    "id": "5d28f5eb-5d61-432d-9ae0-f2eaefc47118",
+    "meta": {
+        "lastUpdated": "2022-07-04T13:07:06.602+02:00"
+    },
+    "type": "searchset",
+    "total": 8,
+    "link": [
+        {
+            "relation": "self",
+            "url": "https://fhir.dev.hinq.nl/fhir/Condition"
+        }
+    ],
+    "entry": [
+        {
+            "fullUrl": "https://fhir.dev.hinq.nl/fhir/Condition/90",
+            "resource": {
+                "resourceType": "Condition",
+                "id": "90",
+                "meta": {
+                    "profile": [
+                        "http://nictiz.nl/fhir/StructureDefinition/zib-Problem"
+                    ]
+                },
+                "clinicalStatus": "active",
+                "_clinicalStatus": {
+                    "extension": [
+                        {
+                            "url": "http://nictiz.nl/fhir/StructureDefinition/code-specification",
+                            "valueCodeableConcept": {
+                                "coding": [
+                                    {
+                                        "system": "http://snomed.info/sct",
+                                        "code": "55561003",
+                                        "display": "Active"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://snomed.info/sct",
+                                "code": "282291009",
+                                "display": "Diagnose"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/icpc-1-nl",
+                            "code": "A69",
+                            "display": "Andere reden voor contact"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/201802011495",
+                    "display": "Dhr. / Mevr. DVZA_Mutter, F."
+                },
+                "onsetDateTime": "2022-01-01",
+                "note": [
+                    {
+                        "text": "Probleem met zichzelf wassen"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://fhir.dev.hinq.nl/fhir/Condition/91",
+            "resource": {
+                "resourceType": "Condition",
+                "id": "91",
+                "meta": {
+                    "profile": [
+                        "http://nictiz.nl/fhir/StructureDefinition/zib-Problem"
+                    ]
+                },
+                "clinicalStatus": "active",
+                "_clinicalStatus": {
+                    "extension": [
+                        {
+                            "url": "http://nictiz.nl/fhir/StructureDefinition/code-specification",
+                            "valueCodeableConcept": {
+                                "coding": [
+                                    {
+                                        "system": "http://snomed.info/sct",
+                                        "code": "55561003",
+                                        "display": "Active"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://snomed.info/sct",
+                                "code": "282291009",
+                                "display": "Diagnose"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/icpc-1-nl",
+                            "code": "A69",
+                            "display": "Andere reden voor contact"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/201802011495",
+                    "display": "Dhr. / Mevr. DVZA_Mutter, F."
+                },
+                "onsetDateTime": "2022-01-01",
+                "note": [
+                    {
+                        "text": "Probleem met zichzelf kleden"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://fhir.dev.hinq.nl/fhir/Condition/92",
+            "resource": {
+                "resourceType": "Condition",
+                "id": "92",
+                "meta": {
+                    "profile": [
+                        "http://nictiz.nl/fhir/StructureDefinition/zib-Problem"
+                    ]
+                },
+                "clinicalStatus": "active",
+                "_clinicalStatus": {
+                    "extension": [
+                        {
+                            "url": "http://nictiz.nl/fhir/StructureDefinition/code-specification",
+                            "valueCodeableConcept": {
+                                "coding": [
+                                    {
+                                        "system": "http://snomed.info/sct",
+                                        "code": "55561003",
+                                        "display": "Active"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://snomed.info/sct",
+                                "code": "282291009",
+                                "display": "Diagnose"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/icpc-1-nl",
+                            "code": "A69",
+                            "display": "Andere reden voor contact"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/201802011495",
+                    "display": "Dhr. / Mevr. DVZA_Mutter, F."
+                },
+                "onsetDateTime": "2022-01-01",
+                "note": [
+                    {
+                        "text": "Probleem met lopen"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://fhir.dev.hinq.nl/fhir/Condition/93",
+            "resource": {
+                "resourceType": "Condition",
+                "id": "93",
+                "meta": {
+                    "profile": [
+                        "http://nictiz.nl/fhir/StructureDefinition/zib-Problem"
+                    ]
+                },
+                "clinicalStatus": "active",
+                "_clinicalStatus": {
+                    "extension": [
+                        {
+                            "url": "http://nictiz.nl/fhir/StructureDefinition/code-specification",
+                            "valueCodeableConcept": {
+                                "coding": [
+                                    {
+                                        "system": "http://snomed.info/sct",
+                                        "code": "55561003",
+                                        "display": "Active"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://snomed.info/sct",
+                                "code": "282291009",
+                                "display": "Diagnose"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/icpc-1-nl",
+                            "code": "A69",
+                            "display": "Andere reden voor contact"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/201802011495",
+                    "display": "Dhr. / Mevr. DVZA_Mutter, F."
+                },
+                "onsetDateTime": "2022-01-01",
+                "note": [
+                    {
+                        "text": "Afasie"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://fhir.dev.hinq.nl/fhir/Condition/94",
+            "resource": {
+                "resourceType": "Condition",
+                "id": "94",
+                "meta": {
+                    "profile": [
+                        "http://nictiz.nl/fhir/StructureDefinition/zib-Problem"
+                    ]
+                },
+                "clinicalStatus": "active",
+                "_clinicalStatus": {
+                    "extension": [
+                        {
+                            "url": "http://nictiz.nl/fhir/StructureDefinition/code-specification",
+                            "valueCodeableConcept": {
+                                "coding": [
+                                    {
+                                        "system": "http://snomed.info/sct",
+                                        "code": "55561003",
+                                        "display": "Active"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://snomed.info/sct",
+                                "code": "282291009",
+                                "display": "Diagnose"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/icpc-1-nl",
+                            "code": "A69",
+                            "display": "Andere reden voor contact"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/201802011495",
+                    "display": "Dhr. / Mevr. DVZA_Mutter, F."
+                },
+                "onsetDateTime": "2022-01-01",
+                "note": [
+                    {
+                        "text": "Overbelaste mantelzorg"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://fhir.dev.hinq.nl/fhir/Condition/95",
+            "resource": {
+                "resourceType": "Condition",
+                "id": "95",
+                "meta": {
+                    "profile": [
+                        "http://nictiz.nl/fhir/StructureDefinition/zib-Problem"
+                    ]
+                },
+                "clinicalStatus": "active",
+                "_clinicalStatus": {
+                    "extension": [
+                        {
+                            "url": "http://nictiz.nl/fhir/StructureDefinition/code-specification",
+                            "valueCodeableConcept": {
+                                "coding": [
+                                    {
+                                        "system": "http://snomed.info/sct",
+                                        "code": "55561003",
+                                        "display": "Active"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://snomed.info/sct",
+                                "code": "282291009",
+                                "display": "Diagnose"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/icpc-1-nl",
+                            "code": "K90",
+                            "display": "Cerebrovasculair accident (CVA)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/201802011495",
+                    "display": "Dhr. / Mevr. DVZA_Mutter, F."
+                },
+                "onsetDateTime": "2022-01-01",
+                "note": [
+                    {
+                        "text": "Ischemisch cerebrovasculair incident"
+                    },
+                    {
+                        "text": "Niet bekend met neurologische klachten "
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://fhir.dev.hinq.nl/fhir/Condition/96",
+            "resource": {
+                "resourceType": "Condition",
+                "id": "96",
+                "meta": {
+                    "profile": [
+                        "http://nictiz.nl/fhir/StructureDefinition/zib-Problem"
+                    ]
+                },
+                "clinicalStatus": "active",
+                "_clinicalStatus": {
+                    "extension": [
+                        {
+                            "url": "http://nictiz.nl/fhir/StructureDefinition/code-specification",
+                            "valueCodeableConcept": {
+                                "coding": [
+                                    {
+                                        "system": "http://snomed.info/sct",
+                                        "code": "55561003",
+                                        "display": "Active"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://snomed.info/sct",
+                                "code": "282291009",
+                                "display": "Diagnose"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/icpc-1-nl",
+                            "code": "S97.02",
+                            "display": "Decubitus"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/201802011495",
+                    "display": "Dhr. / Mevr. DVZA_Mutter, F."
+                },
+                "onsetDateTime": "2022-01-01",
+                "note": [
+                    {
+                        "text": "Risico op decubitus"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://fhir.dev.hinq.nl/fhir/Condition/97",
+            "resource": {
+                "resourceType": "Condition",
+                "id": "97",
+                "meta": {
+                    "profile": [
+                        "http://nictiz.nl/fhir/StructureDefinition/zib-Problem"
+                    ]
+                },
+                "clinicalStatus": "active",
+                "_clinicalStatus": {
+                    "extension": [
+                        {
+                            "url": "http://nictiz.nl/fhir/StructureDefinition/code-specification",
+                            "valueCodeableConcept": {
+                                "coding": [
+                                    {
+                                        "system": "http://snomed.info/sct",
+                                        "code": "55561003",
+                                        "display": "Active"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://snomed.info/sct",
+                                "code": "282291009",
+                                "display": "Diagnose"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/icpc-1-nl",
+                            "code": "T90",
+                            "display": "Diabetes mellitus"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/201802011495",
+                    "display": "Dhr. / Mevr. DVZA_Mutter, F."
+                },
+                "onsetDateTime": "2008-01-01",
+                "note": [
+                    {
+                        "text": "Diabetes mellitus"
+                    }
+                ]
+            }
+        }
+    ]
+}

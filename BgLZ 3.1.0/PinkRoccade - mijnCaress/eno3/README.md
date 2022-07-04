@@ -1,13 +1,13 @@
-# ECare - Puur
-### Zandbak medmij-id: `hinq.ecare@medmij`
+# SDB Groep
+### Zandbak medmij-id: `hinq.sdb@medmij`
 
 # Patient eno3
 ### BSN: 900167312
 ### DigiD testing level: Substantieel
 ### User: eno_test_ext_3
 ### Password: enoPr0v3s!
-# Expected responses
 
+# Expected responses
 
 ### Patient
 > [Response body](Patient.json)
@@ -35,8 +35,3 @@
 
 ### CareTeam
 > [Response body](CareTeam.json)
-
-
-
-
-

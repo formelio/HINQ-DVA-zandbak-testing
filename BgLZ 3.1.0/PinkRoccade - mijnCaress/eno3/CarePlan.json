@@ -1,0 +1,39 @@
+{
+    "resourceType": "Bundle",
+    "id": "2e1d3736-462e-482c-bcb3-4995fa017169",
+    "meta": {
+        "lastUpdated": "2022-07-04T13:09:40.366+02:00"
+    },
+    "type": "searchset",
+    "total": 1,
+    "link": [
+        {
+            "relation": "self",
+            "url": "https://fhir.dev.hinq.nl/fhir/CarePlan?_include=CarePlan%3Aactivity-goal%3AGoal&_include=CarePlan%3Aactivity-outcomereference%3AObservation&_include=CarePlan%3Aactivity-medicaldevice%3ADeviceUseStatement&_include%3Arecurse=DeviceUseStatement%3Adevice%3ADevice"
+        }
+    ],
+    "entry": [
+        {
+            "fullUrl": "https://fhir.dev.hinq.nl/fhir/CarePlan/8aeaba3c-01b2-4288-8ccb-3b75de5d1718",
+            "resource": {
+                "resourceType": "CarePlan",
+                "id": "8aeaba3c-01b2-4288-8ccb-3b75de5d1718",
+                "meta": {
+                    "profile": [
+                        "http://fhir.nl/fhir/StructureDefinition/nl-core-careplan"
+                    ]
+                },
+                "text": {
+                    "status": "additional",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" class=\"plan\"><div class=\"domain\"><div class=\"area\"><span class=\"title\">Woon- en leefomstandigheden - Woonruimte en zich thuis voelen</span><table><thead><tr><th>Zorgvraag</th><th>Doel</th><th>Interventie</th></tr></thead><tbody><tr><td class=\"problem\">Client wil graag wonen in een prettige woonomgeving</td><td class=\"goal\">Schone en comfortabele leefomgeving</td><td class=\"intervention\">Kleding ophangen, tafel afnemen na maaltijd</td></tr></tbody></table></div></div><div class=\"domain\"><div class=\"area\"><span class=\"title\">Mentaal welbevinden - Eigen levensinvulling</span><table><thead><tr><th>Zorgvraag</th><th>Doel</th><th>Interventie</th></tr></thead><tbody><tr><td class=\"problem\">Kerkbezoek</td><td class=\"goal\">Actief liederen meezingen</td><td class=\"intervention\">Articulatie oefeningen</td></tr><tr><td class=\"problem\"/><td class=\"goal\"/><td class=\"intervention\">Inschrijven voor zanggroep</td></tr><tr><td class=\"problem\"/><td class=\"goal\"/><td class=\"intervention\">Opgeven voor gemeenschappelijk vervoer naar Joriskerk op woensdagavonden.</td></tr></tbody></table></div></div><div class=\"domain\"><div class=\"area\"><span class=\"title\">Participatie - Sociaal leven</span><table><thead><tr><th>Zorgvraag</th><th>Doel</th><th>Interventie</th></tr></thead><tbody><tr><td class=\"problem\">Client wil graag contacten met familie en vrienden onderhouden</td><td class=\"goal\">Zelfstandig e-mailen</td><td class=\"intervention\">Deelname cursus computervaardigheden voor ouderen</td></tr><tr><td class=\"problem\"/><td class=\"goal\"/><td class=\"intervention\">Gebruikersnaam/wachtwoord aanvragen</td></tr></tbody></table></div></div><div class=\"domain\"><div class=\"area\"><span class=\"title\">Lichamelijk welbevinden - Voeding</span><table><thead><tr><th>Zorgvraag</th><th>Doel</th><th>Interventie</th></tr></thead><tbody><tr><td class=\"problem\">Client wil niet afvallen</td><td class=\"goal\">Voedingssitatie is optimaal binnen de mogelijkheden</td><td class=\"intervention\">Controle op eten en drinken</td></tr><tr><td class=\"problem\"/><td class=\"goal\"/><td class=\"intervention\">Voldoende eten en drinken aanbieden</td></tr></tbody></table></div><div class=\"area\"><span class=\"title\">Lichamelijk welbevinden - Lichamelijke functies en mogelijkheden</span><table><thead><tr><th>Zorgvraag</th><th>Doel</th><th>Interventie</th></tr></thead><tbody><tr><td class=\"problem\">Met regelmaat wandelen</td><td class=\"goal\">Rechtop lopen, voorkomen stramheid</td><td class=\"intervention\">Dagelijks ommetje in binnentuin</td></tr><tr><td class=\"problem\"/><td class=\"goal\"/><td class=\"intervention\">Loopoefeningen</td></tr><tr><td class=\"problem\"/><td class=\"goal\"/><td class=\"intervention\">Rollator regelen</td></tr></tbody></table></div></div></div>"
+                },
+                "status": "active",
+                "intent": "plan",
+                "subject": {
+                    "reference": "Patient/201802011495",
+                    "display": "DVZA_Mutter, F."
+                }
+            }
+        }
+    ]
+}

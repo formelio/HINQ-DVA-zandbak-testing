@@ -1,5 +1,5 @@
-# SDB Groep
-### Zandbak medmij-id: `hinq.sdb@medmij`
+# PinkRoccade - mijnCaress
+### Zandbak medmij-id: `hinq.pinkroccade@medmij`
 
 # Available patients:
 
@@ -17,7 +17,7 @@
 > 200 OK (supported)
 
 ### Problem
-> 404 Not Found (unsupported)
+> 200 OK (supported)
 
 ### AllergyIntolerance
 > 200 OK (supported)
