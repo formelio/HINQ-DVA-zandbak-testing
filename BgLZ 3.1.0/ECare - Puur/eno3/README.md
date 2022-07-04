@@ -3,21 +3,10 @@
 
 # Patient eno3
 ### BSN: 900167312
-
+### DigiD testing level: Substantieel
+### User: eno_test_ext_3
+### Password: enoPr0v3s!
 # Expected responses
-
-<table> 
-    <tr>
-        <th>ZIB name</th>
-        <th>Expected response</th>
-    </tr>
-    <tr>
-    <td>Patient</td>
-    <td>[Response body](Patient.json)</td>
-    </tr>
-    </table>
-
-    
 
 
 ### Patient
