@@ -1,0 +1,39 @@
+{
+    "resourceType": "Bundle",
+    "id": "b5c05f08-8fc3-4e73-b51a-da84f25e095f",
+    "meta": {
+        "lastUpdated": "2022-08-01T15:14:45.679+02:00"
+    },
+    "type": "searchset",
+    "total": 1,
+    "link": [
+        {
+            "relation": "self",
+            "url": "https://fhir.dev.hinq.nl/fhir/CarePlan?_include=CarePlan%3Aactivity-goal%3AGoal&_include=CarePlan%3Aactivity-outcomereference%3AObservation&_include=CarePlan%3Aactivity-medicaldevice%3ADeviceUseStatement&_include%3Arecurse=DeviceUseStatement%3Adevice%3ADevice&patient=Patient%2FClient.b9e1f9da-472f-4bbe-b33c-6bf614a39339"
+        }
+    ],
+    "entry": [
+        {
+            "fullUrl": "https://fhir.dev.hinq.nl/fhir/CarePlan/TE1002.cp.cp.b9e1f9da-472f-4bbe-b33c-6bf614a39339.1663",
+            "resource": {
+                "resourceType": "CarePlan",
+                "id": "TE1002.cp.cp.b9e1f9da-472f-4bbe-b33c-6bf614a39339.1663",
+                "meta": {
+                    "profile": [
+                        "http://fhir.nl/fhir/StructureDefinition/nl-core-careplan"
+                    ]
+                },
+                "text": {
+                    "status": "additional",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Dit zorgplan is geldig vanaf onbekend tot en met onbekend. <br/><table><thead><tr><th colspan=\"2\">1. Woon- en leefomstandigheden</th></tr></thead><tbody><tr><td>Doelgebied</td><td>probleem met lopen</td></tr><tr><td>Doel</td><td>lopen met hulp</td></tr><tr><td>Acties</td><td>patiënt mobiliseren</td></tr></tbody></table><table><thead><tr><th colspan=\"2\">3. Lichamelijk welbevinden</th></tr></thead><tbody><tr><td>Doelgebied</td><td>Wondbehandeling:Decubitus</td></tr><tr><td>Doel</td><td>huid blijft intact </td></tr><tr><td>Acties</td><td>wisselen van positie van patiënt</td></tr></tbody></table><table><thead><tr><th colspan=\"2\">Activiteit/rust</th></tr></thead><tbody><tr><td>Doelgebied</td><td>probleem met zichzelf kleden</td></tr><tr><td>Doel</td><td>kleden onafhankelijk</td></tr><tr><td>Acties</td><td>ondersteunen bij aankleden</td></tr></tbody></table><table><thead><tr><th colspan=\"2\">Activiteit/rust</th></tr></thead><tbody><tr><td>Doelgebied</td><td>probleem met zichzelf wassen en afdrogen</td></tr><tr><td>Doel</td><td>wassen onafhankelijk</td></tr><tr><td>Acties</td><td>ondersteunen bij wassen en/of persoonlijke hygiëne</td></tr></tbody></table><table><thead><tr><th colspan=\"2\">Rollen-relaties</th></tr></thead><tbody><tr><td>Doelgebied</td><td>Overbelasting van de mantelzorger (00061)</td></tr><tr><td>Doel</td><td>zorgtaken voor echtgenoot worden gecontinueerd</td></tr><tr><td>Acties</td><td>ondersteuning voor verzorger</td></tr></tbody></table></div>"
+                },
+                "status": "draft",
+                "intent": "plan",
+                "subject": {
+                    "reference": "Patient/Client.b9e1f9da-472f-4bbe-b33c-6bf614a39339",
+                    "display": "Fiona XXX_Mutter(Hinq)"
+                }
+            }
+        }
+    ]
+}
