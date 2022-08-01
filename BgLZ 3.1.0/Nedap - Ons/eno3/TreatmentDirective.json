@@ -5,102 +5,11 @@
         "lastUpdated": "2022-08-01T16:30:07.668+02:00"
     },
     "type": "searchset",
-    "total": 1,
+    "total": 0,
     "link": [
         {
             "relation": "self",
             "url": "https://fhir.dev.hinq.nl/fhir/Consent?category=http%3A%2F%2Fsnomed.info%2Fsct%7C11291000146105&patient=Patient%2FClient.b9e1f9da-472f-4bbe-b33c-6bf614a39339"
-        }
-    ],
-    "entry": [
-        {
-            "fullUrl": "https://fhir.dev.hinq.nl/fhir/Consent/Context.4b96f73f-dbe5-4908-9080-a4e8d1f8dbf2.0",
-            "resource": {
-                "resourceType": "Consent",
-                "id": "Context.4b96f73f-dbe5-4908-9080-a4e8d1f8dbf2.0",
-                "meta": {
-                    "profile": [
-                        "http://nictiz.nl/fhir/StructureDefinition/zib-TreatmentDirective"
-                    ]
-                },
-                "extension": [
-                    {
-                        "url": "http://nictiz.nl/fhir/StructureDefinition/zib-TreatmentDirective-Treatment",
-                        "valueCodeableConcept": {
-                            "coding": [
-                                {
-                                    "system": "http://snomed.info/sct",
-                                    "code": "89666000",
-                                    "display": "Cardiopulmonaire resuscitatie"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "url": "http://nictiz.nl/fhir/StructureDefinition/zib-TreatmentDirective-Verification",
-                        "extension": [
-                            {
-                                "url": "Verified",
-                                "valueBoolean": true
-                            },
-                            {
-                                "url": "VerifiedWith",
-                                "valueCodeableConcept": {
-                                    "coding": [
-                                        {
-                                            "system": "http://snomed.info/sct",
-                                            "code": "116154003",
-                                            "display": "Patient"
-                                        }
-                                    ]
-                                }
-                            },
-                            {
-                                "url": "VerificationDate",
-                                "valueDateTime": "2022-05-18"
-                            }
-                        ]
-                    }
-                ],
-                "modifierExtension": [
-                    {
-                        "url": "http://nictiz.nl/fhir/StructureDefinition/zib-TreatmentDirective-TreatmentPermitted",
-                        "valueCodeableConcept": {
-                            "coding": [
-                                {
-                                    "system": "urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4",
-                                    "code": "NEE",
-                                    "display": "Behandeling niet toegestaan en/of wenselijk"
-                                }
-                            ]
-                        }
-                    }
-                ],
-                "status": "active",
-                "category": [
-                    {
-                        "coding": [
-                            {
-                                "system": "http://snomed.info/sct",
-                                "code": "11291000146105",
-                                "display": "Treatment instructions (record artifact)"
-                            }
-                        ]
-                    }
-                ],
-                "patient": {
-                    "reference": "Patient/Client.b9e1f9da-472f-4bbe-b33c-6bf614a39339",
-                    "display": "Fiona XXX_Mutter(Hinq)"
-                },
-                "period": {
-                    "start": "2022-05-18"
-                },
-                "policy": [
-                    {
-                        "uri": "http://wetten.overheid.nl/"
-                    }
-                ]
-            }
         }
     ]
 }
