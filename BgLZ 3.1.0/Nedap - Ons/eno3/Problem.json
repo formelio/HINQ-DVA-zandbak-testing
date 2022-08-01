@@ -1,0 +1,450 @@
+{
+    "resourceType": "Bundle",
+    "id": "3370fecc-db99-47e0-bacd-2d6e31e36705",
+    "meta": {
+        "lastUpdated": "2022-08-01T15:13:21.254+02:00"
+    },
+    "type": "searchset",
+    "total": 8,
+    "link": [
+        {
+            "relation": "self",
+            "url": "https://fhir.dev.hinq.nl/fhir/Condition?patient=Patient%2FClient.b9e1f9da-472f-4bbe-b33c-6bf614a39339"
+        }
+    ],
+    "entry": [
+        {
+            "fullUrl": "https://fhir.dev.hinq.nl/fhir/Condition/TE1002.Problem.374",
+            "resource": {
+                "resourceType": "Condition",
+                "id": "TE1002.Problem.374",
+                "meta": {
+                    "profile": [
+                        "http://nictiz.nl/fhir/StructureDefinition/zib-Problem"
+                    ]
+                },
+                "clinicalStatus": "active",
+                "_clinicalStatus": {
+                    "extension": [
+                        {
+                            "url": "http://nictiz.nl/fhir/StructureDefinition/code-specification",
+                            "valueCodeableConcept": {
+                                "coding": [
+                                    {
+                                        "system": "http://snomed.info/sct",
+                                        "code": "55561003",
+                                        "display": "Active"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "verificationStatus": "confirmed",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://snomed.info/sct",
+                                "code": "282291009",
+                                "display": "Diagnose"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "text": "probleem met zichzelf wassen en afdrogen (288552005)"
+                },
+                "subject": {
+                    "reference": "Patient/Client.b9e1f9da-472f-4bbe-b33c-6bf614a39339",
+                    "display": "Fiona XXX_Mutter(Hinq)"
+                },
+                "onsetDateTime": "2020-11-07"
+            }
+        },
+        {
+            "fullUrl": "https://fhir.dev.hinq.nl/fhir/Condition/TE1002.Problem.385",
+            "resource": {
+                "resourceType": "Condition",
+                "id": "TE1002.Problem.385",
+                "meta": {
+                    "profile": [
+                        "http://nictiz.nl/fhir/StructureDefinition/zib-Problem"
+                    ]
+                },
+                "clinicalStatus": "active",
+                "_clinicalStatus": {
+                    "extension": [
+                        {
+                            "url": "http://nictiz.nl/fhir/StructureDefinition/code-specification",
+                            "valueCodeableConcept": {
+                                "coding": [
+                                    {
+                                        "system": "http://snomed.info/sct",
+                                        "code": "55561003",
+                                        "display": "Active"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "verificationStatus": "confirmed",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://snomed.info/sct",
+                                "code": "282291009",
+                                "display": "Diagnose"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "284972002",
+                            "display": "difficulty performing dressing activity (finding)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/Client.b9e1f9da-472f-4bbe-b33c-6bf614a39339",
+                    "display": "Fiona XXX_Mutter(Hinq)"
+                },
+                "onsetDateTime": "2020-11-07"
+            }
+        },
+        {
+            "fullUrl": "https://fhir.dev.hinq.nl/fhir/Condition/TE1002.Problem.386",
+            "resource": {
+                "resourceType": "Condition",
+                "id": "TE1002.Problem.386",
+                "meta": {
+                    "profile": [
+                        "http://nictiz.nl/fhir/StructureDefinition/zib-Problem"
+                    ]
+                },
+                "clinicalStatus": "active",
+                "_clinicalStatus": {
+                    "extension": [
+                        {
+                            "url": "http://nictiz.nl/fhir/StructureDefinition/code-specification",
+                            "valueCodeableConcept": {
+                                "coding": [
+                                    {
+                                        "system": "http://snomed.info/sct",
+                                        "code": "55561003",
+                                        "display": "Active"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "verificationStatus": "confirmed",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://snomed.info/sct",
+                                "code": "282291009",
+                                "display": "Diagnose"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "228158008",
+                            "display": "difficulty walking"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/Client.b9e1f9da-472f-4bbe-b33c-6bf614a39339",
+                    "display": "Fiona XXX_Mutter(Hinq)"
+                },
+                "onsetDateTime": "2020-11-07"
+            }
+        },
+        {
+            "fullUrl": "https://fhir.dev.hinq.nl/fhir/Condition/TE1002.Problem.387",
+            "resource": {
+                "resourceType": "Condition",
+                "id": "TE1002.Problem.387",
+                "meta": {
+                    "profile": [
+                        "http://nictiz.nl/fhir/StructureDefinition/zib-Problem"
+                    ]
+                },
+                "clinicalStatus": "active",
+                "_clinicalStatus": {
+                    "extension": [
+                        {
+                            "url": "http://nictiz.nl/fhir/StructureDefinition/code-specification",
+                            "valueCodeableConcept": {
+                                "coding": [
+                                    {
+                                        "system": "http://snomed.info/sct",
+                                        "code": "55561003",
+                                        "display": "Active"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "verificationStatus": "confirmed",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://snomed.info/sct",
+                                "code": "282291009",
+                                "display": "Diagnose"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "87486003",
+                            "display": "aphasia"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/Client.b9e1f9da-472f-4bbe-b33c-6bf614a39339",
+                    "display": "Fiona XXX_Mutter(Hinq)"
+                },
+                "onsetDateTime": "2020-11-07"
+            }
+        },
+        {
+            "fullUrl": "https://fhir.dev.hinq.nl/fhir/Condition/TE1002.Problem.388",
+            "resource": {
+                "resourceType": "Condition",
+                "id": "TE1002.Problem.388",
+                "meta": {
+                    "profile": [
+                        "http://nictiz.nl/fhir/StructureDefinition/zib-Problem"
+                    ]
+                },
+                "clinicalStatus": "active",
+                "_clinicalStatus": {
+                    "extension": [
+                        {
+                            "url": "http://nictiz.nl/fhir/StructureDefinition/code-specification",
+                            "valueCodeableConcept": {
+                                "coding": [
+                                    {
+                                        "system": "http://snomed.info/sct",
+                                        "code": "55561003",
+                                        "display": "Active"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "verificationStatus": "confirmed",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://snomed.info/sct",
+                                "code": "282291009",
+                                "display": "Diagnose"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "285304000",
+                            "display": "at risk of pressure ulcer"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/Client.b9e1f9da-472f-4bbe-b33c-6bf614a39339",
+                    "display": "Fiona XXX_Mutter(Hinq)"
+                },
+                "onsetDateTime": "2020-11-07"
+            }
+        },
+        {
+            "fullUrl": "https://fhir.dev.hinq.nl/fhir/Condition/TE1002.Problem.389",
+            "resource": {
+                "resourceType": "Condition",
+                "id": "TE1002.Problem.389",
+                "meta": {
+                    "profile": [
+                        "http://nictiz.nl/fhir/StructureDefinition/zib-Problem"
+                    ]
+                },
+                "clinicalStatus": "active",
+                "_clinicalStatus": {
+                    "extension": [
+                        {
+                            "url": "http://nictiz.nl/fhir/StructureDefinition/code-specification",
+                            "valueCodeableConcept": {
+                                "coding": [
+                                    {
+                                        "system": "http://snomed.info/sct",
+                                        "code": "55561003",
+                                        "display": "Active"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "verificationStatus": "confirmed",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://snomed.info/sct",
+                                "code": "282291009",
+                                "display": "Diagnose"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "text": "overbelaste mantelzorg (705044006)"
+                },
+                "subject": {
+                    "reference": "Patient/Client.b9e1f9da-472f-4bbe-b33c-6bf614a39339",
+                    "display": "Fiona XXX_Mutter(Hinq)"
+                },
+                "onsetDateTime": "2020-11-07"
+            }
+        },
+        {
+            "fullUrl": "https://fhir.dev.hinq.nl/fhir/Condition/TE1002.Problem.390",
+            "resource": {
+                "resourceType": "Condition",
+                "id": "TE1002.Problem.390",
+                "meta": {
+                    "profile": [
+                        "http://nictiz.nl/fhir/StructureDefinition/zib-Problem"
+                    ]
+                },
+                "clinicalStatus": "active",
+                "_clinicalStatus": {
+                    "extension": [
+                        {
+                            "url": "http://nictiz.nl/fhir/StructureDefinition/code-specification",
+                            "valueCodeableConcept": {
+                                "coding": [
+                                    {
+                                        "system": "http://snomed.info/sct",
+                                        "code": "55561003",
+                                        "display": "Active"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "verificationStatus": "confirmed",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://snomed.info/sct",
+                                "code": "282291009",
+                                "display": "Diagnose"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "422504002",
+                            "display": "ischemic stroke"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/Client.b9e1f9da-472f-4bbe-b33c-6bf614a39339",
+                    "display": "Fiona XXX_Mutter(Hinq)"
+                },
+                "onsetDateTime": "2020-11-07",
+                "note": [
+                    {
+                        "text": "Niet bekend met neurologische klachten"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://fhir.dev.hinq.nl/fhir/Condition/TE1002.Problem.391",
+            "resource": {
+                "resourceType": "Condition",
+                "id": "TE1002.Problem.391",
+                "meta": {
+                    "profile": [
+                        "http://nictiz.nl/fhir/StructureDefinition/zib-Problem"
+                    ]
+                },
+                "clinicalStatus": "active",
+                "_clinicalStatus": {
+                    "extension": [
+                        {
+                            "url": "http://nictiz.nl/fhir/StructureDefinition/code-specification",
+                            "valueCodeableConcept": {
+                                "coding": [
+                                    {
+                                        "system": "http://snomed.info/sct",
+                                        "code": "55561003",
+                                        "display": "Active"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "verificationStatus": "confirmed",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://snomed.info/sct",
+                                "code": "282291009",
+                                "display": "Diagnose"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "73211009",
+                            "display": "diabetes mellitus"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/Client.b9e1f9da-472f-4bbe-b33c-6bf614a39339",
+                    "display": "Fiona XXX_Mutter(Hinq)"
+                },
+                "onsetDateTime": "2006-11-07"
+            }
+        }
+    ]
+}
