@@ -1,11 +1,11 @@
-# Nedap - Ons
-### Zandbak medmij-id: `hinq.nedap@medmij`
+# SDB Groep
+### Zandbak medmij-id: `hinq.sdb@medmij`
 
-# Patient eno3
-### BSN: `900167312`
+# Patient hinq_test_3
+### BSN: `900214211`
 ### DigiD testing level: `Substantieel`
-### User: `eno_test_ext_3`
-### Password: `enoPr0v3s!`
+### User: `hinq_test_3`
+### Password: `HINQTest123?`
 
 # Expected responses
 

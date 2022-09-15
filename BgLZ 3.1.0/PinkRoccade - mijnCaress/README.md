@@ -3,7 +3,7 @@
 
 # Available patients:
 
-### [eno3](eno3/)
+### [hinq_test_3](hinq_test_3/)
 
 # Expected response codes
 
