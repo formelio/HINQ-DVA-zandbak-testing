@@ -1,4 +1,4 @@
-# HINQ DVZA zandbak testing
+# HINQ DVA zandbak testing
 
 You can find the expected FHIR responses for various gegevensdiensten + source system combinations
 
