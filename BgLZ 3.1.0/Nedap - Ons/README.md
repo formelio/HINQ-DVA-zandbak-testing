@@ -11,10 +11,10 @@
 > 200 OK (supported)
 
 ### TreatmentDirective
-> 200 OK (supported)
+> 200 OK (unsupported)
 
 ### AdvanceDirective
-> 200 OK (unsupported)
+> 200 OK (supported)
 
 ### Problem
 > 200 OK (supported)
