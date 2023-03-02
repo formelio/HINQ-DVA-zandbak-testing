@@ -1,0 +1,8 @@
+{
+    "resourceType": "OperationOutcome",
+    "issue": [ {
+      "severity": "error",
+      "code": "not-supported",
+      "diagnostics": "The method search for resource endpoint of Procedure resources is not supported"
+    } ]
+  }

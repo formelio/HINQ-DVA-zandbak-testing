@@ -1,0 +1,13 @@
+{
+    "resourceType": "Bundle",
+    "id": "cf147756-7795-47ee-82e0-2605a89174e2",
+    "meta": {
+      "lastUpdated": "2023-03-01T15:34:41.489+01:00"
+    },
+    "type": "searchset",
+    "total": 0,
+    "link": [ {
+      "relation": "self",
+      "url": "https://fhir.acc.hinq.nl/drs/fhir/61/Consent?category=http%3A%2F%2Fsnomed.info%2Fsct%7C11291000146105"
+    } ]
+  }
