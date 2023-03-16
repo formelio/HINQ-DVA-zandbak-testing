@@ -7,7 +7,7 @@
 ## [PinkRoccade - mijnCaress](PinkRoccade%20-%20mijnCaress)
 ## [SDB Groep](SDB%20Groep/)
 
-## Supported requests
+## Supported search requests
 
 ### Patient
 ```
