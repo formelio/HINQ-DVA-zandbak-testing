@@ -1,0 +1,8 @@
+{
+    "resourceType": "OperationOutcome",
+    "issue": [ {
+      "severity": "error",
+      "code": "invalid",
+      "diagnostics": "Invalid request: The FHIR endpoint on this server does not know how to handle GET operation[61/Observation/$lastncategory=http://snomed.info/sct%7C275711006&_include=Observation:related-target&_include=Observation:specimen] with parameters [[]]"
+    } ]
+  }

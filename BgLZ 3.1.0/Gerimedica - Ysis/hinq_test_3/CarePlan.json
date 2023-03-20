@@ -1,0 +1,40 @@
+{
+    "resourceType": "Bundle",
+    "id": "efc0f5ef-85ad-4ffb-b355-d54d8cdb3b6c",
+    "meta": {
+      "lastUpdated": "2023-03-01T15:35:57.250+01:00"
+    },
+    "type": "searchset",
+    "total": 1,
+    "link": [ {
+      "relation": "self",
+      "url": "https://fhir.acc.hinq.nl/drs/fhir/61/CarePlan?_include=CarePlan%3Aactivity-goal%3AGoal&_include=CarePlan%3Aactivity-outcomereference%3AObservation&_include=CarePlan%3Aactivity-medicaldevice%3ADeviceUseStatement&_include%3Arecurse=DeviceUseStatement%3Adevice%3ADevice"
+    } ],
+    "entry": [ {
+      "fullUrl": "https://fhir.acc.hinq.nl/drs/fhir/61/CarePlan/1--57ae48aa-e2ae-4a3f-a7b4-dbd189cfda86",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "1--57ae48aa-e2ae-4a3f-a7b4-dbd189cfda86",
+        "meta": {
+          "profile": [ "http://fhir.nl/fhir/StructureDefinition/nl-core-careplan" ]
+        },
+        "text": {
+          "status": "additional",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div><div>Versie: 1</div><div>Opgesteld door: Milan Krstanovic</div><div>Datum: 2022-11-08T14:24:29Z</div></div><table><thead><tr><th class=\"category\">Categorie</th><th class=\"problem\">Probleem</th><th class=\"goal\">Doel</th><th class=\"action\">Actie</th><th class=\"evaluation\">Evaluatie</th></tr></thead><tbody><tr><td class=\"category\">adl / functioneel</td><td class=\"problem\">probleem met zichzelf kleden\t</td><td class=\"goal\">kleden onafhankelijk\t</td><td class=\"action\">ondersteunen bij aankleden\n2 x per dag\n</td><td class=\"evaluation\">-</td></tr><tr><td class=\"category\">somatisch</td><td class=\"problem\">risico op decubitus\t</td><td class=\"goal\">huid blijft intact\t</td><td class=\"action\">wisselen van positie van patiënt\n</td><td class=\"evaluation\">-</td></tr><tr><td class=\"category\">adl / functioneel</td><td class=\"problem\">probleem met lopen\t</td><td class=\"goal\">lopen met hulp\t</td><td class=\"action\">patiënt mobiliseren\n</td><td class=\"evaluation\">-</td></tr><tr><td class=\"category\">adl / functioneel</td><td class=\"problem\">probleem met zichzelf wassen en afdrogen\t</td><td class=\"goal\">wassen onafhankelijk\t</td><td class=\"action\">ondersteunen bij wassen en/of persoonlijke hygiëne\n1 x per dag\n</td><td class=\"evaluation\">-</td></tr><tr><td class=\"category\">psychisch</td><td class=\"problem\">overbelaste mantelzorg\t</td><td class=\"goal\">zorgtaken voor echtgenoot worden gecontinueerd\t</td><td class=\"action\">ondersteuning voor verzorger\n</td><td class=\"evaluation\">-</td></tr></tbody></table></div>"
+        },
+        "identifier": [ {
+          "system": "https://gm-gateway.acceptatie1.ysis.nl/gm/api/fhir",
+          "value": "1--57ae48aa-e2ae-4a3f-a7b4-dbd189cfda86"
+        } ],
+        "status": "active",
+        "intent": "plan",
+        "subject": {
+          "reference": "Patient/57ae48aa-e2ae-4a3f-a7b4-dbd189cfda86",
+          "display": "Mw. F XXX_Mutter"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    } ]
+  }

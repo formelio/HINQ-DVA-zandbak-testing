@@ -1,0 +1,96 @@
+{
+    "resourceType": "Bundle",
+    "id": "b0fc4711-0c4b-417b-be8f-63f69257a9c4",
+    "meta": {
+      "lastUpdated": "2023-03-01T15:35:21.367+01:00"
+    },
+    "type": "searchset",
+    "total": 2,
+    "link": [ {
+      "relation": "self",
+      "url": "https://fhir.acc.hinq.nl/drs/fhir/61/AllergyIntolerance"
+    } ],
+    "entry": [ {
+      "fullUrl": "https://fhir.acc.hinq.nl/drs/fhir/61/AllergyIntolerance/0c7c0abb-71ca-41d6-86e2-d1d02413c9a6",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "0c7c0abb-71ca-41d6-86e2-d1d02413c9a6",
+        "meta": {
+          "profile": [ "http://nictiz.nl/fhir/StructureDefinition/zib-AllergyIntolerance" ]
+        },
+        "identifier": [ {
+          "system": "https://gm-gateway.acceptatie1.ysis.nl/gm/api/fhir",
+          "value": "0c7c0abb-71ca-41d6-86e2-d1d02413c9a6"
+        } ],
+        "clinicalStatus": "active",
+        "_clinicalStatus": {
+          "extension": [ {
+            "url": "http://nictiz.nl/fhir/StructureDefinition/code-specification",
+            "valueCodeableConcept": {
+              "coding": [ {
+                "system": "http://hl7.org/fhir/v3/ActStatus",
+                "code": "active",
+                "display": "Active"
+              } ]
+            }
+          } ]
+        },
+        "verificationStatus": "confirmed",
+        "code": {
+          "coding": [ {
+            "system": "http://snomed.info/sct",
+            "code": "255848005",
+            "display": "nikkelsulfaat"
+          } ]
+        },
+        "patient": {
+          "reference": "Patient/57ae48aa-e2ae-4a3f-a7b4-dbd189cfda86",
+          "display": "Mw. F XXX_Mutter"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    }, {
+      "fullUrl": "https://fhir.acc.hinq.nl/drs/fhir/61/AllergyIntolerance/fa698b4c-8ee6-4a5e-9352-b3d3b9f17983",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "fa698b4c-8ee6-4a5e-9352-b3d3b9f17983",
+        "meta": {
+          "profile": [ "http://nictiz.nl/fhir/StructureDefinition/zib-AllergyIntolerance" ]
+        },
+        "identifier": [ {
+          "system": "https://gm-gateway.acceptatie1.ysis.nl/gm/api/fhir",
+          "value": "fa698b4c-8ee6-4a5e-9352-b3d3b9f17983"
+        } ],
+        "clinicalStatus": "active",
+        "_clinicalStatus": {
+          "extension": [ {
+            "url": "http://nictiz.nl/fhir/StructureDefinition/code-specification",
+            "valueCodeableConcept": {
+              "coding": [ {
+                "system": "http://hl7.org/fhir/v3/ActStatus",
+                "code": "active",
+                "display": "Active"
+              } ]
+            }
+          } ]
+        },
+        "verificationStatus": "confirmed",
+        "code": {
+          "coding": [ {
+            "system": "http://snomed.info/sct",
+            "code": "762952008",
+            "display": "pinda"
+          } ]
+        },
+        "patient": {
+          "reference": "Patient/57ae48aa-e2ae-4a3f-a7b4-dbd189cfda86",
+          "display": "Mw. F XXX_Mutter"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    } ]
+  }

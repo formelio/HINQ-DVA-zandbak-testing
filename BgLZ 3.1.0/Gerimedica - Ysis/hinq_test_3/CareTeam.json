@@ -1,0 +1,307 @@
+{
+    "resourceType": "Bundle",
+    "id": "3207dc17-ca8f-4e1d-9fca-231cceb6f2a2",
+    "meta": {
+      "lastUpdated": "2023-03-01T15:36:08.937+01:00"
+    },
+    "type": "searchset",
+    "total": 1,
+    "link": [ {
+      "relation": "self",
+      "url": "https://fhir.acc.hinq.nl/drs/fhir/61/CareTeam?_include=CareTeam%3Aparticipant"
+    } ],
+    "entry": [ {
+      "fullUrl": "https://fhir.acc.hinq.nl/drs/fhir/61/CareTeam/57ae48aa-e2ae-4a3f-a7b4-dbd189cfda86",
+      "resource": {
+        "resourceType": "CareTeam",
+        "id": "57ae48aa-e2ae-4a3f-a7b4-dbd189cfda86",
+        "meta": {
+          "profile": [ "http://fhir.nl/fhir/StructureDefinition/nl-core-careteam" ]
+        },
+        "identifier": [ {
+          "system": "https://gm-gateway.acceptatie1.ysis.nl/gm/api/fhir",
+          "value": "57ae48aa-e2ae-4a3f-a7b4-dbd189cfda86"
+        } ],
+        "status": "active",
+        "subject": {
+          "reference": "Patient/57ae48aa-e2ae-4a3f-a7b4-dbd189cfda86",
+          "display": "Fiona F XXX_Mutter"
+        },
+        "participant": [ {
+          "role": {
+            "coding": [ {
+              "system": "urn:oid:2.16.840.1.113883.2.4.6.7",
+              "code": "8400",
+              "display": "Medisch"
+            } ]
+          },
+          "member": {
+            "reference": "Practitioner/2f9ef799-93e5-4f37-9460-ee0b0b7ea9bc",
+            "display": "Zorgverlener N Helmond"
+          }
+        }, {
+          "role": {
+            "coding": [ {
+              "system": "urn:oid:2.16.840.1.113883.2.4.6.7",
+              "code": "9100",
+              "display": "Verpleegkunde"
+            } ]
+          },
+          "member": {
+            "reference": "Practitioner/0b3b8fa3-d2df-49bc-a451-8ed7c87b2f7a",
+            "display": "Zorgverlener Petra Johanna Vreeswijk"
+          }
+        }, {
+          "role": {
+            "coding": [ {
+              "system": "urn:oid:2.16.840.1.113883.2.4.6.7",
+              "code": "0400",
+              "display": "Fysiotherapie"
+            } ]
+          },
+          "member": {
+            "reference": "Practitioner/becee930-2990-4c15-a8a6-68f99c70bb36",
+            "display": "Zorgverlener T Janssen"
+          }
+        }, {
+          "role": {
+            "coding": [ {
+              "system": "urn:oid:2.16.840.1.113883.2.4.6.7",
+              "code": "0500",
+              "display": "Logopedie"
+            } ]
+          },
+          "member": {
+            "reference": "Practitioner/de387be7-7ad4-4163-81e4-ef3039275abe",
+            "display": "Zorgverlener H Bruinsma"
+          }
+        } ],
+        "managingOrganization": [ {
+          "reference": "Organization/aae45fb0-f9e5-4eaf-b529-43a9ef2d953e"
+        } ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    }, {
+      "fullUrl": "https://fhir.acc.hinq.nl/drs/fhir/61/Practitioner/de387be7-7ad4-4163-81e4-ef3039275abe",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "de387be7-7ad4-4163-81e4-ef3039275abe",
+        "meta": {
+          "profile": [ "http://fhir.nl/fhir/StructureDefinition/nl-core-practitioner" ]
+        },
+        "identifier": [ {
+          "system": "https://gm-gateway.acceptatie1.ysis.nl/gm/api/fhir",
+          "value": "de387be7-7ad4-4163-81e4-ef3039275abe"
+        } ],
+        "name": [ {
+          "extension": [ {
+            "url": "http://hl7.org/fhir/StructureDefinition/humanname-assembly-order",
+            "valueCode": "NL1"
+          } ],
+          "use": "official",
+          "family": "Bruinsma",
+          "_family": {
+            "extension": [ {
+              "url": "http://hl7.org/fhir/StructureDefinition/humanname-own-name",
+              "valueString": "Bruinsma"
+            } ]
+          },
+          "given": [ "Hilda", "H" ],
+          "_given": [ {
+            "extension": [ {
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier",
+              "valueCode": "BR"
+            } ]
+          }, {
+            "extension": [ {
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier",
+              "valueCode": "IN"
+            } ]
+          } ]
+        } ],
+        "gender": "female",
+        "_gender": {
+          "extension": [ {
+            "url": "http://nictiz.nl/fhir/StructureDefinition/code-specification",
+            "valueCodeableConcept": {
+              "coding": [ {
+                "system": "urn:oid:2.16.840.1.113883.4.642.1.973",
+                "code": "F",
+                "display": "Vrouw"
+              } ]
+            }
+          } ]
+        }
+      },
+      "search": {
+        "mode": "include"
+      }
+    }, {
+      "fullUrl": "https://fhir.acc.hinq.nl/drs/fhir/61/Practitioner/2f9ef799-93e5-4f37-9460-ee0b0b7ea9bc",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "2f9ef799-93e5-4f37-9460-ee0b0b7ea9bc",
+        "meta": {
+          "profile": [ "http://fhir.nl/fhir/StructureDefinition/nl-core-practitioner" ]
+        },
+        "identifier": [ {
+          "system": "https://gm-gateway.acceptatie1.ysis.nl/gm/api/fhir",
+          "value": "2f9ef799-93e5-4f37-9460-ee0b0b7ea9bc"
+        } ],
+        "name": [ {
+          "extension": [ {
+            "url": "http://hl7.org/fhir/StructureDefinition/humanname-assembly-order",
+            "valueCode": "NL1"
+          } ],
+          "use": "official",
+          "family": "Helmond",
+          "_family": {
+            "extension": [ {
+              "url": "http://hl7.org/fhir/StructureDefinition/humanname-own-name",
+              "valueString": "Helmond"
+            } ]
+          },
+          "given": [ "Niels", "N" ],
+          "_given": [ {
+            "extension": [ {
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier",
+              "valueCode": "BR"
+            } ]
+          }, {
+            "extension": [ {
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier",
+              "valueCode": "IN"
+            } ]
+          } ]
+        } ],
+        "gender": "male",
+        "_gender": {
+          "extension": [ {
+            "url": "http://nictiz.nl/fhir/StructureDefinition/code-specification",
+            "valueCodeableConcept": {
+              "coding": [ {
+                "system": "urn:oid:2.16.840.1.113883.4.642.1.973",
+                "code": "M",
+                "display": "Man"
+              } ]
+            }
+          } ]
+        }
+      },
+      "search": {
+        "mode": "include"
+      }
+    }, {
+      "fullUrl": "https://fhir.acc.hinq.nl/drs/fhir/61/Practitioner/becee930-2990-4c15-a8a6-68f99c70bb36",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "becee930-2990-4c15-a8a6-68f99c70bb36",
+        "meta": {
+          "profile": [ "http://fhir.nl/fhir/StructureDefinition/nl-core-practitioner" ]
+        },
+        "identifier": [ {
+          "system": "https://gm-gateway.acceptatie1.ysis.nl/gm/api/fhir",
+          "value": "becee930-2990-4c15-a8a6-68f99c70bb36"
+        } ],
+        "name": [ {
+          "extension": [ {
+            "url": "http://hl7.org/fhir/StructureDefinition/humanname-assembly-order",
+            "valueCode": "NL1"
+          } ],
+          "use": "official",
+          "family": "Janssen",
+          "_family": {
+            "extension": [ {
+              "url": "http://hl7.org/fhir/StructureDefinition/humanname-own-name",
+              "valueString": "Janssen"
+            } ]
+          },
+          "given": [ "Thomas", "T" ],
+          "_given": [ {
+            "extension": [ {
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier",
+              "valueCode": "BR"
+            } ]
+          }, {
+            "extension": [ {
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier",
+              "valueCode": "IN"
+            } ]
+          } ]
+        } ],
+        "gender": "male",
+        "_gender": {
+          "extension": [ {
+            "url": "http://nictiz.nl/fhir/StructureDefinition/code-specification",
+            "valueCodeableConcept": {
+              "coding": [ {
+                "system": "urn:oid:2.16.840.1.113883.4.642.1.973",
+                "code": "M",
+                "display": "Man"
+              } ]
+            }
+          } ]
+        }
+      },
+      "search": {
+        "mode": "include"
+      }
+    }, {
+      "fullUrl": "https://fhir.acc.hinq.nl/drs/fhir/61/Practitioner/0b3b8fa3-d2df-49bc-a451-8ed7c87b2f7a",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "0b3b8fa3-d2df-49bc-a451-8ed7c87b2f7a",
+        "meta": {
+          "profile": [ "http://fhir.nl/fhir/StructureDefinition/nl-core-practitioner" ]
+        },
+        "identifier": [ {
+          "system": "https://gm-gateway.acceptatie1.ysis.nl/gm/api/fhir",
+          "value": "0b3b8fa3-d2df-49bc-a451-8ed7c87b2f7a"
+        } ],
+        "name": [ {
+          "extension": [ {
+            "url": "http://hl7.org/fhir/StructureDefinition/humanname-assembly-order",
+            "valueCode": "NL1"
+          } ],
+          "use": "official",
+          "family": "Vreeswijk",
+          "_family": {
+            "extension": [ {
+              "url": "http://hl7.org/fhir/StructureDefinition/humanname-own-name",
+              "valueString": "Vreeswijk"
+            } ]
+          },
+          "given": [ "Petra Johanna", "P.J." ],
+          "_given": [ {
+            "extension": [ {
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier",
+              "valueCode": "BR"
+            } ]
+          }, {
+            "extension": [ {
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier",
+              "valueCode": "IN"
+            } ]
+          } ]
+        } ],
+        "gender": "female",
+        "_gender": {
+          "extension": [ {
+            "url": "http://nictiz.nl/fhir/StructureDefinition/code-specification",
+            "valueCodeableConcept": {
+              "coding": [ {
+                "system": "urn:oid:2.16.840.1.113883.4.642.1.973",
+                "code": "F",
+                "display": "Vrouw"
+              } ]
+            }
+          } ]
+        }
+      },
+      "search": {
+        "mode": "include"
+      }
+    } ]
+  }

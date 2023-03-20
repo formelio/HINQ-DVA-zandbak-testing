@@ -1,0 +1,262 @@
+{
+    "resourceType": "Bundle",
+    "id": "2a56d896-2bfe-48e2-b63a-8a47cb112bdb",
+    "meta": {
+      "lastUpdated": "2023-03-01T15:34:10.749+01:00"
+    },
+    "type": "searchset",
+    "total": 1,
+    "link": [ {
+      "relation": "self",
+      "url": "https://fhir.acc.hinq.nl/drs/fhir/61/Patient?_include=Patient%3Ageneral-practitioner"
+    } ],
+    "entry": [ {
+      "fullUrl": "https://fhir.acc.hinq.nl/drs/fhir/61/Patient/57ae48aa-e2ae-4a3f-a7b4-dbd189cfda86",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "57ae48aa-e2ae-4a3f-a7b4-dbd189cfda86",
+        "meta": {
+          "profile": [ "http://fhir.nl/fhir/StructureDefinition/nl-core-patient" ]
+        },
+        "identifier": [ {
+          "system": "https://gm-gateway.acceptatie1.ysis.nl/gm/api/fhir",
+          "value": "57ae48aa-e2ae-4a3f-a7b4-dbd189cfda86"
+        } ],
+        "active": true,
+        "name": [ {
+          "extension": [ {
+            "url": "http://hl7.org/fhir/StructureDefinition/humanname-assembly-order",
+            "valueCode": "NL1"
+          } ],
+          "use": "official",
+          "family": "XXX_Mutter",
+          "_family": {
+            "extension": [ {
+              "url": "http://hl7.org/fhir/StructureDefinition/humanname-own-name",
+              "valueString": "XXX_Mutter"
+            } ]
+          },
+          "given": [ "Fiona", "F" ],
+          "_given": [ {
+            "extension": [ {
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier",
+              "valueCode": "BR"
+            } ]
+          }, {
+            "extension": [ {
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier",
+              "valueCode": "IN"
+            } ]
+          } ]
+        } ],
+        "telecom": [ {
+          "system": "email",
+          "value": "fmutter@hotmail.com",
+          "use": "home",
+          "rank": 4
+        }, {
+          "extension": [ {
+            "url": "http://nictiz.nl/fhir/StructureDefinition/zib-ContactInformation-TelecomType",
+            "valueCodeableConcept": {
+              "coding": [ {
+                "system": "http://hl7.org/fhir/v3/AddressUse",
+                "code": "MC",
+                "display": "Mobiel telefoonnummer"
+              } ]
+            }
+          } ],
+          "system": "phone",
+          "value": "31634567891",
+          "use": "mobile",
+          "rank": 3
+        } ],
+        "gender": "female",
+        "_gender": {
+          "extension": [ {
+            "url": "http://nictiz.nl/fhir/StructureDefinition/code-specification",
+            "valueCodeableConcept": {
+              "coding": [ {
+                "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+                "code": "F",
+                "display": "Vrouw"
+              } ]
+            }
+          } ]
+        },
+        "birthDate": "1964-02-08",
+        "address": [ {
+          "extension": [ {
+            "url": "http://fhir.nl/fhir/StructureDefinition/nl-core-address-official",
+            "valueBoolean": true
+          }, {
+            "url": "http://nictiz.nl/fhir/StructureDefinition/zib-AddressInformation-AddressType",
+            "valueCodeableConcept": {
+              "coding": [ {
+                "system": "http://hl7.org/fhir/v3/AddressUse",
+                "code": "PST",
+                "display": "Postadres"
+              } ]
+            }
+          } ],
+          "use": "home",
+          "line": [ "Knolweg 1001" ],
+          "_line": [ {
+            "extension": [ {
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName",
+              "valueString": "Knolweg"
+            }, {
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber",
+              "valueString": "1001"
+            } ]
+          } ],
+          "city": "Stitswerd",
+          "postalCode": "9999XX",
+          "country": "NL",
+          "_country": {
+            "extension": [ {
+              "url": "http://nictiz.nl/fhir/StructureDefinition/code-specification",
+              "valueCodeableConcept": {
+                "coding": [ {
+                  "system": "urn:oid:1.0.3166.1.2.2",
+                  "code": "NL",
+                  "display": "NEDERLAND"
+                } ]
+              }
+            }, {
+              "url": "http://nictiz.nl/fhir/StructureDefinition/code-specification",
+              "valueCodeableConcept": {
+                "coding": [ {
+                  "system": "urn:iso:std:iso:3166",
+                  "code": "NLD",
+                  "display": "Nederland"
+                } ]
+              }
+            } ]
+          }
+        } ],
+        "maritalStatus": {
+          "coding": [ {
+            "system": "http://hl7.org/fhir/v3/MaritalStatus",
+            "code": "U",
+            "display": "unmarried"
+          } ],
+          "text": "unmarried"
+        },
+        "contact": [ {
+          "id": "57ae48aa-e2ae-4a3f-a7b4-dbd189cfda86#6a23aab5-2f25-4099-9d0f-0e9f2d365baf",
+          "relationship": [ {
+            "coding": [ {
+              "system": "http://hl7.org/fhir/v3/RoleCode",
+              "code": "SONC",
+              "display": "Zoon"
+            } ]
+          }, {
+            "coding": [ {
+              "system": "urn:oid:2.16.840.1.113883.2.4.3.11.22.472",
+              "code": "1",
+              "display": "Eerste relatie/contactpersoon"
+            } ]
+          } ],
+          "name": {
+            "extension": [ {
+              "url": "http://hl7.org/fhir/StructureDefinition/humanname-assembly-order",
+              "valueCode": "NL1"
+            } ],
+            "use": "official",
+            "family": "Prins",
+            "_family": {
+              "extension": [ {
+                "url": "http://hl7.org/fhir/StructureDefinition/humanname-own-name",
+                "valueString": "Prins"
+              } ]
+            },
+            "given": [ "Robert", "R" ],
+            "_given": [ {
+              "extension": [ {
+                "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier",
+                "valueCode": "BR"
+              } ]
+            }, {
+              "extension": [ {
+                "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier",
+                "valueCode": "IN"
+              } ]
+            } ]
+          },
+          "telecom": [ {
+            "system": "email",
+            "value": "bprins@123net.nl",
+            "use": "home",
+            "rank": 4
+          }, {
+            "extension": [ {
+              "url": "http://nictiz.nl/fhir/StructureDefinition/zib-ContactInformation-TelecomType",
+              "valueCodeableConcept": {
+                "coding": [ {
+                  "system": "http://hl7.org/fhir/v3/AddressUse",
+                  "code": "MC",
+                  "display": "Mobiel telefoonnummer"
+                } ]
+              }
+            } ],
+            "system": "phone",
+            "value": "0634567891",
+            "use": "mobile",
+            "rank": 3
+          } ]
+        } ],
+        "generalPractitioner": [ {
+          "reference": "Practitioner/GP-45ed9dbb-0854-4e74-b4a1-70fb4f912d97",
+          "display": "Practitioner van Lanen"
+        } ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    }, {
+      "fullUrl": "https://fhir.acc.hinq.nl/drs/fhir/61/Practitioner/GP-45ed9dbb-0854-4e74-b4a1-70fb4f912d97",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "GP-45ed9dbb-0854-4e74-b4a1-70fb4f912d97",
+        "meta": {
+          "profile": [ "http://fhir.nl/fhir/StructureDefinition/nl-core-practitioner" ]
+        },
+        "identifier": [ {
+          "use": "official",
+          "system": "http://fhir.nl/fhir/NamingSystem/agb-z",
+          "value": "03101248"
+        }, {
+          "system": "https://gm-gateway.acceptatie1.ysis.nl/gm/api/fhir",
+          "value": "GP-45ed9dbb-0854-4e74-b4a1-70fb4f912d97"
+        } ],
+        "name": [ {
+          "extension": [ {
+            "url": "http://hl7.org/fhir/StructureDefinition/humanname-assembly-order",
+            "valueCode": "NL1"
+          } ],
+          "use": "official",
+          "family": "van Lanen",
+          "_family": {
+            "extension": [ {
+              "url": "http://hl7.org/fhir/StructureDefinition/humanname-own-prefix",
+              "valueString": "van"
+            }, {
+              "url": "http://hl7.org/fhir/StructureDefinition/humanname-own-name",
+              "valueString": "Lanen"
+            } ]
+          },
+          "given": [ "MGJA" ],
+          "_given": [ {
+            "extension": [ {
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier",
+              "valueCode": "IN"
+            } ]
+          } ],
+          "prefix": [ "van" ]
+        } ]
+      },
+      "search": {
+        "mode": "include"
+      }
+    } ]
+  }

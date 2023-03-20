@@ -1,0 +1,53 @@
+{
+    "resourceType": "Bundle",
+    "id": "6a4bfb9d-40f7-4e8e-8ade-6d961e7df40c",
+    "meta": {
+      "lastUpdated": "2023-03-01T15:34:56.863+01:00"
+    },
+    "type": "searchset",
+    "total": 1,
+    "link": [ {
+      "relation": "self",
+      "url": "https://fhir.acc.hinq.nl/drs/fhir/61/Consent?category=http%3A%2F%2Fsnomed.info%2Fsct%7C11341000146107"
+    } ],
+    "entry": [ {
+      "fullUrl": "https://fhir.acc.hinq.nl/drs/fhir/61/Consent/DIRECTIVES--57ae48aa-e2ae-4a3f-a7b4-dbd189cfda86",
+      "resource": {
+        "resourceType": "Consent",
+        "id": "DIRECTIVES--57ae48aa-e2ae-4a3f-a7b4-dbd189cfda86",
+        "meta": {
+          "profile": [ "http://nictiz.nl/fhir/StructureDefinition/zib-AdvanceDirective" ]
+        },
+        "identifier": {
+          "system": "https://gm-gateway.acceptatie1.ysis.nl/gm/api/fhir",
+          "value": "DIRECTIVES--57ae48aa-e2ae-4a3f-a7b4-dbd189cfda86"
+        },
+        "status": "active",
+        "category": [ {
+          "coding": [ {
+            "system": "urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.14.1",
+            "code": "NR",
+            "display": "Niet reanimeren verklaring"
+          } ]
+        }, {
+          "coding": [ {
+            "system": "http://snomed.info/sct",
+            "code": "11341000146107",
+            "display": "Living will and advance directive record (record artifact)"
+          } ]
+        } ],
+        "patient": {
+          "reference": "Patient/57ae48aa-e2ae-4a3f-a7b4-dbd189cfda86",
+          "display": "Mw. F XXX_Mutter"
+        },
+        "dateTime": "2022-04-01",
+        "policy": [ {
+          "uri": "http://wetten.overheid.nl/"
+        } ],
+        "policyRule": "curatief"
+      },
+      "search": {
+        "mode": "match"
+      }
+    } ]
+  }

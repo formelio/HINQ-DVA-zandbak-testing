@@ -1,0 +1,140 @@
+{
+    "resourceType": "Bundle",
+    "id": "c34e1df5-a8ba-4bc9-8a04-1bb94b966ae7",
+    "meta": {
+      "lastUpdated": "2023-03-01T15:35:10.425+01:00"
+    },
+    "type": "searchset",
+    "total": 3,
+    "link": [ {
+      "relation": "self",
+      "url": "https://fhir.acc.hinq.nl/drs/fhir/61/Condition"
+    } ],
+    "entry": [ {
+      "fullUrl": "https://fhir.acc.hinq.nl/drs/fhir/61/Condition/59362236-9b9d-45f0-9186-fcf6fef77090",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "59362236-9b9d-45f0-9186-fcf6fef77090",
+        "meta": {
+          "profile": [ "http://nictiz.nl/fhir/StructureDefinition/zib-Problem" ]
+        },
+        "identifier": [ {
+          "system": "https://gm-gateway.acceptatie1.ysis.nl/gm/api/fhir",
+          "value": "59362236-9b9d-45f0-9186-fcf6fef77090"
+        } ],
+        "clinicalStatus": "inactive",
+        "_clinicalStatus": {
+          "extension": [ {
+            "url": "http://nictiz.nl/fhir/StructureDefinition/code-specification",
+            "valueCodeableConcept": {
+              "coding": [ {
+                "system": "http://snomed.info/sct",
+                "code": "73425007",
+                "display": "Niet actueel"
+              } ]
+            }
+          } ]
+        },
+        "code": {
+          "coding": [ {
+            "system": "http://snomed.info/sct",
+            "code": "422504002",
+            "display": "ischemisch cerebrovasculair accident"
+          } ]
+        },
+        "subject": {
+          "reference": "Patient/57ae48aa-e2ae-4a3f-a7b4-dbd189cfda86",
+          "display": "Mw. F XXX_Mutter"
+        },
+        "onsetDateTime": "2022-04-01",
+        "note": [ {
+          "text": "Niet bekend met neurologische klachten"
+        } ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    }, {
+      "fullUrl": "https://fhir.acc.hinq.nl/drs/fhir/61/Condition/6ef655c3-d27b-414a-832b-082be4d045eb",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "6ef655c3-d27b-414a-832b-082be4d045eb",
+        "meta": {
+          "profile": [ "http://nictiz.nl/fhir/StructureDefinition/zib-Problem" ]
+        },
+        "identifier": [ {
+          "system": "https://gm-gateway.acceptatie1.ysis.nl/gm/api/fhir",
+          "value": "6ef655c3-d27b-414a-832b-082be4d045eb"
+        } ],
+        "clinicalStatus": "inactive",
+        "_clinicalStatus": {
+          "extension": [ {
+            "url": "http://nictiz.nl/fhir/StructureDefinition/code-specification",
+            "valueCodeableConcept": {
+              "coding": [ {
+                "system": "http://snomed.info/sct",
+                "code": "73425007",
+                "display": "Niet actueel"
+              } ]
+            }
+          } ]
+        },
+        "code": {
+          "coding": [ {
+            "system": "http://snomed.info/sct",
+            "code": "87486003",
+            "display": "afasie"
+          } ]
+        },
+        "subject": {
+          "reference": "Patient/57ae48aa-e2ae-4a3f-a7b4-dbd189cfda86",
+          "display": "Mw. F XXX_Mutter"
+        },
+        "onsetDateTime": "2022-04-01"
+      },
+      "search": {
+        "mode": "match"
+      }
+    }, {
+      "fullUrl": "https://fhir.acc.hinq.nl/drs/fhir/61/Condition/f4badb03-6ec6-4d6a-988d-7e09e56e58ff",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "f4badb03-6ec6-4d6a-988d-7e09e56e58ff",
+        "meta": {
+          "profile": [ "http://nictiz.nl/fhir/StructureDefinition/zib-Problem" ]
+        },
+        "identifier": [ {
+          "system": "https://gm-gateway.acceptatie1.ysis.nl/gm/api/fhir",
+          "value": "f4badb03-6ec6-4d6a-988d-7e09e56e58ff"
+        } ],
+        "clinicalStatus": "inactive",
+        "_clinicalStatus": {
+          "extension": [ {
+            "url": "http://nictiz.nl/fhir/StructureDefinition/code-specification",
+            "valueCodeableConcept": {
+              "coding": [ {
+                "system": "http://snomed.info/sct",
+                "code": "73425007",
+                "display": "Niet actueel"
+              } ]
+            }
+          } ]
+        },
+        "code": {
+          "coding": [ {
+            "system": "http://snomed.info/sct",
+            "code": "73211009",
+            "display": "diabetes mellitus"
+          } ]
+        },
+        "subject": {
+          "reference": "Patient/57ae48aa-e2ae-4a3f-a7b4-dbd189cfda86",
+          "display": "Mw. F XXX_Mutter"
+        },
+        "onsetDateTime": "2008-04-01"
+      },
+      "search": {
+        "mode": "match"
+      }
+    } ]
+  }
