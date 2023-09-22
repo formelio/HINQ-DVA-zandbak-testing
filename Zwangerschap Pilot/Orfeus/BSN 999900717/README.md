@@ -16,27 +16,22 @@
 > [Response body](EpisodeOfCare.json)
 
 ### Condition
-> Previous pregnancy - [Response body](AdvanceDirective.json)
-
-### Problem
-> [Response body](Problem.json)
-
-### AllergyIntolerance
-> [Response body](AllergyIntolerance.json)
-
-### LaboratoryTestResult
-> [Response body](LaboratoryTestResult.json)
+> Previous pregnancy - [Response body](Condition_active-pregnancy.json)
+> Active pregnancy - [Response body](Condition_previous-pregnancy.json)
 
 ### Procedure
-> [Response body](Procedure.json)
+> Previous pregnancy - [Response body](Procedure_active-pregnancy.json)
+> Active pregnancy - [Response body](Procedure_previous-pregnancy.json)
 
-### CarePlan
-> [Response body](CarePlan.json)
+### Encounter
+> Previous pregnancy - [Response body](Encounter_active-pregnancy.json)
+> Active pregnancy - [Response body](Encounter_previous-pregnancy.json)
 
-### CareTeam
-> [Response body](CareTeam.json)
+### Observation (context EoC)
+> Previous pregnancy - [Response body](Observation_EoC_active-pregnancy.json)
+> Active pregnancy - [Response body](Observation_EoC_previous-pregnancy.json)
 
-
-
-
+### Observation (context Encounter)
+> Previous pregnancy - [Response body](Observation_encounter_active-pregnancy.json)
+> Active pregnancy - [Response body](Observation_encounter_previous-pregnancy.json)
 
