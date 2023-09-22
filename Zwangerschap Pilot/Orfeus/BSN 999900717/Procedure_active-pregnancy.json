@@ -1,0 +1,159 @@
+{
+  "resourceType": "Bundle",
+  "id": "ee792d25-9510-4ed1-a869-0ffa7a60d113",
+  "meta": {
+    "lastUpdated": "2023-09-22T15:09:54.015+02:00"
+  },
+  "type": "searchset",
+  "total": 3,
+  "link": [ {
+    "relation": "self",
+    "url": "https://fhir.acc.hinq.nl/drs/fhir/64/Procedure?_include=Procedure%3Aperformer&_include=Procedure%3Abased-on&context=EpisodeOfCare%2F2bbac531-6e3f-4bfa-9aae-4a59e97a6f93"
+  } ],
+  "entry": [ {
+    "fullUrl": "https://fhir.acc.hinq.nl/drs/fhir/64/Procedure/4fb5c19c-2352-41da-b0c3-18d7c0a0ca74",
+    "resource": {
+      "resourceType": "Procedure",
+      "id": "4fb5c19c-2352-41da-b0c3-18d7c0a0ca74",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-22T06:19:55.28+00:00",
+        "profile": [ "http://nictiz.nl/fhir/StructureDefinition/bc-DeliveryProcedure" ]
+      },
+      "identifier": [ {
+        "use": "secondary",
+        "system": "http://zwc.nl/LocalIdentifierSystem/Procedure",
+        "value": "220002-236973005"
+      } ],
+      "status": "completed",
+      "category": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "386637004",
+          "display": "Obstetric procedure (procedure)"
+        } ]
+      },
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "236973005",
+          "display": "verlossing (verrichting)"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/e8a08c8e-3a23-423a-9325-6e261c0f0ca5",
+        "display": "Woman: XXX_Kooij Hanna"
+      },
+      "context": {
+        "reference": "EpisodeOfCare/2bbac531-6e3f-4bfa-9aae-4a59e97a6f93",
+        "display": "EpisodeOfCare: 1833-220002"
+      },
+      "reasonReference": [ {
+        "reference": "Condition/24e51ce2-f9ae-45c5-a9e8-d16db3f10865",
+        "display": "Pregnancy: XXX_Kooij Hanna"
+      } ]
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "https://fhir.acc.hinq.nl/drs/fhir/64/Procedure/a0fe2a8a-b438-48fe-b868-891e1f43e728",
+    "resource": {
+      "resourceType": "Procedure",
+      "id": "a0fe2a8a-b438-48fe-b868-891e1f43e728",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-22T06:19:55.342+00:00",
+        "profile": [ "http://nictiz.nl/fhir/StructureDefinition/zib-Procedure" ]
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h1>Verrichting</h1><table><thead><tr><th>Verrichting startdatum</th><th>Verrichting einddatum</th><th>Verrichting anatomische locatie</th><th>Verrichting lateraliteit</th><th>Verrichtingtype</th><th>Verrichtingmethode</th></tr></thead><tbody><tr><td></td><td></td><td></td><td></td><td>laboratoriumonderzoek (verrichting)</td><td></td></tr></tbody></table><table><thead><tr><th><b>Indicatie</b></th></tr></thead><tbody><tr><td>Probleemnaam</td><td></td></tr></tbody></table><table><thead><tr><th><b>Medisch hulpmiddel</b></th></tr></thead><tbody><tr><td>Producttype</td><td></td></tr></tbody></table><table><thead><tr><th><b>Locatie</b></th></tr></thead><tbody><tr><td>Organisatienaam</td><td></td></tr></tbody></table><table><thead><tr><th><b>Uitvoerder</b></th></tr></thead><tbody><tr><td>Specialisme</td><td></td></tr></tbody></table></div>"
+      },
+      "identifier": [ {
+        "use": "secondary",
+        "system": "http://zwc.nl/LocalIdentifierSystem/Procedure",
+        "value": "220002-[a0c47c33-f27d-4d36-bef7-a239824ad46f]-[a0a49ce4-ff04-4d74-9030-a7166faba97d]"
+      } ],
+      "status": "completed",
+      "category": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "15220000",
+          "display": "laboratoriumonderzoek (verrichting)"
+        } ]
+      },
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "display": "laboratoriumonderzoek (verrichting)"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/e8a08c8e-3a23-423a-9325-6e261c0f0ca5",
+        "display": "Woman: XXX_Kooij Hanna"
+      },
+      "context": {
+        "reference": "EpisodeOfCare/2bbac531-6e3f-4bfa-9aae-4a59e97a6f93",
+        "display": "EpisodeOfCare: 1833-220002"
+      },
+      "report": [ {
+        "reference": "DiagnosticReport/66fc3cb4-b34b-4492-b311-cfa82b426338",
+        "display": "DiagnosticReport (laboratoriumOnderzoek): 220002--"
+      } ]
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "https://fhir.acc.hinq.nl/drs/fhir/64/Procedure/19f69e19-cd7f-41ae-9d56-78a3002ce047",
+    "resource": {
+      "resourceType": "Procedure",
+      "id": "19f69e19-cd7f-41ae-9d56-78a3002ce047",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-22T06:19:55.389+00:00",
+        "profile": [ "http://nictiz.nl/fhir/StructureDefinition/zib-Procedure" ]
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h1>Verrichting</h1><table><thead><tr><th>Verrichting startdatum</th><th>Verrichting einddatum</th><th>Verrichting anatomische locatie</th><th>Verrichting lateraliteit</th><th>Verrichtingtype</th><th>Verrichtingmethode</th></tr></thead><tbody><tr><td></td><td></td><td></td><td></td><td>vaginaal toucher (verrichting)</td><td></td></tr></tbody></table><table><thead><tr><th><b>Indicatie</b></th></tr></thead><tbody><tr><td>Probleemnaam</td><td></td></tr></tbody></table><table><thead><tr><th><b>Medisch hulpmiddel</b></th></tr></thead><tbody><tr><td>Producttype</td><td></td></tr></tbody></table><table><thead><tr><th><b>Locatie</b></th></tr></thead><tbody><tr><td>Organisatienaam</td><td></td></tr></tbody></table><table><thead><tr><th><b>Uitvoerder</b></th></tr></thead><tbody><tr><td>Specialisme</td><td></td></tr></tbody></table></div>"
+      },
+      "identifier": [ {
+        "use": "secondary",
+        "system": "http://zwc.nl/LocalIdentifierSystem/Procedure",
+        "value": "220002-[a0a49ce4-ff04-4d74-9030-a7166faba97d]-51597003"
+      } ],
+      "status": "completed",
+      "category": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "83607001",
+          "display": "gynaecologisch onderzoek (verrichting)"
+        } ]
+      },
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "51597003",
+          "display": "vaginaal toucher (verrichting)"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/e8a08c8e-3a23-423a-9325-6e261c0f0ca5",
+        "display": "Woman: XXX_Kooij Hanna"
+      },
+      "context": {
+        "reference": "EpisodeOfCare/2bbac531-6e3f-4bfa-9aae-4a59e97a6f93",
+        "display": "EpisodeOfCare: 1833-220002"
+      },
+      "report": [ {
+        "reference": "DiagnosticReport/5c0271dd-b425-414b-8483-bada6aae58dc",
+        "display": "DiagnosticReport (vaginaalToucher): 220002--"
+      } ]
+    },
+    "search": {
+      "mode": "match"
+    }
+  } ]
+}

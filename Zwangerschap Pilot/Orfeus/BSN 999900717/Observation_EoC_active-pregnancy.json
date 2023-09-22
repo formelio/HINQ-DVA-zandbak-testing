@@ -1,0 +1,570 @@
+{
+  "resourceType": "Bundle",
+  "id": "4e14d2da-54a1-4bdb-8a14-504ea24ac6e7",
+  "meta": {
+    "lastUpdated": "2023-09-22T15:09:35.590+02:00"
+  },
+  "type": "searchset",
+  "total": 12,
+  "link": [ {
+    "relation": "self",
+    "url": "https://fhir.acc.hinq.nl/drs/fhir/64/Observation?context=EpisodeOfCare%2F2bbac531-6e3f-4bfa-9aae-4a59e97a6f93"
+  } ],
+  "entry": [ {
+    "fullUrl": "https://fhir.acc.hinq.nl/drs/fhir/64/Observation/08d087a0-3394-4796-ad48-56834cf0ba5e",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "08d087a0-3394-4796-ad48-56834cf0ba5e",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-22T06:19:54.327+00:00",
+        "profile": [ "http://fhir.nl/fhir/StructureDefinition/nl-core-observation", "http://nictiz.nl/fhir/StructureDefinition/zib-LaboratoryTestResult-Observation" ]
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h1>Labresultaat meting</h1><table><thead><tr><th>Status</th><th>Naam meting</th><th>Patient</th><th>Uitslag datum</th><th>Zorgverlener</th><th>Monster</th><th>Uitslag</th></tr></thead><tbody><tr><td>FINAL</td><td>little c Ag [Presence] on Red Blood Cells</td><td>Woman: XXX_Kooij Hanna</td><td></td><td></td><td>fenotype c-positief (bevinding)</td></tr></tbody></table></div>"
+      },
+      "identifier": [ {
+        "use": "secondary",
+        "system": "http://zwc.nl/LocalIdentifierSystem/Observation",
+        "value": "220002-1159-3"
+      } ],
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "49581000146104",
+          "display": "Laboratory test finding (finding)"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "1159-3",
+          "display": "little c Ag [Presence] on Red Blood Cells"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/e8a08c8e-3a23-423a-9325-6e261c0f0ca5",
+        "display": "Woman: XXX_Kooij Hanna"
+      },
+      "context": {
+        "reference": "EpisodeOfCare/2bbac531-6e3f-4bfa-9aae-4a59e97a6f93",
+        "display": "EpisodeOfCare: 1833-220002"
+      },
+      "valueCodeableConcept": {
+        "coding": [ {
+          "system": "urn:oid:2.16.840.1.113883.6.96",
+          "code": "733120009",
+          "display": "fenotype c-positief (bevinding)"
+        } ]
+      }
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "https://fhir.acc.hinq.nl/drs/fhir/64/Observation/a5343a5d-893e-4e59-be14-0387e6fc849e",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "a5343a5d-893e-4e59-be14-0387e6fc849e",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-22T06:19:54.358+00:00",
+        "profile": [ "http://fhir.nl/fhir/StructureDefinition/nl-core-observation", "http://nictiz.nl/fhir/StructureDefinition/zib-LaboratoryTestResult-Observation" ]
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h1>Labresultaat meting</h1><table><thead><tr><th>Status</th><th>Naam meting</th><th>Patient</th><th>Uitslag datum</th><th>Zorgverlener</th><th>Monster</th><th>Uitslag</th></tr></thead><tbody><tr><td>FINAL</td><td>D Ag [Presence] in Blood</td><td>Woman: XXX_Kooij Hanna</td><td></td><td></td><td>Rh D Positief</td></tr></tbody></table></div>"
+      },
+      "identifier": [ {
+        "use": "secondary",
+        "system": "http://zwc.nl/LocalIdentifierSystem/Observation",
+        "value": "220002-1305-2"
+      } ],
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "49581000146104",
+          "display": "Laboratory test finding (finding)"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "1305-2",
+          "display": "D Ag [Presence] in Blood"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/e8a08c8e-3a23-423a-9325-6e261c0f0ca5",
+        "display": "Woman: XXX_Kooij Hanna"
+      },
+      "context": {
+        "reference": "EpisodeOfCare/2bbac531-6e3f-4bfa-9aae-4a59e97a6f93",
+        "display": "EpisodeOfCare: 1833-220002"
+      },
+      "valueCodeableConcept": {
+        "coding": [ {
+          "system": "urn:oid:2.16.840.1.113883.6.96",
+          "code": "165747007",
+          "display": "Rh D Positief"
+        } ]
+      }
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "https://fhir.acc.hinq.nl/drs/fhir/64/Observation/ccf4c4de-d6df-4e8c-a437-e7b61df9fedb",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "ccf4c4de-d6df-4e8c-a437-e7b61df9fedb",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-22T06:19:54.389+00:00",
+        "profile": [ "http://fhir.nl/fhir/StructureDefinition/nl-core-observation", "http://nictiz.nl/fhir/StructureDefinition/bc-MaternalObservation" ]
+      },
+      "identifier": [ {
+        "use": "secondary",
+        "system": "http://zwc.nl/LocalIdentifierSystem/MaternalObservation",
+        "value": "220002-95041000119101"
+      } ],
+      "status": "final",
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "95041000119101",
+          "display": "Female genital mutilation (disorder)"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/e8a08c8e-3a23-423a-9325-6e261c0f0ca5",
+        "display": "Woman: XXX_Kooij Hanna"
+      },
+      "context": {
+        "reference": "EpisodeOfCare/2bbac531-6e3f-4bfa-9aae-4a59e97a6f93",
+        "display": "EpisodeOfCare: 1833-220002"
+      }
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "https://fhir.acc.hinq.nl/drs/fhir/64/Observation/5ab4bf5b-7197-462a-9018-3729839096bd",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "5ab4bf5b-7197-462a-9018-3729839096bd",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-22T06:19:54.42+00:00",
+        "profile": [ "http://fhir.nl/fhir/StructureDefinition/nl-core-observation", "http://nictiz.nl/fhir/StructureDefinition/bc-PregnancyObservation" ]
+      },
+      "extension": [ {
+        "url": "http://nictiz.nl/fhir/StructureDefinition/observation-focusSTU3",
+        "valueReference": {
+          "reference": "Condition/24e51ce2-f9ae-45c5-a9e8-d16db3f10865",
+          "display": "Pregnancy: XXX_Kooij Hanna"
+        }
+      } ],
+      "identifier": [ {
+        "use": "secondary",
+        "system": "http://zwc.nl/LocalIdentifierSystem/PregnancyObservation",
+        "value": "220002-143881000146107"
+      } ],
+      "status": "final",
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "143881000146107",
+          "display": "aantal levende nakomelingen (waarneembare entiteit)"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/e8a08c8e-3a23-423a-9325-6e261c0f0ca5",
+        "display": "Woman: XXX_Kooij Hanna"
+      },
+      "context": {
+        "reference": "EpisodeOfCare/2bbac531-6e3f-4bfa-9aae-4a59e97a6f93",
+        "display": "EpisodeOfCare: 1833-220002"
+      },
+      "effectiveDateTime": "2023-09-19T14:25:35+01:00",
+      "valueQuantity": {
+        "value": 1,
+        "system": "http://unitsofmeasure.org",
+        "code": "1"
+      }
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "https://fhir.acc.hinq.nl/drs/fhir/64/Observation/bac3cf21-a80c-490f-a088-2247972eeb27",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "bac3cf21-a80c-490f-a088-2247972eeb27",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-22T06:19:54.452+00:00",
+        "profile": [ "http://fhir.nl/fhir/StructureDefinition/nl-core-observation", "http://nictiz.nl/fhir/StructureDefinition/bc-PregnancyObservation" ]
+      },
+      "extension": [ {
+        "url": "http://nictiz.nl/fhir/StructureDefinition/observation-focusSTU3",
+        "valueReference": {
+          "reference": "Condition/24e51ce2-f9ae-45c5-a9e8-d16db3f10865",
+          "display": "Pregnancy: XXX_Kooij Hanna"
+        }
+      } ],
+      "identifier": [ {
+        "use": "secondary",
+        "system": "http://zwc.nl/LocalIdentifierSystem/PregnancyObservation",
+        "value": "220002-147781000146105"
+      } ],
+      "status": "final",
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "147781000146105",
+          "display": "definitieve uitgerekende datum van partus (waarneembare entiteit)"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/e8a08c8e-3a23-423a-9325-6e261c0f0ca5",
+        "display": "Woman: XXX_Kooij Hanna"
+      },
+      "context": {
+        "reference": "EpisodeOfCare/2bbac531-6e3f-4bfa-9aae-4a59e97a6f93",
+        "display": "EpisodeOfCare: 1833-220002"
+      },
+      "valueDateTime": "2023-12-28T10:00:00+00:00"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "https://fhir.acc.hinq.nl/drs/fhir/64/Observation/6bff03bc-e641-4036-b5dc-6f38edb08d95",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "6bff03bc-e641-4036-b5dc-6f38edb08d95",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-22T06:19:54.467+00:00",
+        "profile": [ "http://fhir.nl/fhir/StructureDefinition/nl-core-observation", "http://nictiz.nl/fhir/StructureDefinition/bc-MaternalObservation" ]
+      },
+      "identifier": [ {
+        "use": "secondary",
+        "system": "http://zwc.nl/LocalIdentifierSystem/PregnancyObservation",
+        "value": "220002-792807003"
+      } ],
+      "status": "final",
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "792807003",
+          "display": "Folic acid intake (observable entity)"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/e8a08c8e-3a23-423a-9325-6e261c0f0ca5",
+        "display": "Woman: XXX_Kooij Hanna"
+      },
+      "context": {
+        "reference": "EpisodeOfCare/2bbac531-6e3f-4bfa-9aae-4a59e97a6f93",
+        "display": "EpisodeOfCare: 1833-220002"
+      },
+      "valueCodeableConcept": {
+        "coding": [ {
+          "system": "urn:oid:2.16.840.1.113883.5.1008",
+          "code": "UNK",
+          "display": "Onbekend"
+        } ]
+      }
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "https://fhir.acc.hinq.nl/drs/fhir/64/Observation/810b73d9-0adf-4db7-bd2e-a868e53eb274",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "810b73d9-0adf-4db7-bd2e-a868e53eb274",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-22T06:19:54.499+00:00",
+        "profile": [ "http://fhir.nl/fhir/StructureDefinition/nl-core-observation", "http://nictiz.nl/fhir/StructureDefinition/zib-Pregnancy-Gravidity" ]
+      },
+      "extension": [ {
+        "url": "http://nictiz.nl/fhir/StructureDefinition/observation-focusSTU3",
+        "valueReference": {
+          "reference": "Condition/24e51ce2-f9ae-45c5-a9e8-d16db3f10865",
+          "display": "Pregnancy: XXX_Kooij Hanna"
+        }
+      } ],
+      "identifier": [ {
+        "use": "secondary",
+        "system": "http://zwc.nl/LocalIdentifierSystem/Observation",
+        "value": "220002-11996-6"
+      } ],
+      "status": "final",
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "11996-6",
+          "display": "Gravidity"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/e8a08c8e-3a23-423a-9325-6e261c0f0ca5",
+        "display": "Woman: XXX_Kooij Hanna"
+      },
+      "context": {
+        "reference": "EpisodeOfCare/2bbac531-6e3f-4bfa-9aae-4a59e97a6f93",
+        "display": "EpisodeOfCare: 1833-220002"
+      },
+      "valueQuantity": {
+        "value": 3,
+        "system": "http://unitsofmeasure.org",
+        "code": "1"
+      }
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "https://fhir.acc.hinq.nl/drs/fhir/64/Observation/5ffd8f53-9775-475e-8a24-087fd4149b85",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "5ffd8f53-9775-475e-8a24-087fd4149b85",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-22T06:19:54.545+00:00",
+        "profile": [ "http://fhir.nl/fhir/StructureDefinition/nl-core-observation", "http://nictiz.nl/fhir/StructureDefinition/zib-Pregnancy-Parity" ]
+      },
+      "extension": [ {
+        "url": "http://nictiz.nl/fhir/StructureDefinition/observation-focusSTU3",
+        "valueReference": {
+          "reference": "Condition/24e51ce2-f9ae-45c5-a9e8-d16db3f10865",
+          "display": "Pregnancy: XXX_Kooij Hanna"
+        }
+      } ],
+      "identifier": [ {
+        "use": "secondary",
+        "system": "http://zwc.nl/LocalIdentifierSystem/Observation",
+        "value": "220002-11977-6"
+      } ],
+      "status": "final",
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "11977-6",
+          "display": "Parity"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/e8a08c8e-3a23-423a-9325-6e261c0f0ca5",
+        "display": "Woman: XXX_Kooij Hanna"
+      },
+      "context": {
+        "reference": "EpisodeOfCare/2bbac531-6e3f-4bfa-9aae-4a59e97a6f93",
+        "display": "EpisodeOfCare: 1833-220002"
+      },
+      "valueQuantity": {
+        "value": 1,
+        "system": "http://unitsofmeasure.org",
+        "code": "1"
+      }
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "https://fhir.acc.hinq.nl/drs/fhir/64/Observation/ab7eb430-739c-4cf0-877e-44c775ea78de",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "ab7eb430-739c-4cf0-877e-44c775ea78de",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-22T06:19:54.577+00:00",
+        "profile": [ "http://fhir.nl/fhir/StructureDefinition/nl-core-observation", "http://nictiz.nl/fhir/StructureDefinition/bc-PregnancyObservation" ]
+      },
+      "extension": [ {
+        "url": "http://nictiz.nl/fhir/StructureDefinition/observation-focusSTU3",
+        "valueReference": {
+          "reference": "Condition/24e51ce2-f9ae-45c5-a9e8-d16db3f10865",
+          "display": "Pregnancy: XXX_Kooij Hanna"
+        }
+      } ],
+      "identifier": [ {
+        "use": "secondary",
+        "system": "http://zwc.nl/LocalIdentifierSystem/PregnancyObservation",
+        "value": "220002-EindeZw"
+      } ],
+      "status": "final",
+      "code": {
+        "coding": [ {
+          "system": "urn:oid:2.16.840.1.113883.2.4.4.13",
+          "code": "EindeZw",
+          "display": "Wijze einde zwangerschap"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/e8a08c8e-3a23-423a-9325-6e261c0f0ca5",
+        "display": "Woman: XXX_Kooij Hanna"
+      },
+      "context": {
+        "reference": "EpisodeOfCare/2bbac531-6e3f-4bfa-9aae-4a59e97a6f93",
+        "display": "EpisodeOfCare: 1833-220002"
+      },
+      "valueCodeableConcept": {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/v3/NullFlavor",
+          "code": "NI",
+          "display": "geen informatie"
+        } ]
+      }
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "https://fhir.acc.hinq.nl/drs/fhir/64/Observation/a59cfaa3-72e3-4c99-8b2b-4917878523de",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "a59cfaa3-72e3-4c99-8b2b-4917878523de",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-22T06:19:54.608+00:00",
+        "profile": [ "http://fhir.nl/fhir/StructureDefinition/nl-core-observation", "http://nictiz.nl/fhir/StructureDefinition/bc-PregnancyObservation" ]
+      },
+      "extension": [ {
+        "url": "http://nictiz.nl/fhir/StructureDefinition/observation-focusSTU3",
+        "valueReference": {
+          "reference": "Condition/24e51ce2-f9ae-45c5-a9e8-d16db3f10865",
+          "display": "Pregnancy: XXX_Kooij Hanna"
+        }
+      } ],
+      "identifier": [ {
+        "use": "secondary",
+        "system": "http://zwc.nl/LocalIdentifierSystem/Observation",
+        "value": "220002-246435002"
+      } ],
+      "status": "final",
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "246435002",
+          "display": "aantal foetussen (waarneembare entiteit)"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/e8a08c8e-3a23-423a-9325-6e261c0f0ca5",
+        "display": "Woman: XXX_Kooij Hanna"
+      },
+      "context": {
+        "reference": "EpisodeOfCare/2bbac531-6e3f-4bfa-9aae-4a59e97a6f93",
+        "display": "EpisodeOfCare: 1833-220002"
+      },
+      "valueQuantity": {
+        "system": "http://unitsofmeasure.org",
+        "code": "1"
+      }
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "https://fhir.acc.hinq.nl/drs/fhir/64/Observation/a9f6398c-d39b-4a96-a61f-21661382192c",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "a9f6398c-d39b-4a96-a61f-21661382192c",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-22T06:19:54.702+00:00",
+        "profile": [ "http://fhir.nl/fhir/StructureDefinition/nl-core-observation", "http://nictiz.nl/fhir/StructureDefinition/bc-PregnancyObservation" ]
+      },
+      "extension": [ {
+        "url": "http://nictiz.nl/fhir/StructureDefinition/observation-focusSTU3",
+        "valueReference": {
+          "reference": "Condition/24e51ce2-f9ae-45c5-a9e8-d16db3f10865",
+          "display": "Pregnancy: XXX_Kooij Hanna"
+        }
+      } ],
+      "identifier": [ {
+        "use": "secondary",
+        "system": "http://zwc.nl/LocalIdentifierSystem/PregnancyObservation",
+        "value": "220002-2023-05-23-161714006"
+      } ],
+      "status": "final",
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "161714006",
+          "display": "geschatte datum van partus (waarneembare entiteit)"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/e8a08c8e-3a23-423a-9325-6e261c0f0ca5",
+        "display": "Woman: XXX_Kooij Hanna"
+      },
+      "context": {
+        "reference": "EpisodeOfCare/2bbac531-6e3f-4bfa-9aae-4a59e97a6f93",
+        "display": "EpisodeOfCare: 1833-220002"
+      },
+      "effectiveDateTime": "2023-05-23T10:00:00+01:00",
+      "valueDateTime": "2023-12-28T10:00:00+00:00",
+      "method": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "31541000146106",
+          "display": "aterme datum berekend door middel van diagnostische ultrasonografie (bevinding)"
+        } ]
+      }
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "https://fhir.acc.hinq.nl/drs/fhir/64/Observation/3051bad2-b837-4e56-b4a8-9c67ac43c455",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "3051bad2-b837-4e56-b4a8-9c67ac43c455",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-22T06:19:55.233+00:00",
+        "profile": [ "http://fhir.nl/fhir/StructureDefinition/nl-core-observation", "http://nictiz.nl/fhir/StructureDefinition/bc-DeliveryObservation" ]
+      },
+      "extension": [ {
+        "url": "http://nictiz.nl/fhir/StructureDefinition/observation-focusSTU3",
+        "valueReference": {
+          "reference": "Procedure/4fb5c19c-2352-41da-b0c3-18d7c0a0ca74",
+          "display": "bevalling: 220002"
+        }
+      } ],
+      "identifier": [ {
+        "use": "secondary",
+        "system": "http://zwc.nl/LocalIdentifierSystem/DeliveryObservation",
+        "value": "220002-364332008"
+      } ],
+      "status": "final",
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "364332008",
+          "display": "Blood loss in labour"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/e8a08c8e-3a23-423a-9325-6e261c0f0ca5",
+        "display": "Woman: XXX_Kooij Hanna"
+      },
+      "context": {
+        "reference": "EpisodeOfCare/2bbac531-6e3f-4bfa-9aae-4a59e97a6f93",
+        "display": "EpisodeOfCare: 1833-220002"
+      }
+    },
+    "search": {
+      "mode": "match"
+    }
+  } ]
+}

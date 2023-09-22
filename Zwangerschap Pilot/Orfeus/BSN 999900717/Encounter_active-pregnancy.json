@@ -1,0 +1,70 @@
+{
+  "resourceType": "Bundle",
+  "id": "4122a600-5ce9-412f-b9e6-59f5d86acbb6",
+  "meta": {
+    "lastUpdated": "2023-09-22T15:09:23.796+02:00"
+  },
+  "type": "searchset",
+  "total": 1,
+  "link": [ {
+    "relation": "self",
+    "url": "https://fhir.acc.hinq.nl/drs/fhir/64/Encounter?_include=Encounter%3Apractitioner&episodeofcare=ca703cc1-9cae-434e-9c67-7138972284ee"
+  } ],
+  "entry": [ {
+    "fullUrl": "https://fhir.acc.hinq.nl/drs/fhir/64/Encounter/d110e562-10a9-419c-9832-4933d21dfe0f",
+    "resource": {
+      "resourceType": "Encounter",
+      "id": "d110e562-10a9-419c-9832-4933d21dfe0f",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-22T06:21:26.522+00:00",
+        "profile": [ "http://nictiz.nl/fhir/StructureDefinition/bc-Encounter", "http://nictiz.nl/fhir/StructureDefinition/zib-Encounter" ]
+      },
+      "identifier": [ {
+        "use": "secondary",
+        "system": "http://zwc.nl/LocalIdentifierSystem/Encounter",
+        "value": "200100-2022-02-15T22:12:04"
+      } ],
+      "status": "finished",
+      "class": {
+        "extension": [ {
+          "url": "http://nictiz.nl/fhir/StructureDefinition/code-specification",
+          "valueCodeableConcept": {
+            "coding": [ {
+              "system": "http://hl7.org/fhir/v3/ActCode",
+              "code": "AMB",
+              "display": "Ambulatory"
+            } ]
+          }
+        } ]
+      },
+      "type": [ {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "11429006",
+          "display": "consult (verrichting)"
+        } ]
+      } ],
+      "subject": {
+        "reference": "Patient/e8a08c8e-3a23-423a-9325-6e261c0f0ca5",
+        "display": "Woman: XXX_Kooij Hanna"
+      },
+      "episodeOfCare": [ {
+        "reference": "EpisodeOfCare/ca703cc1-9cae-434e-9c67-7138972284ee",
+        "display": "EpisodeOfCare: 1833-200100"
+      } ],
+      "period": {
+        "start": "2022-02-15T22:12:04+00:00"
+      },
+      "diagnosis": [ {
+        "condition": {
+          "reference": "Condition/adcc34e7-4725-482b-9e73-ebd1f03d2a0c",
+          "display": "Pregnancy: XXX_Kooij Hanna"
+        }
+      } ]
+    },
+    "search": {
+      "mode": "match"
+    }
+  } ]
+}

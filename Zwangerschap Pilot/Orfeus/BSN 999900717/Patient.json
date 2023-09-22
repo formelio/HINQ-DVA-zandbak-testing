@@ -1,0 +1,105 @@
+{
+  "resourceType": "Bundle",
+  "id": "e30da306-bc14-4656-97f7-4d19b026046a",
+  "meta": {
+    "lastUpdated": "2023-09-22T13:52:51.259+02:00"
+  },
+  "type": "searchset",
+  "total": 1,
+  "link": [ {
+    "relation": "self",
+    "url": "https://fhir.acc.hinq.nl/drs/fhir/64/Patient"
+  } ],
+  "entry": [ {
+    "fullUrl": "https://fhir.acc.hinq.nl/drs/fhir/64/Patient/e8a08c8e-3a23-423a-9325-6e261c0f0ca5",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "e8a08c8e-3a23-423a-9325-6e261c0f0ca5",
+      "meta": {
+        "versionId": "2",
+        "lastUpdated": "2023-09-22T06:21:25.881+00:00",
+        "profile": [ "http://fhir.nl/fhir/StructureDefinition/nl-core-patient", "http://nictiz.nl/fhir/StructureDefinition/bc-Woman" ]
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h1>Patient</h1><table><thead><tr><th><b>Naamgegevens</b></th><th></th><th></th></tr></thead><tbody><tr><td>Voornamen</td><td> H </td></tr><tr><td>Initialen</td><td></td></tr><tr><td>Roepnaam</td><td> Hanna </td></tr></tbody></table><table><thead><tr><th><b>Geslachtsnaam</b></th></tr></thead><tbody><tr><td>Achternaam</td><td>XXX_Kooij</td></tr></tbody></table><table><thead><tr><th><b>Adresgegevens</b></th><th></th><th></th><th></th><th></th></tr></thead><tbody><tr><td>Straat en huisnummer</td><td> Knolweg 1002 </td></tr><tr><td>Postcode</td><td>9999ZZ</td></tr><tr><td>Woonplaats</td><td>Stitswerd</td></tr><tr><td>Land</td><td>NL</td></tr><tr><td>AdresSoort</td><td></td></tr></tbody></table><table><thead><tr><th><b>Naamgegevens</b></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th></tr></thead><tbody><tr><td>Telefoonnummer</td><td></td></tr><tr><td>Telecomtype</td><td></td></tr><tr><td>Emailadres</td><td></td></tr><tr><td>Identificatienummer</td><td></td></tr><tr><td>Geboortedatum</td><td>18-10-1985</td></tr><tr><td>Geslacht</td><td>FEMALE</td></tr><tr><td>MeerlingIndicator</td><td></td></tr><tr><td>OverlijdensIndicator</td><td></td></tr></tbody></table><table><thead><tr><th><b>Burgelijke staat</b></th></tr></thead><tbody><tr><td>Burgelijke staat</td><td></td></tr></tbody></table></div>"
+      },
+      "identifier": [ {
+        "use": "secondary",
+        "system": "http://zwc.nl/LocalIdentifierSystem/Woman",
+        "value": "200100"
+      } ],
+      "active": true,
+      "name": [ {
+        "extension": [ {
+          "url": "http://hl7.org/fhir/StructureDefinition/humanname-assembly-order",
+          "valueCode": "NL1"
+        } ],
+        "use": "official",
+        "family": "XXX_Kooij",
+        "_family": {
+          "extension": [ {
+            "url": "http://hl7.org/fhir/StructureDefinition/humanname-own-name",
+            "valueString": "XXX_Kooij"
+          } ]
+        },
+        "given": [ "H", "Hanna" ],
+        "_given": [ {
+          "extension": [ {
+            "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier",
+            "valueCode": "IN"
+          } ]
+        }, {
+          "extension": [ {
+            "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier",
+            "valueCode": "BR"
+          } ]
+        } ]
+      } ],
+      "gender": "female",
+      "_gender": {
+        "extension": [ {
+          "url": "http://nictiz.nl/fhir/StructureDefinition/code-specification",
+          "valueCodeableConcept": {
+            "coding": [ {
+              "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+              "code": "F",
+              "display": "Female"
+            } ]
+          }
+        } ]
+      },
+      "birthDate": "1985-10-18",
+      "address": [ {
+        "line": [ "Knolweg 1002" ],
+        "_line": [ {
+          "extension": [ {
+            "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName",
+            "valueString": "Knolweg"
+          }, {
+            "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber",
+            "valueString": "1002"
+          } ]
+        } ],
+        "city": "Stitswerd",
+        "postalCode": "9999ZZ",
+        "country": "NL",
+        "_country": {
+          "extension": [ {
+            "url": "http://nictiz.nl/fhir/StructureDefinition/code-specification",
+            "valueCodeableConcept": {
+              "coding": [ {
+                "system": "urn:oid:2.16.840.1.113883.2.4.4.16.34",
+                "code": "6030",
+                "display": "Nederland"
+              } ]
+            }
+          } ]
+        }
+      } ]
+    },
+    "search": {
+      "mode": "match"
+    }
+  } ]
+}

@@ -1,0 +1,267 @@
+{
+  "resourceType": "Bundle",
+  "id": "59e438f2-1d2d-41af-96f4-e2c28ce8ecd7",
+  "meta": {
+    "lastUpdated": "2023-09-22T15:10:17.655+02:00"
+  },
+  "type": "searchset",
+  "total": 5,
+  "link": [ {
+    "relation": "self",
+    "url": "https://fhir.acc.hinq.nl/drs/fhir/64/Procedure?_include=Procedure%3Aperformer&_include=Procedure%3Abased-on&context=EpisodeOfCare%2Fca703cc1-9cae-434e-9c67-7138972284ee"
+  } ],
+  "entry": [ {
+    "fullUrl": "https://fhir.acc.hinq.nl/drs/fhir/64/Procedure/43089814-adb8-40d5-b1c8-e10fb834f9f7",
+    "resource": {
+      "resourceType": "Procedure",
+      "id": "43089814-adb8-40d5-b1c8-e10fb834f9f7",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-22T06:21:27.038+00:00",
+        "profile": [ "http://nictiz.nl/fhir/StructureDefinition/bc-ObstetricProcedure" ]
+      },
+      "identifier": [ {
+        "use": "secondary",
+        "system": "http://zwc.nl/LocalIdentifierSystem/Procedure",
+        "value": "200100-391906003"
+      } ],
+      "partOf": [ {
+        "reference": "Procedure/45961ef0-5071-480f-b7e0-16d21b7817e1",
+        "display": "Birth: 200100-2022-02-15T12:04:00"
+      } ],
+      "status": "completed",
+      "category": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "386637004",
+          "display": "Obstetric procedure (procedure)"
+        } ]
+      },
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "29701000146104",
+          "display": "doorlopende intracutane hechting van huid (verrichting)"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/e8a08c8e-3a23-423a-9325-6e261c0f0ca5",
+        "display": "Woman: XXX_Kooij Hanna"
+      },
+      "context": {
+        "reference": "EpisodeOfCare/ca703cc1-9cae-434e-9c67-7138972284ee",
+        "display": "EpisodeOfCare: 1833-200100"
+      },
+      "performedPeriod": {
+        "start": "2022-02-15T12:04:00+00:00"
+      }
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "https://fhir.acc.hinq.nl/drs/fhir/64/Procedure/66c5e5b5-164d-4f5b-8ef2-2014b19019f4",
+    "resource": {
+      "resourceType": "Procedure",
+      "id": "66c5e5b5-164d-4f5b-8ef2-2014b19019f4",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-22T06:21:27.21+00:00",
+        "profile": [ "http://nictiz.nl/fhir/StructureDefinition/bc-DeliveryProcedure" ]
+      },
+      "identifier": [ {
+        "use": "secondary",
+        "system": "http://zwc.nl/LocalIdentifierSystem/Procedure",
+        "value": "200100-236973005"
+      } ],
+      "status": "completed",
+      "category": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "386637004",
+          "display": "Obstetric procedure (procedure)"
+        } ]
+      },
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "236973005",
+          "display": "verlossing (verrichting)"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/e8a08c8e-3a23-423a-9325-6e261c0f0ca5",
+        "display": "Woman: XXX_Kooij Hanna"
+      },
+      "context": {
+        "reference": "EpisodeOfCare/ca703cc1-9cae-434e-9c67-7138972284ee",
+        "display": "EpisodeOfCare: 1833-200100"
+      },
+      "performedPeriod": {
+        "start": "2022-02-15T10:00:00+00:00"
+      },
+      "reasonReference": [ {
+        "reference": "Condition/adcc34e7-4725-482b-9e73-ebd1f03d2a0c",
+        "display": "Pregnancy: XXX_Kooij Hanna"
+      } ]
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "https://fhir.acc.hinq.nl/drs/fhir/64/Procedure/2c8ecce5-6a9c-47b7-b574-1d8c6b6a7263",
+    "resource": {
+      "resourceType": "Procedure",
+      "id": "2c8ecce5-6a9c-47b7-b574-1d8c6b6a7263",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-22T06:21:27.413+00:00",
+        "profile": [ "http://nictiz.nl/fhir/StructureDefinition/bc-ObstetricProcedure" ]
+      },
+      "identifier": [ {
+        "use": "secondary",
+        "system": "http://zwc.nl/LocalIdentifierSystem/Procedure",
+        "value": "200100-1-609344008"
+      } ],
+      "partOf": [ {
+        "reference": "Procedure/45961ef0-5071-480f-b7e0-16d21b7817e1",
+        "display": "Birth: 200100-2022-02-15T12:04:00"
+      } ],
+      "status": "completed",
+      "category": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "386637004",
+          "display": "Obstetric procedure (procedure)"
+        } ]
+      },
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "114961000146100",
+          "display": "episiotomie mediolateraal links (verrichting)"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/e8a08c8e-3a23-423a-9325-6e261c0f0ca5",
+        "display": "Woman: XXX_Kooij Hanna"
+      },
+      "context": {
+        "reference": "EpisodeOfCare/ca703cc1-9cae-434e-9c67-7138972284ee",
+        "display": "EpisodeOfCare: 1833-200100"
+      },
+      "performedPeriod": {
+        "start": "2022-02-15T12:04:00+00:00"
+      },
+      "reasonCode": [ {
+        "coding": [ {
+          "system": "urn:oid:2.16.840.1.113883.2.4.4.13.61",
+          "code": "20",
+          "display": "Maternale indicatie"
+        } ]
+      } ]
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "https://fhir.acc.hinq.nl/drs/fhir/64/Procedure/b3f54dfa-3ad8-4ed0-acd8-6ccff30f2af7",
+    "resource": {
+      "resourceType": "Procedure",
+      "id": "b3f54dfa-3ad8-4ed0-acd8-6ccff30f2af7",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-22T06:21:27.475+00:00",
+        "profile": [ "http://nictiz.nl/fhir/StructureDefinition/zib-Procedure" ]
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h1>Verrichting</h1><table><thead><tr><th>Verrichting startdatum</th><th>Verrichting einddatum</th><th>Verrichting anatomische locatie</th><th>Verrichting lateraliteit</th><th>Verrichtingtype</th><th>Verrichtingmethode</th></tr></thead><tbody><tr><td></td><td></td><td></td><td></td><td>laboratoriumonderzoek (verrichting)</td><td></td></tr></tbody></table><table><thead><tr><th><b>Indicatie</b></th></tr></thead><tbody><tr><td>Probleemnaam</td><td></td></tr></tbody></table><table><thead><tr><th><b>Medisch hulpmiddel</b></th></tr></thead><tbody><tr><td>Producttype</td><td></td></tr></tbody></table><table><thead><tr><th><b>Locatie</b></th></tr></thead><tbody><tr><td>Organisatienaam</td><td></td></tr></tbody></table><table><thead><tr><th><b>Uitvoerder</b></th></tr></thead><tbody><tr><td>Specialisme</td><td></td></tr></tbody></table></div>"
+      },
+      "identifier": [ {
+        "use": "secondary",
+        "system": "http://zwc.nl/LocalIdentifierSystem/Procedure",
+        "value": "200100-[a0c47c33-f27d-4d36-bef7-a239824ad46f]-[a0a49ce4-ff04-4d74-9030-a7166faba97d]"
+      } ],
+      "status": "completed",
+      "category": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "15220000",
+          "display": "laboratoriumonderzoek (verrichting)"
+        } ]
+      },
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "display": "laboratoriumonderzoek (verrichting)"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/e8a08c8e-3a23-423a-9325-6e261c0f0ca5",
+        "display": "Woman: XXX_Kooij Hanna"
+      },
+      "context": {
+        "reference": "EpisodeOfCare/ca703cc1-9cae-434e-9c67-7138972284ee",
+        "display": "EpisodeOfCare: 1833-200100"
+      },
+      "report": [ {
+        "reference": "DiagnosticReport/dc8bcb90-56c3-4498-b4d4-fab5757cb969",
+        "display": "DiagnosticReport (laboratoriumOnderzoek): 200100--"
+      } ]
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "https://fhir.acc.hinq.nl/drs/fhir/64/Procedure/20abe7f7-7d69-4a84-86a3-64ba956ac7ee",
+    "resource": {
+      "resourceType": "Procedure",
+      "id": "20abe7f7-7d69-4a84-86a3-64ba956ac7ee",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-22T06:21:27.538+00:00",
+        "profile": [ "http://nictiz.nl/fhir/StructureDefinition/zib-Procedure" ]
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h1>Verrichting</h1><table><thead><tr><th>Verrichting startdatum</th><th>Verrichting einddatum</th><th>Verrichting anatomische locatie</th><th>Verrichting lateraliteit</th><th>Verrichtingtype</th><th>Verrichtingmethode</th></tr></thead><tbody><tr><td></td><td></td><td></td><td></td><td>vaginaal toucher (verrichting)</td><td></td></tr></tbody></table><table><thead><tr><th><b>Indicatie</b></th></tr></thead><tbody><tr><td>Probleemnaam</td><td></td></tr></tbody></table><table><thead><tr><th><b>Medisch hulpmiddel</b></th></tr></thead><tbody><tr><td>Producttype</td><td></td></tr></tbody></table><table><thead><tr><th><b>Locatie</b></th></tr></thead><tbody><tr><td>Organisatienaam</td><td></td></tr></tbody></table><table><thead><tr><th><b>Uitvoerder</b></th></tr></thead><tbody><tr><td>Specialisme</td><td></td></tr></tbody></table></div>"
+      },
+      "identifier": [ {
+        "use": "secondary",
+        "system": "http://zwc.nl/LocalIdentifierSystem/Procedure",
+        "value": "200100-[a0a49ce4-ff04-4d74-9030-a7166faba97d]-51597003"
+      } ],
+      "status": "completed",
+      "category": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "83607001",
+          "display": "gynaecologisch onderzoek (verrichting)"
+        } ]
+      },
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "51597003",
+          "display": "vaginaal toucher (verrichting)"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/e8a08c8e-3a23-423a-9325-6e261c0f0ca5",
+        "display": "Woman: XXX_Kooij Hanna"
+      },
+      "context": {
+        "reference": "EpisodeOfCare/ca703cc1-9cae-434e-9c67-7138972284ee",
+        "display": "EpisodeOfCare: 1833-200100"
+      },
+      "report": [ {
+        "reference": "DiagnosticReport/c946a516-737c-4208-9f2a-b88bdfc4f4fb",
+        "display": "DiagnosticReport (vaginaalToucher): 200100--"
+      } ]
+    },
+    "search": {
+      "mode": "match"
+    }
+  } ]
+}

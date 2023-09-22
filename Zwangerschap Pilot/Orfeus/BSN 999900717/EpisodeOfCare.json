@@ -1,0 +1,220 @@
+{
+  "resourceType": "Bundle",
+  "id": "ca8828d9-2e6e-4840-8c88-a5e47c5ce48d",
+  "meta": {
+    "lastUpdated": "2023-09-22T15:07:38.781+02:00"
+  },
+  "type": "searchset",
+  "total": 2,
+  "link": [ {
+    "relation": "self",
+    "url": "https://fhir.acc.hinq.nl/drs/fhir/64/EpisodeOfCare?_include=EpisodeOfCare%3Aorganization&_include=EpisodeOfCare%3Acare-manager&status=active%2Cfinished&type=http%3A%2F%2Fsnomed.info%2Fsct%7C364320009"
+  } ],
+  "entry": [ {
+    "fullUrl": "https://fhir.acc.hinq.nl/drs/fhir/64/EpisodeOfCare/2bbac531-6e3f-4bfa-9aae-4a59e97a6f93",
+    "resource": {
+      "resourceType": "EpisodeOfCare",
+      "id": "2bbac531-6e3f-4bfa-9aae-4a59e97a6f93",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-22T06:19:54.264+00:00",
+        "profile": [ "http://nictiz.nl/fhir/StructureDefinition/bc-MaternalRecord" ]
+      },
+      "identifier": [ {
+        "use": "secondary",
+        "system": "http://zwc.nl/LocalIdentifierSystem/EOC",
+        "value": "220002-00013482"
+      } ],
+      "status": "active",
+      "type": [ {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "364320009",
+          "display": "Pregnancy observable (observable entity)"
+        } ]
+      } ],
+      "diagnosis": [ {
+        "condition": {
+          "reference": "Condition/24e51ce2-f9ae-45c5-a9e8-d16db3f10865",
+          "display": "Pregnancy: XXX_Kooij Hanna"
+        }
+      } ],
+      "patient": {
+        "reference": "Patient/e8a08c8e-3a23-423a-9325-6e261c0f0ca5",
+        "display": "Woman: XXX_Kooij Hanna"
+      },
+      "managingOrganization": {
+        "reference": "Organization/8b6192ca-9202-4842-9cf5-58e7fe555bef",
+        "display": "Organization: Verloskundigenpraktijk 't Groen (1833) (lvr=1833)"
+      },
+      "careManager": {
+        "extension": [ {
+          "url": "http://nictiz.nl/fhir/StructureDefinition/practitionerrole-reference",
+          "valueReference": {
+            "reference": "PractitionerRole/fd3b54ff-74b4-4ef7-b739-a1d44cb5b02f",
+            "display": "PractitionerRole - GEneriek: Mw. P Reiger (AJAVA) (Verloskundigenpraktijk 't Groen (1833))"
+          }
+        } ],
+        "reference": "Practitioner/ecf70d1b-c158-4653-9d75-97a991212cf7",
+        "display": "Practitoner: Mw. P Reiger (AJAVA)"
+      }
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "https://fhir.acc.hinq.nl/drs/fhir/64/EpisodeOfCare/ca703cc1-9cae-434e-9c67-7138972284ee",
+    "resource": {
+      "resourceType": "EpisodeOfCare",
+      "id": "ca703cc1-9cae-434e-9c67-7138972284ee",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-22T06:21:25.991+00:00",
+        "profile": [ "http://nictiz.nl/fhir/StructureDefinition/bc-MaternalRecord" ]
+      },
+      "identifier": [ {
+        "use": "secondary",
+        "system": "http://zwc.nl/LocalIdentifierSystem/EOC",
+        "value": "200100-00013482"
+      } ],
+      "status": "finished",
+      "type": [ {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "364320009",
+          "display": "Pregnancy observable (observable entity)"
+        } ]
+      } ],
+      "diagnosis": [ {
+        "condition": {
+          "reference": "Condition/adcc34e7-4725-482b-9e73-ebd1f03d2a0c",
+          "display": "Pregnancy: XXX_Kooij Hanna"
+        }
+      } ],
+      "patient": {
+        "reference": "Patient/e8a08c8e-3a23-423a-9325-6e261c0f0ca5",
+        "display": "Woman: XXX_Kooij Hanna"
+      },
+      "managingOrganization": {
+        "reference": "Organization/8b6192ca-9202-4842-9cf5-58e7fe555bef",
+        "display": "Organization: Verloskundigenpraktijk 't Groen (1833) (lvr=1833)"
+      },
+      "careManager": {
+        "extension": [ {
+          "url": "http://nictiz.nl/fhir/StructureDefinition/practitionerrole-reference",
+          "valueReference": {
+            "reference": "PractitionerRole/fd3b54ff-74b4-4ef7-b739-a1d44cb5b02f",
+            "display": "PractitionerRole - GEneriek: Mw. P Reiger (AJAVA) (Verloskundigenpraktijk 't Groen (1833))"
+          }
+        } ],
+        "reference": "Practitioner/ecf70d1b-c158-4653-9d75-97a991212cf7",
+        "display": "Practitoner: Mw. P Reiger (AJAVA)"
+      }
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "https://fhir.acc.hinq.nl/drs/fhir/64/Organization/8b6192ca-9202-4842-9cf5-58e7fe555bef",
+    "resource": {
+      "resourceType": "Organization",
+      "id": "8b6192ca-9202-4842-9cf5-58e7fe555bef",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-22T06:19:54.17+00:00",
+        "profile": [ "http://fhir.nl/fhir/StructureDefinition/nl-core-organization" ]
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h1>Organisatie</h1><table><thead><tr><th>Identificatienummer</th><th>Type</th><th>Naam</th></tr></thead><tbody><tr><td>08001234</td><td>Verloskundigenpraktijk</td><td>Verloskundigenpraktijk 't Groen (1833)</td></tr></tbody></table></div>"
+      },
+      "identifier": [ {
+        "system": "http://fhir.nl/fhir/NamingSystem/agb-z",
+        "value": "08001234"
+      }, {
+        "system": "http://fhir.nl/fhir/NamingSystem/ura",
+        "value": "00013482"
+      }, {
+        "system": "http://fhir.nl/fhir/NamingSystem/oid",
+        "value": "2.16.528.1.1007.3.3.53543.1.2.3.1"
+      }, {
+        "system": "http://fhir.nl/fhir/NamingSystem/lvr",
+        "value": "1833"
+      } ],
+      "type": [ {
+        "coding": [ {
+          "system": "http://nictiz.nl/fhir/NamingSystem/organization-type",
+          "code": "G3",
+          "display": "Verloskundigenpraktijk"
+        } ]
+      } ],
+      "name": "Verloskundigenpraktijk 't Groen (1833)",
+      "address": [ {
+        "line": [ "Groeneweg 1000" ],
+        "_line": [ {
+          "extension": [ {
+            "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName",
+            "valueString": "Groeneweg"
+          }, {
+            "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber",
+            "valueString": "1000"
+          } ]
+        } ],
+        "city": "Stitswerd",
+        "postalCode": "1234ZZ",
+        "country": "Nederland",
+        "_country": {
+          "extension": [ {
+            "url": "http://nictiz.nl/fhir/StructureDefinition/code-specification",
+            "valueCodeableConcept": {
+              "coding": [ {
+                "system": "urn:oid:2.16.840.1.113883.2.4.4.16.34",
+                "code": "6030",
+                "display": "Nederland"
+              } ]
+            }
+          } ]
+        }
+      } ]
+    },
+    "search": {
+      "mode": "include"
+    }
+  }, {
+    "fullUrl": "https://fhir.acc.hinq.nl/drs/fhir/64/Practitioner/ecf70d1b-c158-4653-9d75-97a991212cf7",
+    "resource": {
+      "resourceType": "Practitioner",
+      "id": "ecf70d1b-c158-4653-9d75-97a991212cf7",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-22T06:19:54.202+00:00",
+        "profile": [ "http://fhir.nl/fhir/StructureDefinition/nl-core-practitioner" ]
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h1>Zorgverlener</h1><table><thead><tr><th>Achternaam</th><th>Identificatienummer</th></tr></thead><tbody><tr><td> Mw. P Reiger (AJAVA) </td><td>000012349</td></tr></tbody></table><table><thead><tr><th><b>Adresgegevens</b></th><th></th><th></th><th></th><th></th><th></th></tr></thead><tbody><tr><td>Straat en huisnummer</td><td></td><td>Postcode</td><td></td><td>Woonplaats</td><td></td><td>Land</td><td></td><td>Adressoort</td><td></td></tr></tbody></table><table><thead><tr><th><b>Contactgegevens</b></th><th></th><th></th><th></th><th></th></tr></thead><tbody><tr><td>Telefoonnummer</td><td>0000 - 0000</td><td>Nummersoort</td><td>WORK</td><td>Emailadres</td><td></td><td>Emailsoort</td><td></td></tr></tbody></table></div>"
+      },
+      "identifier": [ {
+        "system": "http://fhir.nl/fhir/NamingSystem/uzi-nr-pers",
+        "value": "000012349"
+      }, {
+        "system": "http://fhir.nl/fhir/NamingSystem/agb-z",
+        "value": "08000000"
+      }, {
+        "system": "http://fhir.nl/fhir/NamingSystem/lvr-zorgverlenerid",
+        "value": "8080"
+      } ],
+      "name": [ {
+        "family": "Mw. P Reiger (AJAVA)"
+      } ],
+      "telecom": [ {
+        "system": "phone",
+        "value": "0000 - 0000",
+        "use": "work"
+      } ]
+    },
+    "search": {
+      "mode": "include"
+    }
+  } ]
+}

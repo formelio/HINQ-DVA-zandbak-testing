@@ -1,0 +1,273 @@
+{
+  "resourceType": "Bundle",
+  "id": "0d7e9b59-24cc-482c-b56a-13d004ec7757",
+  "meta": {
+    "lastUpdated": "2023-09-22T15:10:12.620+02:00"
+  },
+  "type": "searchset",
+  "total": 5,
+  "link": [ {
+    "relation": "self",
+    "url": "https://fhir.acc.hinq.nl/drs/fhir/64/Observation?context%3AEncounter.episodeofcare=EpisodeOfCare%2Fca703cc1-9cae-434e-9c67-7138972284ee"
+  } ],
+  "entry": [ {
+    "fullUrl": "https://fhir.acc.hinq.nl/drs/fhir/64/Observation/8be49314-84cf-4476-8862-ccc6ba75c573",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "8be49314-84cf-4476-8862-ccc6ba75c573",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-22T06:21:26.553+00:00",
+        "profile": [ "http://fhir.nl/fhir/StructureDefinition/nl-core-observation", "http://nictiz.nl/fhir/StructureDefinition/bc-PregnancyObservation" ]
+      },
+      "extension": [ {
+        "url": "http://nictiz.nl/fhir/StructureDefinition/observation-focusSTU3",
+        "valueReference": {
+          "reference": "Condition/adcc34e7-4725-482b-9e73-ebd1f03d2a0c",
+          "display": "Pregnancy: XXX_Kooij Hanna"
+        }
+      } ],
+      "identifier": [ {
+        "use": "secondary",
+        "system": "http://zwc.nl/LocalIdentifierSystem/Observation",
+        "value": "200100-2022-02-15T22:12:04-142931000146106"
+      } ],
+      "status": "final",
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "142931000146106",
+          "display": "aantal levende foetussen (waarneembare entiteit)"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/e8a08c8e-3a23-423a-9325-6e261c0f0ca5",
+        "display": "Woman: XXX_Kooij Hanna"
+      },
+      "context": {
+        "reference": "Encounter/d110e562-10a9-419c-9832-4933d21dfe0f",
+        "display": "Prenatale Controle: 2022-02-15T22:12:04"
+      },
+      "effectiveDateTime": "2022-02-15T22:12:04+00:00",
+      "valueQuantity": {
+        "value": 1,
+        "system": "http://unitsofmeasure.org",
+        "code": "1"
+      }
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "https://fhir.acc.hinq.nl/drs/fhir/64/Observation/7a1ab22f-608e-4752-8b23-b3c647b4056c",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "7a1ab22f-608e-4752-8b23-b3c647b4056c",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-22T06:21:26.585+00:00",
+        "profile": [ "http://nictiz.nl/fhir/StructureDefinition/zib-DrugUse" ]
+      },
+      "identifier": [ {
+        "use": "secondary",
+        "system": "http://zwc.nl/LocalIdentifierSystem/Observation",
+        "value": "200100-2022-02-15T22:12:04-228366006"
+      } ],
+      "status": "final",
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "228366006",
+          "display": "Finding relating to drug misuse behavior (finding)"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/e8a08c8e-3a23-423a-9325-6e261c0f0ca5",
+        "display": "Woman: XXX_Kooij Hanna"
+      },
+      "context": {
+        "reference": "Encounter/d110e562-10a9-419c-9832-4933d21dfe0f",
+        "display": "Prenatale Controle: 2022-02-15T22:12:04"
+      },
+      "valueCodeableConcept": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "228367002",
+          "display": "Does not misuse drugs"
+        } ]
+      }
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "https://fhir.acc.hinq.nl/drs/fhir/64/Observation/d58f760c-7b15-4851-89b8-816c4fd2b56a",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "d58f760c-7b15-4851-89b8-816c4fd2b56a",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-22T06:21:26.616+00:00",
+        "profile": [ "http://nictiz.nl/fhir/StructureDefinition/zib-BloodPressure" ]
+      },
+      "identifier": [ {
+        "use": "secondary",
+        "system": "http://zwc.nl/LocalIdentifierSystem/Observation",
+        "value": "200100-2022-02-15T22:12:04-85354-9"
+      } ],
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/observation-category",
+          "code": "vital-signs",
+          "display": "Vital Signs"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "85354-9",
+          "display": "Blood pressure panel with all children optional"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/e8a08c8e-3a23-423a-9325-6e261c0f0ca5",
+        "display": "Woman: XXX_Kooij Hanna"
+      },
+      "context": {
+        "reference": "Encounter/d110e562-10a9-419c-9832-4933d21dfe0f",
+        "display": "Prenatale Controle: 2022-02-15T22:12:04"
+      },
+      "effectiveDateTime": "2022-02-15T22:12:04+00:00",
+      "component": [ {
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "8480-6",
+            "display": "Systolic blood pressure"
+          } ]
+        },
+        "valueQuantity": {
+          "value": 95,
+          "unit": "mmHg",
+          "system": "http://unitsofmeasure.org",
+          "code": "mm[Hg]"
+        }
+      }, {
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "8462-4",
+            "display": "Diastolic blood pressure"
+          } ]
+        },
+        "valueQuantity": {
+          "value": 50,
+          "unit": "mmHg",
+          "system": "http://unitsofmeasure.org",
+          "code": "mm[Hg]"
+        }
+      } ]
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "https://fhir.acc.hinq.nl/drs/fhir/64/Observation/de36e42d-fcaa-4df0-a7bf-7ac2e227c5de",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "de36e42d-fcaa-4df0-a7bf-7ac2e227c5de",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-22T06:21:26.663+00:00",
+        "profile": [ "http://nictiz.nl/fhir/StructureDefinition/zib-BodyWeight" ]
+      },
+      "identifier": [ {
+        "use": "secondary",
+        "system": "http://zwc.nl/LocalIdentifierSystem/Observation",
+        "value": "200100-2022-02-15T22:12:04-29463-7"
+      } ],
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/observation-category",
+          "code": "vital-signs",
+          "display": "Vital Signs"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "29463-7",
+          "display": "Body weight"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/e8a08c8e-3a23-423a-9325-6e261c0f0ca5",
+        "display": "Woman: XXX_Kooij Hanna"
+      },
+      "context": {
+        "reference": "Encounter/d110e562-10a9-419c-9832-4933d21dfe0f",
+        "display": "Prenatale Controle: 2022-02-15T22:12:04"
+      },
+      "effectiveDateTime": "2022-02-15T22:12:04+00:00",
+      "valueQuantity": {
+        "value": 63,
+        "unit": "kg",
+        "system": "http://unitsofmeasure.org",
+        "code": "kg"
+      }
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "https://fhir.acc.hinq.nl/drs/fhir/64/Observation/f0fbe230-ada4-4c81-83f5-e5b2f769615a",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "f0fbe230-ada4-4c81-83f5-e5b2f769615a",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-22T06:21:26.694+00:00",
+        "profile": [ "http://fhir.nl/fhir/StructureDefinition/nl-core-observation", "http://nictiz.nl/fhir/StructureDefinition/zib-Pregnancy-PregnancyDuration" ]
+      },
+      "extension": [ {
+        "url": "http://nictiz.nl/fhir/StructureDefinition/observation-focusSTU3",
+        "valueReference": {
+          "reference": "Condition/adcc34e7-4725-482b-9e73-ebd1f03d2a0c",
+          "display": "Pregnancy: XXX_Kooij Hanna"
+        }
+      } ],
+      "identifier": [ {
+        "use": "secondary",
+        "system": "http://zwc.nl/LocalIdentifierSystem/Observation",
+        "value": "200100-2022-02-15T22:12:04-57036006"
+      } ],
+      "status": "final",
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "57036006",
+          "display": "Fetal gestational age"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/e8a08c8e-3a23-423a-9325-6e261c0f0ca5",
+        "display": "Woman: XXX_Kooij Hanna"
+      },
+      "context": {
+        "reference": "Encounter/d110e562-10a9-419c-9832-4933d21dfe0f",
+        "display": "Prenatale Controle: 2022-02-15T22:12:04"
+      },
+      "effectiveDateTime": "2022-02-15T22:12:04+00:00",
+      "valueQuantity": {
+        "value": 280,
+        "system": "http://unitsofmeasure.org",
+        "code": "d"
+      }
+    },
+    "search": {
+      "mode": "match"
+    }
+  } ]
+}

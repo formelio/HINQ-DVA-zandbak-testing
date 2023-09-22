@@ -1,0 +1,49 @@
+{
+  "resourceType": "Bundle",
+  "id": "321d4303-5f77-4bdd-a026-d68e79d3beea",
+  "meta": {
+    "lastUpdated": "2023-09-22T15:09:03.751+02:00"
+  },
+  "type": "searchset",
+  "total": 1,
+  "link": [ {
+    "relation": "self",
+    "url": "https://fhir.acc.hinq.nl/drs/fhir/64/Condition?context=EpisodeOfCare%2F2bbac531-6e3f-4bfa-9aae-4a59e97a6f93"
+  } ],
+  "entry": [ {
+    "fullUrl": "https://fhir.acc.hinq.nl/drs/fhir/64/Condition/24e51ce2-f9ae-45c5-a9e8-d16db3f10865",
+    "resource": {
+      "resourceType": "Condition",
+      "id": "24e51ce2-f9ae-45c5-a9e8-d16db3f10865",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-22T06:19:54.295+00:00",
+        "profile": [ "http://nictiz.nl/fhir/StructureDefinition/zib-Pregnancy" ]
+      },
+      "identifier": [ {
+        "use": "secondary",
+        "system": "http://zwc.nl/LocalIdentifierSystem/Condition",
+        "value": "220002-118185001"
+      } ],
+      "clinicalStatus": "active",
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "118185001",
+          "display": "bevinding betreffende zwangerschap (bevinding)"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/e8a08c8e-3a23-423a-9325-6e261c0f0ca5",
+        "display": "Woman: XXX_Kooij Hanna"
+      },
+      "context": {
+        "reference": "EpisodeOfCare/2bbac531-6e3f-4bfa-9aae-4a59e97a6f93",
+        "display": "EpisodeOfCare: 1833-220002"
+      }
+    },
+    "search": {
+      "mode": "match"
+    }
+  } ]
+}
