@@ -1,22 +1,22 @@
-# ECare - PUUR
-### Zandbak medmij-id: `hinq.ecare@medmij`
+# Orfeus
+### Zandbak medmij-id: `hinq.orfeus1833@medmij`
 
-# Patient eno3
-### BSN: `900167312`
-### DigiD testing level: `Substantieel`
-### User: `eno_test_ext_3`
-### Password: `enoPr0v3s!`
+# Patient Hanna Kooij
+### BSN: `999900717`
+### DigiD - not available for this BSN`
+### Use Mock DigiD page by HINQ and enter BSN
+
 # Expected responses
 
 
 ### Patient
 > [Response body](Patient.json)
 
-### TreatmentDirective
-> [Response body](TreatmentDirective.json)
+### EpisodeOfCare
+> [Response body](EpisodeOfCare.json)
 
-### AdvanceDirective
-> [Response body](AdvanceDirective.json)
+### Condition
+> Previous pregnancy - [Response body](AdvanceDirective.json)
 
 ### Problem
 > [Response body](Problem.json)
