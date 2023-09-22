@@ -1,53 +1,40 @@
-# BgLZ 3.1.0
+# Integrale Zwangerschapskaart Pilot ~64
 
 # Available source systems:
 
-## [ECare - PUUR](ECare%20-%20PUUR/)
-## [Gerimedica - Ysis](Gerimedica%20-%20Ysis)
-## [Nedap - Ons](Nedap%20-%20Ons/)
-## [PinkRoccade - mijnCaress](PinkRoccade%20-%20mijnCaress)
-## [SDB Groep](SDB%20Groep/)
+## [Orfeus](ECare%20-%20PUUR/)
+## [Onatal]()
 
 ## Supported search requests
 
 ### Patient
 ```
-GET [base]/Patient?_include=Patient:general-practitioner
+GET [base]/Patient
 ```
-### TreatmentDirective
+### EpisodeOfCare
 ```
-GET [base]/Consent?category=http://snomed.info/sct|11291000146105
+GET [base]/EpisodeOfCare?type=http://snomed.info/sct|364320009{&status=active|finished}&_include=EpisodeOfCare:organization&_include=EpisodeOfCare:care-manager
 ```
-### AdvanceDirective
+### Condition
 ```
-GET [base]/Consent?category=http://snomed.info/sct|11341000146107
+GET [base]/Condition?context=EpisodeOfCare/{record-id}
 ```
-### Problem
+### Encounter
 ```
-GET [base]/Condition
-```
-### AllergyIntolerance
-```
-GET [base]/AllergyIntolerance
-```
-### LaboratoryTestResult
-```
-GET [base]/Observation/$lastn?category=http://snomed.info/sct|275711006
-    &_include=Observation:related-target
-    &_include=Observation:specimen
+GET [base]/Encounter?episodeofcare={record-id}&_include=Encounter:practitioner
 ```
 ### Procedure
 ```
-GET [base]/Procedure
+GET [base]/Procedure?context=EpisodeOfCare/{record-id}&_include=Procedure:performer&_include=Procedure:based-on
 ```
-### CarePlan
+### Observation - context EoC
 ```
-GET [base]/CarePlan?_include=CarePlan:activity-goal:Goal
-    &_include=CarePlan:activity-outcomereference:Observation
-    &_include=CarePlan:activity-medicaldevice:DeviceUseStatement
-    &_include:recurse=DeviceUseStatement:device:Device
+GET [base]/Observation?context=EpisodeOfCare/{record-id}
 ```
-### CareTeam
+### Observation - context Encounter
 ```
+GET [base]/Observation?context:Encounter.episodeofcare=EpisodeOfCare/{record-id}
+```
+
 GET [base]/CareTeam?_include=CareTeam:participant
 ```
