@@ -2,8 +2,8 @@
 
 # Available source systems:
 
-## [Orfeus](ECare%20-%20PUUR/)
-## [Onatal]()
+## [Orfeus](Orfeus/)
+## Onatal
 
 ## Supported search requests
 
@@ -34,7 +34,4 @@ GET [base]/Observation?context=EpisodeOfCare/{record-id}
 ### Observation - context Encounter
 ```
 GET [base]/Observation?context:Encounter.episodeofcare=EpisodeOfCare/{record-id}
-```
-
-GET [base]/CareTeam?_include=CareTeam:participant
 ```
